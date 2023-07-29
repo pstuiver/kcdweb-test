@@ -6,9 +6,13 @@
 	import SVGAbout from '$lib/SVGAbout.svelte';
 	import SVGMedia from '$lib/SVGMedia.svelte';
 	import SVGContact from '$lib/SVGContact.svelte';
+	import SVGAssessment from '$lib/SVGAssessment.svelte';
+	export let data;
+	const { mediaCards } = data;
 </script>
 
 <main>
+	/* eslint-disable svelte/no-at-html-tags */
 	<div id="home-page">
 		<div class="w-full max-w-7xl mx-auto">
 			<header
@@ -484,23 +488,9 @@
 			<section class="section-wrapper blue-on-gray">
 				<div id="services" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Services icon</title>
-							<circle cx="24" cy="10" r="5.5" />
-							<path
-								d="M22,43 23,33 26,33 27,43 33,43 32,24 39,11 33,11 28,18 20,18 15,11 9,11 17,24 16,43Z M16,43 C16,45 22,45 22,43Z M27,43 C27,45 33,45 33,43Z M39,11 C41,8 35,8 33,11Z M9,11 C7,8 13,8 15,11Z" />
-						</svg>
-					</div>
+					<SVGServices svgClass={'section-head-svg'} />
 					<h1 class="section-head-text">SERVICES</h1>
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Services icon</title>
-							<circle cx="24" cy="10" r="5.5" />
-							<path
-								d="M22,43 23,33 26,33 27,43 33,43 32,24 39,11 33,11 28,18 20,18 15,11 9,11 17,24 16,43Z M16,43 C16,45 22,45 22,43Z M27,43 C27,45 33,45 33,43Z M39,11 C41,8 35,8 33,11Z M9,11 C7,8 13,8 15,11Z" />
-						</svg>
-					</div>
+					<SVGServices svgClass={'section-head-svg'} />
 				</div>
 				<div class="grid-container blue-on-gray">
 					<div class="grid-cols-wrapper">
@@ -508,20 +498,7 @@
 							<div class="grid-card blue-on-white">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
-										<div>
-											<svg class="grid-card-svg" viewBox="0 0 48 48" aria-hidden="true">
-												<title>Assessment icon</title>
-												<circle cx="14" cy="12.5" r="3" />
-												<path d="M8,20 C8,17 20,17 20,20Z M20,20 20,22.5 8,22.5 8,20Z" />
-												<path
-													stroke-width="2"
-													d="M24,12 41,12 M24,17 41,17 M24,22 41,22 M7,27 41,27 M7,32 41,32 M7,37 41,37" />
-												<path
-													stroke-width="2"
-													fill="none"
-													d="M6,6 42,6 44,8 44,40 42,42 6,42 4,40 4,8Z" />
-											</svg>
-										</div>
+										<SVGAssessment />
 										<h2 class="grid-card-title">OT Assessment</h2>
 									</div>
 									<div class="grid-card-text">
@@ -1134,77 +1111,30 @@
 				</div>
 				<div class="grid-container blue-on-gray">
 					<div class="grid-cols-wrapper">
-						<div class="grid-4cols lg:w-1/3">
-							<div class="grid-card blue-on-white">
-								<div class="grid-card-top-outer">
-									<div class="grid-card-top-inner">
-										<div>
-											<svg class="grid-card-svg" viewBox="0 4 48 48" aria-hidden="true">
-												<title>Blogger icon</title>
-												<path
-													d="M24,8 H18 c-6 0 -10 4 -10 10 v12 c0 6 4 10 10 10 h12 c6 0 10 -4 10 -10 v-8 c0 -1.2 -.9 -2 -2 -2 H36 c-1 0 -2 -1 -2 -2 0 -5 -4 -10 -10 -10z m6,24 H18 c-1 0 -2 -1 -2 -2 s1 -2 2 -2 h12 c1 0 2 1 2 2 s-1 2 -2 2z m-5,-16 c1 0 2 1 2 2 s-1 2 -2 2 h-7 c-1 0 -2 -1 -2 -2 s1 -2 2 -2 h7z" />
-											</svg>
+						{#each mediaCards as mediaCard}
+							<div class="grid-4cols lg:w-1/3">
+								<!-- eslint-disable svelte/no-at-html-tags -->
+								<div class="grid-card blue-on-white">
+									<div class="grid-card-top-outer">
+										<div class="grid-card-top-inner">
+											<div>
+												{@html mediaCard.iconHTML}
+											</div>
+											<h2 class="grid-card-title">{mediaCard.title}</h2>
 										</div>
-										<h2 class="grid-card-title">KidzCanDurban Blog</h2>
-									</div>
-									<div class="grid-card-text">Read our blog</div>
-								</div>
-								<a href="{base}/media-blog" target="_self" class="grid-card-btn white-on-blue"
-									><span class="sr-only">Read our</span>Blog Posts...<span class="sr-only"
-										>Warning, this is an external link not suited to screen readers</span
-									></a>
-							</div>
-						</div>
-						<div class="grid-4cols lg:w-1/3">
-							<div class="grid-card blue-on-white">
-								<div class="grid-card-top-outer">
-									<div class="grid-card-top-inner">
-										<div>
-											<svg
-												class="grid-card-svg w-28 -mt-4 sm:mt-0 sm:w-36"
-												viewBox="0 0 144 48"
-												aria-hidden="true">
-												<title>5Star icon</title>
-												<path d="M13,24 18.5,42 3.5,31.5 22.5,31.5 7.5,42z" />
-												<path d="M37,15 45.3,42 23,26 51,26 28.7,42z" />
-												<path d="M71,6 82,42 52,21 90,21 60,42z" />
-												<path d="M105,15 113.3,42 91,26 119,26 96.7,42z" />
-												<path d="M129,24 134.5,42 119.5,31.5 138.5,31.5 123.5,42z" />
-											</svg>
+										<div class="grid-card-text">
+											{@html mediaCard.bodyHTML}
 										</div>
-										<h2 class="grid-card-title">Client Reviews</h2>
 									</div>
-									<div class="grid-card-text">
-										<span class="font-bold">Rating average: 5 stars</span> <br /><span
-											>from 13 reviews</span>
-									</div>
+									<a
+										href="{base}/{mediaCard.link}"
+										target="_self"
+										class="grid-card-btn white-on-blue">
+										{@html mediaCard.buttonHTML}
+									</a>
 								</div>
-								<a href="{base}/media-reviews" target="_self" class="grid-card-btn white-on-blue"
-									><span class="sr-only">Read our client</span>Reviews ...</a>
 							</div>
-						</div>
-						<div class="grid-4cols lg:w-1/3">
-							<div class="grid-card blue-on-white">
-								<div class="grid-card-top-outer">
-									<div class="grid-card-top-inner">
-										<div>
-											<svg class="grid-card-svg" viewBox="0 6 48 48" aria-hidden="true">
-												<title>Lock icon</title>
-												<path
-													d="M35 19h-3v-4c0-5-3-9-8-9s-8 4-8 8v5h-2c-2 0-4 1-4 3v17c0 2 2 4 4 4h21c1 0 3-2 3-4V22c0-2-2-3-3-3zM25 30v6s0 1-1 1-1-1-1-1v-6c-1-1-2-2-2-3 0-2 1-3 3-3 1 0 3 1 3 3 0 1-1 2-2 3zm5-11H18v-5c0-1 1-3 2-4s2-2 4-2 3 1 4 2 2 3 2 4v5z" />
-											</svg>
-										</div>
-										<h2 class="grid-card-title">Privacy Policy</h2>
-									</div>
-									<div class="grid-card-text">
-										<span class="font-bold">South African POPI Act</span> <br /><span
-											>July 2021</span>
-									</div>
-								</div>
-								<a href="{base}/media-privacy" target="_self" class="grid-card-btn white-on-blue"
-									><span class="sr-only">Read our privacy</span>Policy ...</a>
-							</div>
-						</div>
+						{/each}
 					</div>
 				</div>
 			</section>
