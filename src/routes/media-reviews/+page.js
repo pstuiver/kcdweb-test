@@ -64,5 +64,5 @@ export async function load() {
 		}
 	];
 
-	return {reviews};
+	return { reviews };
 }
