@@ -1,5 +1,11 @@
 <script>
 	import { base } from '$app/paths';
+	import SVGHome from '$lib/SVGHome.svelte';
+	import SVGTherapist from '$lib/SVGTherapist.svelte';
+	import SVGServices from '$lib/SVGServices.svelte';
+	import SVGAbout from '$lib/SVGAbout.svelte';
+	import SVGMedia from '$lib/SVGMedia.svelte';
+	import SVGContact from '$lib/SVGContact.svelte';
 </script>
 
 <main>
@@ -44,74 +50,23 @@
 						</div>
 					</div>
 					<nav class="flex flex-row w-full py-1 lg:py-2 items-center justify-around white-on-blue">
-						<a class="index-nav-a" href="#home"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 48 48" aria-hidden="true">
-									<title>Home icon</title>
-									<path
-										d="M8,44 20,44 20,35 28,35 28,44 40,44 40,31 24,11 8,31Z M42,30 44,30 44,29 37,20 37,6 32,6 32,14 24,4 4,29 4,30 6,30 24,7z" />
-								</svg>
-							</div>
+						<a class="index-nav-a" href="#home">
+							<SVGHome />
 							Home</a>
-						<a class="index-nav-a" href="#therapist"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 48 48" aria-hidden="true">
-									<title>Therapist icon</title>
-									<path d="M24,8 4,28 24,48 44,28z" />
-									<path transform="rotate(22.5 24 28)" d="M24,8 4,28 24,48 44,28z" />
-									<path transform="rotate(45 24 28)" d="M24,8 4,28 24,48 44,28z" />
-									<path transform="rotate(67.5 24 28)" d="M24,8 4,28 24,48 44,28z" />
-								</svg>
-							</div>
+						<a class="index-nav-a" href="#therapist">
+							<SVGTherapist />
 							Therapists</a>
-						<a class="index-nav-a" href="#services"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 48 48" aria-hidden="true">
-									<title>Services icon</title>
-									<circle cx="24" cy="10" r="5.5" />
-									<path
-										d="M22,43 23,33 26,33 27,43 33,43 32,24 39,11 33,11 28,18 20,18 15,11 9,11 17,24 16,43Z M16,43 C16,45 22,45 22,43Z M27,43 C27,45 33,45 33,43Z M39,11 C41,8 35,8 33,11Z M9,11 C7,8 13,8 15,11Z" />
-								</svg>
-							</div>
+						<a class="index-nav-a" href="#services">
+							<SVGServices />
 							Services</a>
-						<a class="index-nav-a" href="#about"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 48 48" aria-hidden="true">
-									<title>About icon</title>
-									<path
-										stroke-width="3"
-										stroke="currentColor"
-										d="M4,28 4,14 Q14,9 22,14 v14 M4,28 4,42 Q14,37 22,42 v-14z" />
-									<path
-										stroke-width="3"
-										stroke="currentColor"
-										fill="none"
-										d="M22,14 Q34,9 44,14 v15 M22.8,43.3 Q34,37 44,42 v-14" />
-									<path
-										stroke-width="1.5"
-										stroke="currentColor"
-										fill="none"
-										d="M26,19 Q33,16 40,19 M26,24 Q33,21 40,24 M26,29 Q33,26 40,29 M26,34 Q33,31 40,34" />
-								</svg>
-							</div>
+						<a class="index-nav-a" href="#about">
+							<SVGAbout />
 							About</a>
-						<a class="index-nav-a" href="#media"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 48 48" aria-hidden="true">
-									<title>Media icon</title>
-									<path
-										d="M24 9c3 0 6 1 8 3s3 4 3 7-1 6-3 7c0-1-1-1-1-2 1-2 2-3 2-5s-1-4-3-6c-1-1-3-2-6-2-2 0-4 1-6 2-1 2-2 4-2 6s1 4 1 5v3c-2-2-3-5-3-8s1-5 3-7 4-3 7-3zm-5 17c1-3 11-2 11 0 0 27-11 26-11 0zm5-12c3 0 5 2 5 5 0 2-2 4-5 4-2 0-4-2-4-4 0-3 2-5 4-5zm0-11c5 0 9 2 12 5s5 7 5 11c0 5-2 9-5 12-1 1-3 2-4 3v-3c1-1 2-1 2-2 3-2 4-6 4-10s-1-7-4-10c-2-2-6-4-10-4s-7 2-10 4c-2 3-4 6-4 10s2 8 4 10c1 1 2 1 2 2 1 1 1 2 1 3-2-1-3-2-4-3-3-3-5-7-5-12 0-4 2-8 5-11s7-5 11-5z" />
-								</svg>
-							</div>
+						<a class="index-nav-a" href="#media">
+							<SVGMedia />
 							Media</a>
-						<a class="index-nav-a relative" href="#contact"
-							><div>
-								<svg class="index-nav-svg" viewBox="0 0 512 512" aria-hidden="true">
-									<title>Contact icon</title>
-									<path
-										d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
-								</svg>
-							</div>
+						<a class="index-nav-a relative" href="#contact">
+							<SVGContact />
 							Contact</a>
 					</nav>
 				</div>
@@ -345,25 +300,9 @@
 			<section class="section-wrapper blue-on-white">
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Therapist icon</title>
-							<path d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(22.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(45 24 24)" d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(67.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-						</svg>
-					</div>
+					<SVGTherapist svgClass={'section-head-svg'} />
 					<h1 class="section-head-text">THERAPISTS</h1>
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Therapist icon</title>
-							<path d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(22.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(45 24 24)" d="M24,4 4,24 24,44 44,24z" />
-							<path transform="rotate(67.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-						</svg>
-					</div>
+					<SVGTherapist svgClass={'section-head-svg'} />
 				</div>
 				<div class="grid-container blue-on-white">
 					<div class="grid-cols-wrapper">
@@ -371,15 +310,7 @@
 							<div class="grid-card gray-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
-										<div>
-											<svg class="grid-card-svg" viewBox="0 0 48 48" aria-hidden="true">
-												<title>Therapist icon</title>
-												<path d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(22.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(45 24 24)" d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(67.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-											</svg>
-										</div>
+										<SVGTherapist svgClass={'grid-card-svg'} />
 										<h2 class="grid-card-title">Occupational Therapist</h2>
 									</div>
 									<div class="grid-card-text mb-2">
@@ -463,15 +394,7 @@
 							<div class="grid-card gray-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
-										<div>
-											<svg class="grid-card-svg" viewBox="0 0 48 48" aria-hidden="true">
-												<title>Therapist icon</title>
-												<path d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(22.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(45 24 24)" d="M24,4 4,24 24,44 44,24z" />
-												<path transform="rotate(67.5 24 24)" d="M24,4 4,24 24,44 44,24z" />
-											</svg>
-										</div>
+										<SVGTherapist svgClass={'grid-card-svg'} />
 										<h2 class="grid-card-title">Occupational Therapist</h2>
 									</div>
 									<div class="grid-card-text mb-2">
