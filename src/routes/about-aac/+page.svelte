@@ -16,12 +16,12 @@
 					</a>
 					<span class="views-head-back" aria-hidden="true">back</span>
 				</div>
-				<h1 class="sr-only">Augmenttive Alternative Communication</h1>
-				<h1 class="views-head-text" aria-hidden="true">
+				<h1 class="sr-only">Augmentative Alternative Communication</h1>
+				<div class="views-head-text" aria-hidden="true">
 					A<span class="hidden xs:inline tracking-tight">ugmentative</span>
 					A<span class="hidden xs:inline tracking-tight">lternative</span>
 					C<span class="hidden xs:inline tracking-tight">ommunication</span>
-				</h1>
+				</div>
 				<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
 			</div>
 		</nav>

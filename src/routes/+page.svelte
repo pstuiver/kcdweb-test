@@ -606,7 +606,10 @@
 										Occupational Therapy journey
 									</div>
 								</div>
-								<a  href="{base}/services-ot-assessment" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-ot-assessment"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about OT assessments</span>...</a>
 							</div>
 						</div>
@@ -635,7 +638,10 @@
 										Occupational Therapy.
 									</div>
 								</div>
-								<a  href="{base}/services-sensory-int" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-sensory-int"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about Sensory Integration</span>...</a>
 							</div>
 						</div>
@@ -660,7 +666,10 @@
 										to stay focused and organised
 									</div>
 								</div>
-								<a  href="{base}/services-sensory-diet" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-sensory-diet"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about Sensory Diets</span>...</a>
 							</div>
 						</div>
@@ -682,7 +691,10 @@
 										and academic performance
 									</div>
 								</div>
-								<a  href="{base}/services-dir-floortime" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-dir-floortime"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only"> about D I R and Floor Time</span>...</a>
 							</div>
 						</div>
@@ -719,7 +731,7 @@
 									</div>
 								</div>
 								<a
-									 href="{base}/services-visual-schedules"
+									href="{base}/services-visual-schedules"
 									target="_self"
 									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only"> about Visual Schedules</span>...</a>
@@ -753,7 +765,7 @@
 									</div>
 								</div>
 								<a
-									 href="{base}/services-social-stories"
+									href="{base}/services-social-stories"
 									target="_self"
 									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only"> about Social Stories</span>...</a>
@@ -777,7 +789,10 @@
 										expand their food choices
 									</div>
 								</div>
-								<a  href="{base}/services-picky-eaters" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-picky-eaters"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about picky eaters</span>...</a>
 							</div>
 						</div>
@@ -799,7 +814,10 @@
 										support learning, attending and positive behaviour
 									</div>
 								</div>
-								<a  href="{base}/services-alert-program" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-alert-program"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about our alert program</span>...</a>
 							</div>
 						</div>
@@ -822,7 +840,10 @@
 										success in handwriting
 									</div>
 								</div>
-								<a  href="{base}/services-handwriting" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-handwriting"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about our handwriting program</span>...</a>
 							</div>
 						</div>
@@ -853,7 +874,10 @@
 										activities
 									</div>
 								</div>
-								<a  href="{base}/services-skills-dev" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-skills-dev"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about skills development</span>...</a>
 							</div>
 						</div>
@@ -876,7 +900,10 @@
 										child's teachers and educational support staff
 									</div>
 								</div>
-								<a  href="{base}/services-school-visits" target="_self" class="grid-card-btn white-on-blue"
+								<a
+									href="{base}/services-school-visits"
+									target="_self"
+									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about school visits</span>...</a>
 							</div>
 						</div>
@@ -906,7 +933,7 @@
 									</div>
 								</div>
 								<a
-									 href="{base}/services-parent-support"
+									href="{base}/services-parent-support"
 									target="_self"
 									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about parent support</span>...</a>
@@ -1007,7 +1034,7 @@
 										</div>
 									</div>
 								</div>
-								<a  href="{base}/about-ot" target="_self" class="grid-card-btn blue-on-white"
+								<a href="{base}/about-ot" target="_self" class="grid-card-btn blue-on-white"
 									>Read more <span class="sr-only">about Occupational Therapy</span>...</a>
 							</div>
 						</div>
@@ -1050,7 +1077,7 @@
 										</div>
 									</div>
 								</div>
-								<a  href="{base}/about-autism" target="_self" class="grid-card-btn blue-on-white"
+								<a href="{base}/about-autism" target="_self" class="grid-card-btn blue-on-white"
 									>Read more <span class="sr-only">about autism spectrum disorder</span>...</a>
 							</div>
 						</div>
@@ -1101,7 +1128,7 @@
 										</div>
 									</div>
 								</div>
-								<a  href="{base}/about-aac" target="_self" class="grid-card-btn blue-on-white"
+								<a href="{base}/about-aac" target="_self" class="grid-card-btn blue-on-white"
 									>Read more
 									<span class="sr-only">about augmenative alternative communication</span>...</a>
 							</div>
@@ -1155,7 +1182,7 @@
 										</div>
 									</div>
 								</div>
-								<a  href="{base}/about-attention" target="_self" class="grid-card-btn blue-on-white"
+								<a href="{base}/about-attention" target="_self" class="grid-card-btn blue-on-white"
 									>Read more
 									<span class="sr-only">about attention and concentration</span>...</a>
 							</div>
@@ -1199,7 +1226,7 @@
 									</div>
 									<div class="grid-card-text">Read our blog</div>
 								</div>
-								<a  href="{base}/media-blog" target="_self" class="grid-card-btn white-on-blue"
+								<a href="{base}/media-blog" target="_self" class="grid-card-btn white-on-blue"
 									><span class="sr-only">Read our</span>Blog Posts...<span class="sr-only"
 										>Warning, this is an external link not suited to screen readers</span
 									></a>
@@ -1229,7 +1256,7 @@
 											>from 13 reviews</span>
 									</div>
 								</div>
-								<a  href="{base}/media-reviews" target="_self" class="grid-card-btn white-on-blue"
+								<a href="{base}/media-reviews" target="_self" class="grid-card-btn white-on-blue"
 									><span class="sr-only">Read our client</span>Reviews ...</a>
 							</div>
 						</div>
@@ -1251,7 +1278,7 @@
 											>July 2021</span>
 									</div>
 								</div>
-								<a  href="{base}/media-privacy" target="_self" class="grid-card-btn white-on-blue"
+								<a href="{base}/media-privacy" target="_self" class="grid-card-btn white-on-blue"
 									><span class="sr-only">Read our privacy</span>Policy ...</a>
 							</div>
 						</div>
@@ -1349,7 +1376,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a  href="{base}/googlemap" target="_self"
+										<a href="{base}/googlemap" target="_self"
 											><picture
 												><source
 													srcset="
