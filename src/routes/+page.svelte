@@ -602,8 +602,8 @@
 										Occupational Therapy journey
 									</div>
 								</div>
-								<a href="/services-ot-assessment" target="_self" class="grid-card-btn white-on-blue"
-									>Read more <span class="sr-only">about OT assessments</span>...</a>
+								<!-- <a href="/services-ot-assessment" target="_self" class="grid-card-btn white-on-blue"
+									>Read more <span class="sr-only">about OT assessments</span>...</a> -->
 							</div>
 						</div>
 						<div class="grid-4cols">
