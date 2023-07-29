@@ -1,1 +1,82 @@
-<h1>about-aac</h1>
+<svelte:head>
+	<title>KidzCanDurban - AAC</title>
+</svelte:head>
+
+<div class="views-container">
+	<header class="views-head blue-on-white">
+		<nav class="w-full">
+			<div class="w-full flex items-center justify-between">
+				<div class="flex items-center">
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="javascript:history.back()">
+						<svg viewBox="0 0 48 48" class="views-head-icon">
+							<title>Back arrow icon</title>
+							<path d="M13,24 23,13 23,20 34,20 34,28 23,28 23,35Z" />
+						</svg>
+					</a>
+					<span class="views-head-back" aria-hidden="true">back</span>
+				</div>
+				<h1 class="sr-only">Augmenttive Alternative Communication</h1>
+				<h1 class="views-head-text" aria-hidden="true">
+					A<span class="hidden xs:inline tracking-tight">ugmentative</span>
+					A<span class="hidden xs:inline tracking-tight">lternative</span>
+					C<span class="hidden xs:inline tracking-tight">ommunication</span>
+				</h1>
+				<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="views-content gray-on-blue">
+		<p>
+			Children who cannot communicate effectively, miss out on opportunities to play, learn and
+			socialise.
+		</p>
+		<p>At Elsje Stuiver – Occupational Therapy we acknowledge that communication is power!</p>
+		<p>
+			Our therapists are experienced in the use and implementation of AAC strategies, tools and
+			devices and we work closely with AAC experts to find the support that will best suit each
+			individual child.
+		</p>
+		<p>Our AAC services may include</p>
+		<ul class="views-list-item">
+			<li class="mt-2">
+				<span class="font-semibold italic block">Training and use of Makaton</span>
+				Makaton is a system of communication that uses signs, symbols, and gestures to help people who
+				struggle with speaking or understanding spoken language. It uses hand movements, facial expressions
+				and pictures to convey meaning and to improve understanding.
+			</li>
+			<li class="mt-2">
+				<span class="font-semibold italic block">Graphic Symbol use</span>
+				Symbols can be pictures, drawings or icons that represent specific words or concepts. For parents,
+				the use of graphic symbols can be incredibly beneficial to engage in meaningful interactions
+				with their child. It provides an alternative way for both parents and children to express their
+				needs and thoughts, thereby reducing frustration, enhancing comprehension and promoting independence
+				in communication.
+			</li>
+
+			<li class="mt-2">
+				<span class="font-semibold italic block">Advice on Speech Generating Devices</span>
+				Speech generating devices (SGDs) are electronic devices that produce spoken output. Using an
+				SGD, a child can select symbols by touch or by alternative methods such as eye gaze or switches,
+				to generate synthesized speech. SGDs can be customised to meet each child's specific needs, store
+				common phrases and to offer personalised messages. They empower their users to connect with others
+				by participating in meaningful conversation and social interaction.
+			</li>
+			<li class="mt-3">
+				<a href="./services-visual-schedules.html" target="_self" class="views-link"
+					>Implementing Visual Schedules</a>
+			</li>
+			<li class="mt-3">
+				<a href="./services-social-stories.html" target="_self" class="views-link"
+					>Designing Social Stories</a>
+			</li>
+			<p class="mt-4">
+				If your child has difficulty making their thoughts, needs and feelings known, they may
+				benefit from additional support from an Occupational Therapist with a specific interest in
+				AAC.
+			</p>
+		</ul>
+		<p class="text-center">- - - END - - -</p>
+	</main>
+</div>
