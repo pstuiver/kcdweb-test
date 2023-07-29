@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>KidzCanDurban - AAC</title>
 </svelte:head>
@@ -64,11 +68,11 @@
 				by participating in meaningful conversation and social interaction.
 			</li>
 			<li class="mt-3">
-				<a href="./services-visual-schedules.html" target="_self" class="views-link"
+				<a href="{base}/services-visual-schedules" target="_self" class="views-link"
 					>Implementing Visual Schedules</a>
 			</li>
 			<li class="mt-3">
-				<a href="./services-social-stories.html" target="_self" class="views-link"
+				<a href="{base}/services-social-stories" target="_self" class="views-link"
 					>Designing Social Stories</a>
 			</li>
 			<p class="mt-4">

@@ -1,24 +1,24 @@
 <script>
+	import RouteHead from '$lib/RouteHead.svelte';
+	export let headerColor = 'gray-on-blue';
+	export let headerTitle = 'Client Reviews';
 	export let data;
 	const { reviews } = data;
 </script>
 
 <svelte:head>
-	<title>KidzCanDurban-Reviews</title>
+	<title>KidzCanDurban-Client Reviews</title>
 </svelte:head>
 
-<main class="p-4">
-	<!-- svelte-ignore a11y-invalid-attribute -->
-	<a href="javascript:history.back()">
-		<svg viewBox="0 0 48 48" class="views-head-icon">
-			<title>Back arrow icon</title>
-			<path d="M13,24 23,13 23,20 34,20 34,28 23,28 23,35Z" />
-		</svg>
-	</a>
+<div class="views-container">
+	<RouteHead {headerColor} {headerTitle} />
 
-	{#each reviews as review}
-		<div>{review.name}</div>
-		<span>{review.rating}</span>
-		<div>{review.text}</div>
-	{/each}
-</main>
+	<main class="views-content blue-on-white">
+		{#each reviews as review}
+			<div>{review.name}</div>
+			<span>{review.rating}</span>
+			<div>{review.text}</div>
+		{/each}
+		<p class="text-center">- - - END - - -</p>
+	</main>
+</div>

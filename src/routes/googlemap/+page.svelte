@@ -1,10 +1,10 @@
+<script>
+	export let data;
+</script>
+
 <svelte:head>
 	<title>KidzCanDurban - Location</title>
 </svelte:head>
-
-<script>
-	export let data
-</script>
 
 <div class="views-container">
 	<header class="views-head blue-on-white">
@@ -33,6 +33,6 @@
 			frameborder="0"
 			width="100%"
 			height="100%"
-			src= {data.mapSRC} />
+			src={data.mapSRC} />
 	</div>
 </div>
