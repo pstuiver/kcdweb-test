@@ -2,7 +2,6 @@
 	import { base } from '$app/paths';
 </script>
 
-
 <main>
 	<div id="home-page">
 		<div class="w-full max-w-7xl mx-auto">
