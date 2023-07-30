@@ -532,7 +532,7 @@
 							<div class="grid-2cols @container">
 								<!-- eslint-disable svelte/no-at-html-tags -->
 								<div class="grid-card gray-on-blue">
-									<div class="section-id" id="about-ot" />
+									<div class="section-id" id={aboutCard.id} />
 									<div class="grid-card-top-outer">
 										<div class="grid-card-top-inner">
 											<div>

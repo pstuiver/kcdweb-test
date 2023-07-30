@@ -150,6 +150,7 @@ export async function load() {
 	const aboutCards = [
 		{
 			title: 'About Occupational Therapy',
+			id: `about-ot`,
 			iconHTML: `<svg class="grid-card-svg" viewBox="0 0 48 48" aria-hidden="true">
 			<title>OT icon</title>
 			<path d="M45.2 30.6c-.9-.8-2.3-.7-3.3 0l-7 5.7a5 5 0 0 1-3.1 1h-9c-.7 0-1.2-.5-1.2-1.2s.5-1.2 1.2-1.2h6c1.2 0 2.3-.8 2.5-2 .3-1.6-.9-2.9-2.4-2.9H16.7a9 9 0 0 0-5.7 2l-3.5 2.9H3.2c-.6 0-1.2.5-1.2 1.2v7.3c0 .7.6 1.3 1.2 1.3h27.3c1.1 0 2.2-.4 3-1.1l11.6-9.2c1.1-1 1.2-2.7.1-3.8z" />
@@ -185,6 +186,7 @@ export async function load() {
 		},
 		{
 			title: 'Autism Spectrum Disorder',
+			id: `about-autism`,
 			iconHTML: `<svg class="grid-card-svg" viewBox="0 0 24 24" aria-hidden="true">
 			<title>Autism Puzzle icon</title>
 			<path d="M20.5,11H19V7C19,5.89 18.1,5 17,5H13V3.5A2.5,2.5 0 0,0 10.5,1A2.5,2.5 0 0,0 8,3.5V5H4A2,2 0 0,0 2,7V10.8H3.5C5,10.8 6.2,12 6.2,13.5C6.2,15 5,16.2 3.5,16.2H2V20A2,2 0 0,0 4,22H7.8V20.5C7.8,19 9,17.8 10.5,17.8C12,17.8 13.2,19 13.2,20.5V22H17A2,2 0 0,0 19,20V16H20.5A2.5,2.5 0 0,0 23,13.5A2.5,2.5 0 0,0 20.5,11Z" /></svg>`,
@@ -215,6 +217,7 @@ export async function load() {
 		},
 		{
 			title: 'AAC',
+			id: `about-aac`,
 			iconHTML: `<svg class="grid-card-svg" viewBox="0 0 64 64" aria-hidden="true">
 				<path d="M20 0c1 1 1 2-1 5-1 1-2 3-3 5h0c0 1 0 1 1 0l3-3h0c1 0 2-1 2-1 2-1 3-1 4-2h0c2 0 3 1 3 3 0 0-1 1-2 1l-1 1h-1c-1 1-2 1-2 2h0c-1 0-2 1-2 2h0c-1 0-1 1-2 1h0 1 6 0c5 0 9 4 7 6 0 1-1 1-2 0-2-1-4-2-6-2-1 0-3 0-4 1h0c-1 0-1 0 0 1h1 0 1 0 1 0c2 1 3 1 4 2h0c1 1 2 3 3 4h0c1 3 1 5 0 5-1 1-1 0-2-1-1-3-3-5-5-5h0-2 1c-5 1-7 8-4 11 1 1 2 2 4 2s4-2 5-3h0c1-2 2-3 3-2 2 0-1 5-4 8 0 0-1 1-2 1h0-1-1c-2 1-5 1-7 1h0c-5 0-5 0-8 3 0 0-1 1-2 1 0 1 0 1-1 0-3-2-5-6-5-10h0c0-1 0-1 1-2 2-1 5-4 5-5 0 0 1-2 1-3h0v-1h0v-3c1-2 1-4 2-6h0c2-6 4-11 8-15h0c1-2 3-2 3-2zm39 17c2 1 4 4 5 7h0v4h0l-2 2c-1 0-2 1-2 2-1 0-1 1-1 1-1 0-1 1-1 1v1c0 1-1 2-1 2 0 2 0 5-1 7 0 2-1 4-2 7l-3 6h0l-1 1c-2 4-6 7-6 6-1-1-1-2 1-4 1-1 1-3 2-4h0c0-1 1-2 1-2h0c0-1 0 0-1 0-1 1-3 2-5 3v1h0c-1 0-3 1-3 1-1 1-1 1-2 1h0c-1 0-1-1-2-1 0-1 0-2 1-3h0 1 0l1-1h1c2-1 4-3 5-5h0 1-3 0c-2 1-4 0-6 0h0c-4-1-7-4-5-6 0-1 1-1 2 0h1 0v1h2 0c1 1 2 1 3 1s2 0 3-1h0 1c1 0 0-1 0-1-2 0-3 0-5-1h0c-1 0-2-2-3-3h0-1c-1-2-1-3-2-5h0c0-2 1-3 2-2l1 1c2 4 4 6 8 5 2-1 4-5 4-9h0c-1-3-5-4-8-3-1 1-3 2-4 3h0c0 1-1 2-1 2-1 0-2-1-1-3h0c0-1 0-1 1-2h0c0-1 1-2 2-3h0c3-2 5-3 7-3h0 7c1 0 3 0 4-1h0c2-1 3-2 4-4h0l1 1z" /></svg>`,
 			bodyHTML: `<p>
@@ -246,6 +249,7 @@ export async function load() {
 		},
 		{
 			title: 'Attention and Concentration',
+			id: `about-attention`,
 			iconHTML: `<svg class="grid-card-svg" viewBox="0 0 48 48" aria-hidden="true">
 			<title>Concentration icon</title>
 			<path d="M24,5 44,5 24,13Z M24,43 4,43 24,35" />
