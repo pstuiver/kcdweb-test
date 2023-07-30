@@ -8,7 +8,7 @@
 	import SVGContact from '$lib/SVGContact.svelte';
 	import SVGAssessment from '$lib/SVGAssessment.svelte';
 	export let data;
-	const { mediaCards } = data;
+	const { servicesCards, mediaCards } = data;
 </script>
 
 <main>
@@ -494,7 +494,7 @@
 				</div>
 				<div class="grid-container blue-on-gray">
 					<div class="grid-cols-wrapper">
-						<div class="grid-4cols">
+						<!-- <div class="grid-4cols">
 							<div class="grid-card blue-on-white">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
@@ -838,7 +838,30 @@
 									class="grid-card-btn white-on-blue"
 									>Read more <span class="sr-only">about parent support</span>...</a>
 							</div>
+						</div> -->
+						{#each servicesCards as servicesCard}
+						<div class="grid-4cols">
+								<!-- eslint-disable svelte/no-at-html-tags -->
+							<div class="grid-card blue-on-white">
+								<div class="grid-card-top-outer">
+									<div class="grid-card-top-inner">
+										<div>
+											{@html servicesCard.iconHTML}
+										</div>
+										<h2 class="grid-card-title">{servicesCard.title}</h2>
+									</div>
+									<div class="grid-card-text">
+										{@html servicesCard.bodyHTML}
+									</div>
+								</div>
+								<a
+									href="{base}/{servicesCard.link}"
+									target="_self"
+									class="grid-card-btn white-on-blue"
+									>{@html servicesCard.buttonHTML}</a>
+							</div>
 						</div>
+						{/each}
 					</div>
 				</div>
 			</section>
