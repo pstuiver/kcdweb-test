@@ -45,8 +45,6 @@
 			Our therapists are available for private parent meetings as well as community and school
 			presentations on Occupational Therapy or related topics.
 		</p>
-		<main class="views-content blue-on-white">
-			<p class="text-center">- - - END - - -</p>
-		</main>
+		<p class="text-center">- - - END - - -</p>
 	</main>
 </div>

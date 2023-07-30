@@ -78,8 +78,6 @@
 				</p>
 			</li>
 		</ul>
-		<main class="views-content blue-on-white">
-			<p class="text-center">- - - END - - -</p>
-		</main>
+		<p class="text-center">- - - END - - -</p>
 	</main>
 </div>

@@ -23,7 +23,7 @@
 			Link to :
 			<a
 				class="views-link ml-0"
-				href="http://www.cdc.gov/ncbddd/autism/facts"
+				href="https://www.cdc.gov/ncbddd/autism/index.html"
 				target="_blank"
 				rel="noopener"
 				>CDC - ASD Homepage<span class="sr-only">
