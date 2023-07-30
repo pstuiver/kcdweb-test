@@ -12,7 +12,6 @@
 </script>
 
 <main>
-	/* eslint-disable svelte/no-at-html-tags */
 	<div id="home-page">
 		<div class="w-full max-w-7xl mx-auto">
 			<header
@@ -24,15 +23,13 @@
 								srcset="
                                     ./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.webp 113w,
                                     ./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.webp 184w,
-                                    ./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w
-                                "
+                                    ./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w"
 								type="image/webp" />
 							<source
 								srcset="
                                     ./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.avif 113w,
                                     ./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.avif 184w,
-                                    ./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w
-                                "
+                                    ./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
 								type="image/avif" />
 							<img
 								class="hidden ml-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32"
@@ -89,8 +86,7 @@
                                     ./images/kidzLT/kidzLT_160x213.webp 160w,
                                     ./images/kidzLT/kidzLT_190x253.webp 190w,
                                     ./images/kidzLT/kidzLT_320x427.webp 320w,
-                                    ./images/kidzLT/kidzLT_380x507.webp 380w
-                                "
+                                    ./images/kidzLT/kidzLT_380x507.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -98,8 +94,7 @@
                                     ./images/kidzLT/kidzLT_160x213.avif 160w,
                                     ./images/kidzLT/kidzLT_190x253.avif 190w,
                                     ./images/kidzLT/kidzLT_320x427.avif 320w,
-                                    ./images/kidzLT/kidzLT_380x507.avif 380w
-                                "
+                                    ./images/kidzLT/kidzLT_380x507.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg mx-auto"
@@ -115,8 +110,7 @@
                                     ./images/kidzLM/kidzLM_160x213.webp 160w,
                                     ./images/kidzLM/kidzLM_190x253.webp 190w,
                                     ./images/kidzLM/kidzLM_320x427.webp 320w,
-                                    ./images/kidzLM/kidzLM_380x507.webp 380w
-                                "
+                                    ./images/kidzLM/kidzLM_380x507.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -124,8 +118,7 @@
                                     ./images/kidzLM/kidzLM_160x213.avif 160w,
                                     ./images/kidzLM/kidzLM_190x253.avif 190w,
                                     ./images/kidzLM/kidzLM_320x427.avif 320w,
-                                    ./images/kidzLM/kidzLM_380x507.avif 380w
-                                "
+                                    ./images/kidzLM/kidzLM_380x507.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg mx-auto"
@@ -141,8 +134,7 @@
                                     ./images/toyLB/toyLB_160x120.webp 160w,
                                     ./images/toyLB/toyLB_190x143.webp 190w,
                                     ./images/toyLB/toyLB_320x240.webp 320w,
-                                    ./images/toyLB/toyLB_380x285.webp 380w
-                                "
+                                    ./images/toyLB/toyLB_380x285.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -150,8 +142,7 @@
                                     ./images/toyLB/toyLB_160x120.avif 160w,
                                     ./images/toyLB/toyLB_190x143.avif 190w,
                                     ./images/toyLB/toyLB_320x240.avif 320w,
-                                    ./images/toyLB/toyLB_380x285.avif 380w
-                                "
+                                    ./images/toyLB/toyLB_380x285.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg mx-auto"
@@ -171,15 +162,13 @@
 										srcset="
                                             ./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.webp  200w,
                                             ./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.webp 300w,
-                                            ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w
-                                        "
+                                            ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w"
 										type="image/webp" />
 									<source
 										srcset="
                                             ./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif  200w,
                                             ./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,
-                                            ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w
-                                        "
+                                            ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
 										type="image/avif" />
 									<img
 										class="pt-2 rounded"
@@ -227,8 +216,7 @@
                                     ./images/kidzRT/kidzRT_160x213.webp 160w,
                                     ./images/kidzRT/kidzRT_190x253.webp 190w,
                                     ./images/kidzRT/kidzRT_320x427.webp 320w,
-                                    ./images/kidzRT/kidzRT_380x507.webp 380w
-                                "
+                                    ./images/kidzRT/kidzRT_380x507.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -236,8 +224,7 @@
                                     ./images/kidzRT/kidzRT_160x213.avif 160w,
                                     ./images/kidzRT/kidzRT_190x253.avif 190w,
                                     ./images/kidzRT/kidzRT_320x427.avif 320w,
-                                    ./images/kidzRT/kidzRT_380x507.avif 380w
-                                "
+                                    ./images/kidzRT/kidzRT_380x507.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg m-4 mx-auto"
@@ -253,8 +240,7 @@
                                     ./images/kidzRM/kidzRM_160x213.webp 160w,
                                     ./images/kidzRM/kidzRM_190x253.webp 190w,
                                     ./images/kidzRM/kidzRM_320x427.webp 320w,
-                                    ./images/kidzRM/kidzRM_380x507.webp 380w
-                                "
+                                    ./images/kidzRM/kidzRM_380x507.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -262,8 +248,7 @@
                                     ./images/kidzRM/kidzRM_160x213.avif 160w,
                                     ./images/kidzRM/kidzRM_190x253.avif 190w,
                                     ./images/kidzRM/kidzRM_320x427.avif 320w,
-                                    ./images/kidzRM/kidzRM_380x507.avif 380w
-                                "
+                                    ./images/kidzRM/kidzRM_380x507.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg m-4 mx-auto"
@@ -279,8 +264,7 @@
                                     ./images/toyRB/toyRB_160x120.webp 160w,
                                     ./images/toyRB/toyRB_190x143.webp 190w,
                                     ./images/toyRB/toyRB_320x240.webp 320w,
-                                    ./images/toyRB/toyRB_380x285.webp 380w
-                                "
+                                    ./images/toyRB/toyRB_380x285.webp 380w"
 								type="image/webp" />
 							<source
 								srcset="
@@ -288,8 +272,7 @@
                                     ./images/toyRB/toyRB_160x120.avif 160w,
                                     ./images/toyRB/toyRB_190x143.avif 190w,
                                     ./images/toyRB/toyRB_320x240.avif 320w,
-                                    ./images/toyRB/toyRB_380x285.avif 380w
-                                "
+                                    ./images/toyRB/toyRB_380x285.avif 380w"
 								type="image/avif" />
 							<img
 								class="rounded-lg m-4 mx-auto"
@@ -324,16 +307,14 @@
                                                     ./images/therapist-elsje/elsje200x253.webp 200w,
                                                     ./images/therapist-elsje/elsje300x380.webp 300w,
                                                     ./images/therapist-elsje/elsje400x506.webp 400w,
-                                                    ./images/therapist-elsje/elsje600x760.webp 600w
-                                                "
+                                                    ./images/therapist-elsje/elsje600x760.webp 600w"
 												type="image/webp" />
 											<source
 												srcset="
                                                     ./images/therapist-elsje/elsje200x253.avif 200w,
                                                     ./images/therapist-elsje/elsje300x380.avif 300w,
                                                     ./images/therapist-elsje/elsje400x506.avif 400w,
-                                                    ./images/therapist-elsje/elsje600x760.avif 600w
-                                                "
+                                                    ./images/therapist-elsje/elsje600x760.avif 600w"
 												type="image/avif" />
 											<img
 												class="w-4/5 mx-auto rounded-md"
@@ -408,16 +389,14 @@
                                                     ./images/therapist-sharon/sharon200x253.webp 200w,
                                                     ./images/therapist-sharon/sharon300x380.webp 300w,
                                                     ./images/therapist-sharon/sharon400x506.webp 400w,
-                                                    ./images/therapist-sharon/sharon600x760.webp 600w
-                                                "
+                                                    ./images/therapist-sharon/sharon600x760.webp 600w"
 												type="image/webp" />
 											<source
 												srcset="
                                                     ./images/therapist-sharon/sharon200x253.avif 200w,
                                                     ./images/therapist-sharon/sharon300x380.avif 300w,
                                                     ./images/therapist-sharon/sharon400x506.avif 400w,
-                                                    ./images/therapist-sharon/sharon600x760.avif 600w
-                                                "
+                                                    ./images/therapist-sharon/sharon600x760.avif 600w"
 												type="image/avif" />
 											<img
 												class="w-4/5 mx-auto rounded-md"
@@ -690,8 +669,7 @@
                                                         ./images/kcd-map/kcdmap_320x290.webp 320w,
                                                         ./images/kcd-map/kcdmap_450x407.webp 450w,
                                                         ./images/kcd-map/kcdmap_640x579.webp 640w,
-                                                        ./images/kcd-map/kcdmap_900x814.webp 900w
-                                                    "
+                                                        ./images/kcd-map/kcdmap_900x814.webp 900w"
 													type="image/webp" />
 												<source
 													srcset="
@@ -699,8 +677,7 @@
                                                         ./images/kcd-map/kcdmap_320x290.avif 320w,
                                                         ./images/kcd-map/kcdmap_450x407.avif 450w,
                                                         ./images/kcd-map/kcdmap_640x579.avif 640w,
-                                                        ./images/kcd-map/kcdmap_900x814.avif 900w
-                                                    "
+                                                        ./images/kcd-map/kcdmap_900x814.avif 900w"
 													type="image/avif" />
 												<img
 													class="mx-auto mt-4 rounded-md w-full"

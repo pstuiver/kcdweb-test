@@ -5,7 +5,7 @@
 
 <!-- Need wrapper div for Safari to render svg properly -->
 <div>
-	<svg class={svgClass} viewBox="0 0 48 48" aria-hidden={ariaHidden}>
+	<svg class={svgClass} viewBox="0 3 48 48" aria-hidden={ariaHidden}>
 		<title>About icon</title>
 		<path
 			stroke-width="3"
