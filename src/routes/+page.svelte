@@ -6,6 +6,7 @@
 	import SVGAbout from '$lib/SVGAbout.svelte';
 	import SVGMedia from '$lib/SVGMedia.svelte';
 	import SVGContact from '$lib/SVGContact.svelte';
+	import SVGTelephone from '$lib/SVGTelephone.svelte';
 	export let data;
 	const { servicesCards, mediaCards } = data;
 </script>
@@ -521,45 +522,9 @@
 			<section class="section-wrapper blue-on-white">
 				<div id="about" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<div>
-						<svg class="section-head-svg mx-1" viewBox="0 0 48 48" aria-hidden="true">
-							<title>About icon</title>
-							<path
-								stroke-width="3"
-								stroke="currentColor"
-								d="M4,24 4,10 Q14,5 22,10 v14 M4,24 4,38 Q14,33 22,38 v-14z" />
-							<path
-								stroke-width="3"
-								stroke="currentColor"
-								fill="none"
-								d="M22,10 Q34,5 44,10 v15 M22.8,39.3 Q34,33 44,38 v-14" />
-							<path
-								stroke-width="1.5"
-								stroke="currentColor"
-								fill="none"
-								d="M26,15 Q33,12 40,15 M26,20 Q33,17 40,20 M26,25 Q33,22 40,25 M26,30 Q33,27 40,30" />
-						</svg>
-					</div>
+					<SVGAbout svgClass={'section-head-svg'} />
 					<h1 class="section-head-text">ABOUT</h1>
-					<div>
-						<svg class="section-head-svg mx-1" viewBox="0 0 48 48" aria-hidden="true">
-							<title>About icon</title>
-							<path
-								stroke-width="3"
-								stroke="currentColor"
-								d="M4,24 4,10 Q14,5 22,10 v14 M4,24 4,38 Q14,33 22,38 v-14z" />
-							<path
-								stroke-width="3"
-								stroke="currentColor"
-								fill="none"
-								d="M22,10 Q34,5 44,10 v15 M22.8,39.3 Q34,33 44,38 v-14" />
-							<path
-								stroke-width="1.5"
-								stroke="currentColor"
-								fill="none"
-								d="M26,15 Q33,12 40,15 M26,20 Q33,17 40,20 M26,25 Q33,22 40,25 M26,30 Q33,27 40,30" />
-						</svg>
-					</div>
+					<SVGAbout svgClass={'section-head-svg'} />
 				</div>
 				<div class="grid-container bg-white">
 					<div class="grid-cols-wrapper">
@@ -769,21 +734,9 @@
 			<section class="section-wrapper blue-on-gray">
 				<div id="media" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Media icon</title>
-							<path
-								d="M24 9c3 0 6 1 8 3s3 4 3 7-1 6-3 7c0-1-1-1-1-2 1-2 2-3 2-5s-1-4-3-6c-1-1-3-2-6-2-2 0-4 1-6 2-1 2-2 4-2 6s1 4 1 5v3c-2-2-3-5-3-8s1-5 3-7 4-3 7-3zm-5 17c1-3 11-2 11 0 0 27-11 26-11 0zm5-12c3 0 5 2 5 5 0 2-2 4-5 4-2 0-4-2-4-4 0-3 2-5 4-5zm0-11c5 0 9 2 12 5s5 7 5 11c0 5-2 9-5 12-1 1-3 2-4 3v-3c1-1 2-1 2-2 3-2 4-6 4-10s-1-7-4-10c-2-2-6-4-10-4s-7 2-10 4c-2 3-4 6-4 10s2 8 4 10c1 1 2 1 2 2 1 1 1 2 1 3-2-1-3-2-4-3-3-3-5-7-5-12 0-4 2-8 5-11s7-5 11-5z" />
-						</svg>
-					</div>
+					<SVGMedia svgClass={'section-head-svg'} />
 					<h1 class="section-head-text">MEDIA</h1>
-					<div>
-						<svg class="section-head-svg" viewBox="0 0 48 48" aria-hidden="true">
-							<title>Media icon</title>
-							<path
-								d="M24 9c3 0 6 1 8 3s3 4 3 7-1 6-3 7c0-1-1-1-1-2 1-2 2-3 2-5s-1-4-3-6c-1-1-3-2-6-2-2 0-4 1-6 2-1 2-2 4-2 6s1 4 1 5v3c-2-2-3-5-3-8s1-5 3-7 4-3 7-3zm-5 17c1-3 11-2 11 0 0 27-11 26-11 0zm5-12c3 0 5 2 5 5 0 2-2 4-5 4-2 0-4-2-4-4 0-3 2-5 4-5zm0-11c5 0 9 2 12 5s5 7 5 11c0 5-2 9-5 12-1 1-3 2-4 3v-3c1-1 2-1 2-2 3-2 4-6 4-10s-1-7-4-10c-2-2-6-4-10-4s-7 2-10 4c-2 3-4 6-4 10s2 8 4 10c1 1 2 1 2 2 1 1 1 2 1 3-2-1-3-2-4-3-3-3-5-7-5-12 0-4 2-8 5-11s7-5 11-5z" />
-						</svg>
-					</div>
+					<SVGMedia svgClass={'section-head-svg'} />
 				</div>
 				<div class="grid-container blue-on-gray">
 					<div class="grid-cols-wrapper">
@@ -830,26 +783,14 @@
 										<div>We work on a pay per appointment basis</div>
 										<div>Credit and Debit card facilities available</div>
 										<div>Clients submit their own claims to their medical aid</div>
-										<div class="mt-2">
-											<p class="inline">
-												<svg viewBox="0 0 24 26" class="w-8 inline" aria-hidden="true">
-													<title>Telephone icon</title>
-													<path
-														d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
-												</svg>
-												Phone: (064) 899 4748
-											</p>
-										</div>
-										<div>
-											<p class="inline">
-												<svg viewBox="0 24 512 512" class="w-8 inline" aria-hidden="true">
-													<title>Email icon</title>
-													<path
-														d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
-												</svg>
-												Email : info@kidzcandurban.com
-											</p>
-										</div>
+										<div class="flex items-center w-full justify-center mt-2">
+											<SVGTelephone svgClass={'w-8 mr-2'} />
+											Phone: (064) 899 4748
+									</div>
+									<div class="flex items-center w-full justify-center">
+										<SVGContact svgClass={'w-8 mr-2'} />
+										 Email : info@kidzcandurban.com
+									</div>
 										<p class="font-bold text-lg mt-6">Send us a message by email</p>
 										<form class="text-left" action="https://formspree.io/f/xvoypqwd" method="POST">
 											<label id="name-label" for="name-input"
