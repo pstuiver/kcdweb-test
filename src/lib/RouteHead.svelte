@@ -16,8 +16,8 @@
 				</a>
 				<span class="views-head-back" aria-hidden="true">back</span>
 			</div>
-
-			<h1 class="views-head-text">{headerTitle}</h1>
+			<!-- eslint-disable svelte/no-at-html-tags -->
+			<h1 class="views-head-text">{@html headerTitle}</h1>
 			<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
 		</div>
 	</nav>
