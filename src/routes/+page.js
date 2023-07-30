@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 export async function load() {
-	let mediaCards = [
+	const mediaCards = [
 		{
 			iconHTML: `<svg class="grid-card-svg" viewBox="0 4 48 48" aria-hidden="true">
 			<title>Blogger icon</title>
@@ -39,6 +39,8 @@ export async function load() {
 			buttonHTML: `<span class="sr-only">Read our privacy</span>Policy ...`
 		}
 	];
+
+
 
 	return { mediaCards };
 }

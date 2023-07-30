@@ -4,6 +4,8 @@
 	export let headerTitle = 'Client Reviews';
 	export let data;
 	const { reviews } = data;
+	import SVGFiveStar from '$lib/SVGFiveStar.svelte';
+	import SVGFourStar from '$lib/SVGFourStar.svelte';
 </script>
 
 <svelte:head>
@@ -14,10 +16,24 @@
 	<RouteHead {headerColor} {headerTitle} />
 
 	<main class="views-content blue-on-white">
+		<div class="flex items-center justify-center my-2">
+			<div class="text-base sm:text-xl md:text-2xl">Average</div>
+			<SVGFiveStar svgClass={'text-yellow-500 w-32 sm:w-48 -mt-1'} />
+			<div class="text-sm sm:text-lg md:text-xl">from 13 reviews</div>
+		</div>
+
 		{#each reviews as review}
-			<div>{review.name}</div>
-			<span>{review.rating}</span>
-			<div>{review.text}</div>
+			<div class="flex items-center mt-6">
+				<div class="font-bold">{review.name}</div>
+				{#if review.rating == 5}
+					<SVGFiveStar />
+				{:else if review.rating == 4}
+					<SVGFourStar />
+				{:else}
+					????
+				{/if}
+			</div>
+			<p class="mt-0 text-left">{review.text}</p>
 		{/each}
 		<p class="text-center">- - - END - - -</p>
 	</main>
