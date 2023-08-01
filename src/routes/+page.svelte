@@ -11,6 +11,12 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
+	let comment = '';
+    /** @type {import('./$types').Snapshot<string>} */
+    export const snapshot = {
+        capture: () => console.log("hello from capture"),comment,
+        restore: (value) => {console.log("hello from restore"), comment = value}
+    };
 </script>
 
 <main>
@@ -42,7 +48,7 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V36
+								Elsje Stuiver - Occupational Therapy V37
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
