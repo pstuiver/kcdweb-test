@@ -1,5 +1,4 @@
 <script>
-	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'blue-on-white';
 	export let headerTitle = `<h1 class="sr-only">Augmentative Alternative Communication</h1>
@@ -56,11 +55,11 @@
 				by participating in meaningful conversation and social interaction.
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{visualSchedulesLink}" target="_self" class="views-link"
+				<a href="/{visualSchedulesLink}" target="_self" class="views-link"
 					>Implementing Visual Schedules</a>
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{socialStoriesLink}" target="_self" class="views-link"
+				<a href="/{socialStoriesLink}" target="_self" class="views-link"
 					>Designing Social Stories</a>
 			</li>
 			<p class="mt-4">
