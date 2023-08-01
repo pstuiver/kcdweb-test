@@ -42,7 +42,7 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V34
+								Elsje Stuiver - Occupational Therapy V35
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
