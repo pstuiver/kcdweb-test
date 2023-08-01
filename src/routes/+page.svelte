@@ -11,12 +11,18 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
-	let comment = '';
-    /** @type {import('./$types').Snapshot<string>} */
-    export const snapshot = {
-        capture: () => console.log("hello from capture"),comment,
-        restore: (value) => {console.log("hello from restore"), comment = value}
-    };
+
+	import { onMount } from 'svelte';
+	// let comment = ""
+	// onMount(()=>
+	// comment = document.getElementById("home-page")
+	// )
+	/** @type {import('./$types').Snapshot<string>} */
+	export const snapshot = {
+		capture: () => window.scrollY,
+		restore: (value) => window.scrollTo(0, value)
+	};
+	// $:console.log("comment = ",comment)
 </script>
 
 <main>
