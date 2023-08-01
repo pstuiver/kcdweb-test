@@ -1,4 +1,5 @@
 <script>
+	import {onMount} from 'svelte'
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
@@ -11,6 +12,11 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
+	onMount(()=>
+	{
+		window.history.scrollRestoration = "auto"
+	})
+
 </script>
 
 <main>
