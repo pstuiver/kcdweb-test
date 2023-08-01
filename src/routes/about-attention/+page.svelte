@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'blue-on-white';
 	export let headerTitle = 'Attention and Concentration';
@@ -22,7 +23,7 @@
 		</p>
 		<p>
 			Hence our focus on conducting comprehensive
-			<a class="views-link" href="/{assessmentLink}" target="_self"
+			<a class="views-link" href="{base}/{assessmentLink}" target="_self"
 				>Occupational Therapy assessments</a
 			>to assist our therapists in identifying aspects that may be affecting a child’s ability to
 			focus and attend.
@@ -52,9 +53,9 @@
 			</li>
 			<li>
 				Addressing sensory modulation difficulties through the implementation of a
-				<a class="views-link" href="/{sensoryDietLink}" target="_self">Sensory Diet</a>
+				<a class="views-link" href="{base}/{sensoryDietLink}" target="_self">Sensory Diet</a>
 				or an
-				<a class="views-link" href="/{alertLink}" target="_self">Alert Program</a>
+				<a class="views-link" href="{base}/{alertLink}" target="_self">Alert Program</a>
 				depending on the child’s needs and abilities.
 			</li>
 		</ul>

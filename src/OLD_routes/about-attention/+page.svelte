@@ -19,7 +19,7 @@
 		</p>
 		<p>
 			Hence our focus on conducting comprehensive
-			<a class="views-link" href="/services-ot-assessment" target="_self"
+			<a class="views-link" href="{base}/services-ot-assessment" target="_self"
 				>Occupational Therapy assessments</a
 			>to assist our therapists in identifying aspects that may be affecting a child’s ability to
 			focus and attend.
@@ -49,9 +49,9 @@
 			</li>
 			<li>
 				Addressing sensory modulation difficulties through the implementation of a
-				<a class="views-link" href="/services-sensory-diet" target="_self">Sensory Diet</a>
+				<a class="views-link" href="{base}/services-sensory-diet" target="_self">Sensory Diet</a>
 				or an
-				<a class="views-link" href="/services-alert-program" target="_self">Alert Program</a>
+				<a class="views-link" href="{base}/services-alert-program" target="_self">Alert Program</a>
 				depending on the child’s needs and abilities.
 			</li>
 		</ul>

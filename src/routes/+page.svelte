@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
 	import SVGServices from '$lib/SVGServices.svelte';
@@ -489,8 +490,10 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a href="/{servicesCard.link}" target="_self" class="grid-card-btn white-on-blue"
-										>{@html servicesCard.buttonHTML}</a>
+									<a
+										href="{base}/{servicesCard.link}"
+										target="_self"
+										class="grid-card-btn white-on-blue">{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
 						{/each}
@@ -533,7 +536,10 @@
 											{@html aboutCard.bodyHTML}
 										</div>
 									</div>
-									<a href="/{aboutCard.link}" target="_self" class="grid-card-btn blue-on-white">
+									<a
+										href="{base}/{aboutCard.link}"
+										target="_self"
+										class="grid-card-btn blue-on-white">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -566,7 +572,10 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a href="/{mediaCard.link}" target="_self" class="grid-card-btn white-on-blue">
+									<a
+										href="{base}/{mediaCard.link}"
+										target="_self"
+										class="grid-card-btn white-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
@@ -654,7 +663,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a href="/{locationLink}" target="_self"
+										<a href="{base}/{locationLink}" target="_self"
 											><picture
 												><source
 													srcset="

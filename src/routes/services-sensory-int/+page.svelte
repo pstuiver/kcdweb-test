@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'gray-on-blue';
 	export let headerTitle = 'Sensory Integration';
@@ -95,10 +96,10 @@
 		</ul>
 		<p>
 			To achieve these aims the therapist may recommend a
-			<a href="/{sensoryDietLink}" target="_self" class="views-link">Sensory Diet</a>
+			<a href="{base}/{sensoryDietLink}" target="_self" class="views-link">Sensory Diet</a>
 			or an
-			<a href="/{alertLink}" target="_self" class="views-link">Alert Program</a>, depending on the
-			child's needs and abilities.
+			<a href="{base}/{alertLink}" target="_self" class="views-link">Alert Program</a>, depending on
+			the child's needs and abilities.
 		</p>
 		<p class="text-center">- - - END - - -</p>
 	</main>
