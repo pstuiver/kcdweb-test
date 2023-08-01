@@ -3,9 +3,6 @@
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'gray-on-blue';
 	export let headerTitle = 'Sensory Integration';
-	// Need this to make this link work in GH Pages build workflows
-	const alertLink = `services-alert-program`;
-	const sensoryDietLink = `services-sensory-diet`;
 </script>
 
 <svelte:head>
@@ -96,10 +93,10 @@
 		</ul>
 		<p>
 			To achieve these aims the therapist may recommend a
-			<a href="{base}/{sensoryDietLink}" target="_self" class="views-link">Sensory Diet</a>
+			<a href="{base}/services-sensory-diet" target="_self" class="views-link">Sensory Diet</a>
 			or an
-			<a href="{base}/{alertLink}" target="_self" class="views-link">Alert Program</a>, depending on
-			the child's needs and abilities.
+			<a href="{base}/services-alert-program" target="_self" class="views-link">Alert Program</a>,
+			depending on the child's needs and abilities.
 		</p>
 		<p class="text-center">- - - END - - -</p>
 	</main>

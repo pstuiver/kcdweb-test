@@ -3,8 +3,6 @@
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'gray-on-blue';
 	export let headerTitle = 'Parent Support';
-	// Need this to make this link work in GH Pages build workflows
-	const assessmentLink = `services-ot-assessment`;
 </script>
 
 <svelte:head>
@@ -29,7 +27,7 @@
 		</p>
 		<p>
 			After the
-			<a class="views-link" href="{base}/{assessmentLink}" target="_self"
+			<a class="views-link" href="{base}/services-ot-assessment" target="_self"
 				>Occupational Therapy Assessment</a>
 			and before commencing the therapy process, the parents and child will be provided with opportunity
 			to collaborate on setting the goals for therapy.

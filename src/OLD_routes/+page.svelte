@@ -9,8 +9,6 @@
 	import SVGTelephone from '$lib/SVGTelephone.svelte';
 	export let data;
 	const { servicesCards, aboutCards, mediaCards } = data;
-	// Need this to make this link work in GH Pages build workflows
-	const locationLink = `contact-location`;
 </script>
 
 <main>
@@ -663,7 +661,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a href="{base}/{locationLink}" target="_self"
+										<a href="{base}/googlemap" target="_self"
 											><picture
 												><source
 													srcset="
