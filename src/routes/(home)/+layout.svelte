@@ -1,9 +1,5 @@
 <script>
-	// import { onMount } from 'svelte';
-	import './homepage.postcss';
-	// onMount(() => {
-	// 	window.history.scrollRestoration = 'auto';
-	// });
+	import '../../homepage.postcss';
 </script>
 
 <slot />
