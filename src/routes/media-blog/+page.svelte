@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Blog Posts</title>
+	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

@@ -15,6 +15,8 @@
 
 <svelte:head>
 	<title>KidzCanDurban-AAC</title>
+	<link href="/viewsPreBuilt.css" rel="stylesheet" />
+	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

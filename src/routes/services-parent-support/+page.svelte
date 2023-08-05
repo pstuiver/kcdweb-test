@@ -9,6 +9,7 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Parent Support</title>
+	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Alert Program</title>
+	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">
