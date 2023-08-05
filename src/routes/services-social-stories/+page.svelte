@@ -12,7 +12,9 @@
 	<RouteHead {headerColor} {headerTitle} />
 
 	<main class="views-content blue-on-zero">
-		<p class="font-bold">Designing Social Stories</p>
+		<p>
+			<span class="my-2 font-semibold italic block"> Designing Social Stories </span>
+		</p>
 		<p>
 			Children with special needs may not always have perfect social skills but with Social Stories,
 			they can learn and develop their skills.

@@ -3,7 +3,7 @@
 	export let headerTitle = 'Handwriting';
 </script>
 
-<header class="views-head {headerColor}">
+<header class="views-head {headerColor} border-b border-neutral-50">
 	<nav class="w-full">
 		<div class="w-full flex items-center justify-between">
 			<div class="flex items-center">
