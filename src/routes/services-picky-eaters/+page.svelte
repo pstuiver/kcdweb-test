@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Picky Eaters';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p>
 			It is important to note that fluctuating appetites, shifts in food preferences and changes in
 			eating patterns are considered part of "normal" childhood development.

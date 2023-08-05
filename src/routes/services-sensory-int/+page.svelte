@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Sensory Integration';
 	// Need this to make this link work in GH Pages build workflows
 	const alertLink = `services-alert-program`;
@@ -15,7 +15,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p class="mt-2">
 			Our therapists are trained and skilled in Sensory Integration assessment and treatment
 			options.

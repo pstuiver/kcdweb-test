@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Client Reviews';
 	export let data;
 	const { reviews } = data;
@@ -15,7 +15,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<div class="flex items-center justify-center my-2">
 			<div class="text-base sm:text-xl md:text-2xl">Average</div>
 			<SVGFiveStar svgClass={'text-yellow-500 w-32 sm:w-48 -mt-1'} />

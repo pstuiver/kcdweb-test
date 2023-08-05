@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'OT Assessments';
 </script>
 
@@ -10,7 +10,7 @@
 
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p>
 			An assessment will typically be the first step in your child and your family's Occupational
 			Therapy journey.

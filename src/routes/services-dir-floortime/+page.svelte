@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'DIR & Floortime';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p class="font-bold">DIR - Developmental Individual Difference Relationship Model</p>
 		<p>
 			<span class="font-bold">DIR</span> is a child and play-based approach where we follow your child's

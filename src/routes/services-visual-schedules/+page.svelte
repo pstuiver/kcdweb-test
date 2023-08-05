@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Visual Schedules';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p class="mb-1">Visual schedules can help children to:</p>
 		<ul class="views-list-item">
 			<li>Understand and/or follow daily routines</li>

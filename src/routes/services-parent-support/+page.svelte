@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Parent Support';
 	// Need this to make this link work in GH Pages build workflows
 	const assessmentLink = `services-ot-assessment`;
@@ -13,7 +13,7 @@
 
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p>
 			Our therapists recognise the importance of parent, guardian and care-giver involvement to
 			achieve maximum gains from therapy,

@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'gray-on-blue';
+	export let headerColor = 'fifty-on-blue';
 	export let headerTitle = 'Sensory Diets';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-white">
+	<main class="views-content blue-on-zero">
 		<p>
 			A sensory diet is a carefully designed, personalised activity plan that regulates the sensory
 			input that a child needs to stay focused and organised throughout the day.

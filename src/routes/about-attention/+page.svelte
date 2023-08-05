@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'blue-on-white';
+	export let headerColor = 'blue-on-zero';
 	export let headerTitle = 'Attention and Concentration';
 	// Need this to make this link work in GH Pages build workflows
 	const assessmentLink = `services-ot-assessment`;
@@ -16,7 +16,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content gray-on-blue">
+	<main class="views-content fifty-on-blue">
 		<p>
 			We recognise that attention and concentration difficulties in children can be caused by a
 			variety of factors, of which only one is ADD or AD(H)D.

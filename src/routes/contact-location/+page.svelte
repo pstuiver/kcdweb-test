@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="views-container">
-	<header class="views-head blue-on-white">
+	<header class="views-head blue-on-zero">
 		<nav class="w-full">
 			<div class="w-full flex items-center justify-between">
 				<div class="flex items-center">
@@ -23,7 +23,7 @@
 		</nav>
 	</header>
 
-	<div class="views-content gray-on-blue w-full" style="height: 70vh">
+	<div class="views-content fifty-on-blue w-full" style="height: 70vh">
 		<iframe
 			title="kidzcandurban location"
 			frameborder="0"

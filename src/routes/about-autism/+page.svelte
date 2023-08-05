@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'blue-on-white';
+	export let headerColor = 'blue-on-zero';
 	export let headerTitle = 'Autism Spectrum Disorder';
 	// Need this to make this link work in GH Pages build workflows
 	const skillsDevLink = `services-skills-dev`;
@@ -18,7 +18,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content gray-on-blue">
+	<main class="views-content fifty-on-blue">
 		<p>
 			Link to :
 			<a class="views-link ml-0" href="http://aut2know.co.za/" target="_blank" rel="noopener"
