@@ -11,7 +11,6 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Attention & Concentration</title>
-	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

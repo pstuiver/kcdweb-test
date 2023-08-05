@@ -10,7 +10,6 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Sensory Integration</title>
-	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

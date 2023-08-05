@@ -13,7 +13,6 @@
 
 <svelte:head>
 	<title>KidzCanDurban-About Autism</title>
-	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

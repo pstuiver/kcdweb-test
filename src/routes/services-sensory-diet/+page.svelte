@@ -6,7 +6,6 @@
 
 <svelte:head>
 	<title>KidzCanDurban-Sensory Diets</title>
-	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">

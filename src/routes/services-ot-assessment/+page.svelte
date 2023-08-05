@@ -6,7 +6,6 @@
 
 <svelte:head>
 	<title>KidzCanDurban-OT Assessments</title>
-	<link href="/viewsPreBuilt.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="views-container">
