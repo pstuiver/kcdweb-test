@@ -5,14 +5,14 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter({ pages: 'build', assets: 'build' })
-		// paths: {
-		// 	base: dev ? '' : process.env.BASE_PATH
-		// }
-	},
+	preprocess: vitePreprocess(),
 
-	preprocess: [vitePreprocess({})]
+	kit: {
+		adapter: adapter(),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/kcdweb-test' : ''
+		}
+	}
 };
 
 export default config;
