@@ -1,5 +1,5 @@
 <script>
-	import '$lib/views.postcss';
+	import '../../views.postcss';
 </script>
 
 <slot />

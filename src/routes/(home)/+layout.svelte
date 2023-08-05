@@ -1,5 +1,5 @@
 <script>
-	import '$lib/homepage.postcss';
+	import '../../homepage.postcss';
 </script>
 
 <slot />
