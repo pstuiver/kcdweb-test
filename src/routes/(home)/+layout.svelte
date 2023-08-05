@@ -1,6 +1,6 @@
 <script>
 	// import { onMount } from 'svelte';
-	import '../tailwind.postcss';
+	import './homepage.postcss';
 	// onMount(() => {
 	// 	window.history.scrollRestoration = 'auto';
 	// });

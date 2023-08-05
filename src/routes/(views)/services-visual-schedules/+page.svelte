@@ -12,7 +12,7 @@
 	<RouteHead {headerColor} {headerTitle} />
 
 	<main class="views-content blue-on-zero">
-		<p class="mb-1">Visual schedules can help children to:</p>
+		<p class="font-bold">Visual schedules can help children to:</p>
 		<ul class="views-list-item">
 			<li>Understand and/or follow daily routines</li>
 			<li>Complete sequential tasks or activities</li>
