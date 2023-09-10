@@ -14,7 +14,8 @@
 	const locationLink = `contact-location`;
 	/* Need svelte snapshot to ensure that user will return to same scroll position after navigation away from the homepage. Standard browser methods (e.g. history.back() ) seem to be returning inconsistent scroll positions during navigation (perhaps due to SSR?).
 	The snapshot code in the svelte docs seems to be saving other values in localStorage in addition to the scrollY position. The code in the docs was therefore modified to deal specifically and only with the scrollY value  */
-	let homePageScrollY = 0
+	let homePageScrollY = 0;
+	let testIndicator = 'INIT';
 	export const snapshot = {
 		capture: () => {
 			// Get scroll position, convert to string for sessionStorage
@@ -24,11 +25,16 @@
 		},
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
-			// homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-			// window.scrollTo(0, homePageScrollY);
+			homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+			if (homePageScrollY != onMountScrollY) {
+				window.scrollTo(0, homePageScrollY);
+				homePageScrollY > onMountScrollY ? (testIndicator = 'GT') : (testIndicator = 'LT');
+			} else {
+				testIndicator = 'EQ';
+			}
 		}
 	};
-let onMountScrollY=0
+	let onMountScrollY = 0;
 	onMount(() => {
 		// get scrollY from sessionStorage and convert to number
 		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
@@ -68,7 +74,9 @@ let onMountScrollY=0
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								V {homePageScrollY/100} {onMountScrollY/100}
+								V {homePageScrollY / 100}
+								{onMountScrollY / 100}
+								{testIndicator}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
