@@ -26,7 +26,7 @@
 			// get homePageScrollY: string, converted to a number
 			let sessionScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
 			if (sessionScrollY != onMountScrollY) {
-				window.scroll(0, sessionScrollY);
+				window.scrollTo({ top: onMountScrollY, left: 0, behavior: 'smooth' });
 				sessionScrollY > onMountScrollY ? (testIndicator = 'GT') : (testIndicator = 'LT');
 			} else {
 				testIndicator = 'EQ';
@@ -37,7 +37,7 @@
 	onMount(() => {
 		// get scrollY from sessionStorage and convert to number
 		onMountScrollY = homePageScrollY || Number(sessionStorage.getItem('homePage:scrollY'));
-		window.scroll(0, onMountScrollY);
+		window.scrollTo({ top: onMountScrollY, left: 0, behavior: 'smooth' });
 	});
 </script>
 
