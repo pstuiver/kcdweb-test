@@ -24,16 +24,16 @@
 		},
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
-			homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-			window.scrollTo(0, homePageScrollY);
+			// homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+			// window.scrollTo(0, homePageScrollY);
 		}
 	};
-// let onMountScrollY=0
-// 	onMount(() => {
-// 		// get scrollY from sessionStorage and convert to number
-// 		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-// 		window.scrollTo(0, onMountScrollY);
-// 	});
+let onMountScrollY=0
+	onMount(() => {
+		// get scrollY from sessionStorage and convert to number
+		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+		window.scrollTo(0, onMountScrollY);
+	});
 </script>
 
 <main>
@@ -65,10 +65,10 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V{homePageScrollY/100}
+								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Practice no. 0684414
+								V {homePageScrollY/100} {onMountScrollY/100}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
