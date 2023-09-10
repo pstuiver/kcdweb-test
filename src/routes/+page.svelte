@@ -16,18 +16,39 @@
 	The snapshot code in the svelte docs seems to be saving other values in localStorage in addition to the scrollY position. The code in the docs was therefore modified to deal specifically and only with the scrollY value  */
 	export const snapshot = {
 		capture: () => {
-			sessionStorage.setItem('homePage:scrollY', window.scrollY);
+			// Get scroll position, convert to string for sessionStorage
+			let homePageScrollY = 0 || window.scrollY;
+			console.log("x = ",homePageScrollY)
+			let homePageScrollYString = homePageScrollY.toString();
+			sessionStorage.setItem('homePage:scrollY', homePageScrollYString);
+			// get snapshotIndex: string, convert to Number, add 1, convert back to string
+			let snapshotIndex = 0 || Number(sessionStorage.getItem('snapshotIndex'));
+			snapshotIndex += 1;
+			let snapshotIndexString = snapshotIndex.toString();
+			sessionStorage.setItem('snapshotIndex', snapshotIndexString);
+			// Log results
+			console.log('scrollY and snapshotIndex set to ', homePageScrollYString, snapshotIndexString);
 		},
 		restore: (value) => {
-			let homePageScrollY = sessionStorage.getItem('homePage:scrollY');
-			console.log('homePageScrollY = ', homePageScrollY);
-			homePageScrollY ? window.scrollTo(0, homePageScrollY) : window.scrollTo(0, 0);
+			// get homePageScrollY: string, converted to a number
+			let homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+			// get snapshotIndex: string
+			let snapshotIndexString = '0' || sessionStorage.getItem('snapshotIndex');
+			// scroll to homePageScrollY:number
+			window.scrollTo(0, homePageScrollY);
+			console.log('scrollY and snapshotIndex retrieved ', homePageScrollY, snapshotIndexString);
 		}
 	};
+
 	onMount(() => {
-		let onMountScrollY = 0 || sessionStorage.getItem('homePage:scrollY');
-		console.log('onMountScrollY = ', onMountScrollY);
+		// get scrollY from sessionStorage and convert to number
+		let onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+		// get snapshotIndex: string
+		let snapshotIndexString = '0' || sessionStorage.getItem('snapshotIndex');
+		// scroll to homePageScrollY:number
 		window.scrollTo(0, onMountScrollY);
+
+		console.log('scrollY and snapshotIndex Mounted = ', onMountScrollY, snapshotIndexString);
 	});
 </script>
 
@@ -60,7 +81,7 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V53
+								Elsje Stuiver - Occupational Therapy V55
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
