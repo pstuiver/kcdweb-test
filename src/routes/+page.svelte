@@ -27,10 +27,10 @@
 			window.scrollTo(0, homePageScrollY);
 		}
 	};
-
+let onMountScrollY=0
 	onMount(() => {
 		// get scrollY from sessionStorage and convert to number
-		let onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
 		window.scrollTo(0, onMountScrollY);
 	});
 </script>
@@ -64,7 +64,7 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V55
+								Elsje Stuiver - Occupational Therapy V{onMountScrollY/100}
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
