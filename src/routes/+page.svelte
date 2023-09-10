@@ -18,17 +18,15 @@
 	let testIndicator = 'INIT';
 	export const snapshot = {
 		capture: () => {
-			// Get scroll position, convert to string for sessionStorage
-			homePageScrollY = 0 || window.scrollY;
-			let homePageScrollYString = homePageScrollY.toString();
-			sessionStorage.setItem('homePage:scrollY', homePageScrollYString);
+			// convert homePageScrollY to string for sessionStorage
+			sessionStorage.setItem('homePage:scrollY', `${homePageScrollY}`);
 		},
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
-			homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-			if (homePageScrollY != onMountScrollY) {
-				window.scroll(0, homePageScrollY);
-				homePageScrollY > onMountScrollY ? (testIndicator = 'GT') : (testIndicator = 'LT');
+			let sessionScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+			if (sessionScrollY != onMountScrollY) {
+				window.scroll(0, sessionScrollY);
+				sessionScrollY > onMountScrollY ? (testIndicator = 'GT') : (testIndicator = 'LT');
 			} else {
 				testIndicator = 'EQ';
 			}
@@ -41,6 +39,8 @@
 		window.scroll(0, onMountScrollY);
 	});
 </script>
+
+<svelte:window bind:scrollY={homePageScrollY} />
 
 <main>
 	<div id="home-page">
