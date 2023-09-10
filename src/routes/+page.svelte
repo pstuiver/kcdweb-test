@@ -32,12 +32,14 @@
 			}
 		}
 	};
-	let onMountScrollY = 0;
+	let onMountScrollY;
 	onMount(() => {
 		// get scrollY from sessionStorage and convert to number
-		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+		onMountScrollY = homePageScrollY || Number(sessionStorage.getItem('homePage:scrollY'));
 		window.scroll(0, onMountScrollY);
 	});
+	let testValue;
+	$: testValue = sessionStorage.getItem('homePage:scrollY');
 </script>
 
 <svelte:window bind:scrollY={homePageScrollY} />
@@ -74,9 +76,11 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								V {homePageScrollY / 100}
+								Test Site V0
+								{homePageScrollY / 100}
 								{onMountScrollY / 100}
 								{testIndicator}
+								{testValue}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
