@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
@@ -19,10 +20,15 @@
 		},
 		restore: (value) => {
 			let homePageScrollY = sessionStorage.getItem('homePage:scrollY');
-			console.log("homePageScrollY = ", homePageScrollY)
+			console.log('homePageScrollY = ', homePageScrollY);
 			homePageScrollY ? window.scrollTo(0, homePageScrollY) : window.scrollTo(0, 0);
 		}
 	};
+	onMount(() => {
+		let onMountScrollY = 0 || sessionStorage.getItem('homePage:scrollY');
+		console.log('onMountScrollY = ', onMountScrollY);
+		window.scrollTo(0, onMountScrollY);
+	});
 </script>
 
 <main>
@@ -54,7 +60,7 @@
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V52
+								Elsje Stuiver - Occupational Therapy V53
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
