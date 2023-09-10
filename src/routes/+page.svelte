@@ -14,25 +14,26 @@
 	const locationLink = `contact-location`;
 	/* Need svelte snapshot to ensure that user will return to same scroll position after navigation away from the homepage. Standard browser methods (e.g. history.back() ) seem to be returning inconsistent scroll positions during navigation (perhaps due to SSR?).
 	The snapshot code in the svelte docs seems to be saving other values in localStorage in addition to the scrollY position. The code in the docs was therefore modified to deal specifically and only with the scrollY value  */
+	let homePageScrollY = 0
 	export const snapshot = {
 		capture: () => {
 			// Get scroll position, convert to string for sessionStorage
-			let homePageScrollY = 0 || window.scrollY;
+			homePageScrollY = 0 || window.scrollY;
 			let homePageScrollYString = homePageScrollY.toString();
 			sessionStorage.setItem('homePage:scrollY', homePageScrollYString);
 		},
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
-			let homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+			homePageScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
 			window.scrollTo(0, homePageScrollY);
 		}
 	};
-let onMountScrollY=0
-	onMount(() => {
-		// get scrollY from sessionStorage and convert to number
-		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-		window.scrollTo(0, onMountScrollY);
-	});
+// let onMountScrollY=0
+// 	onMount(() => {
+// 		// get scrollY from sessionStorage and convert to number
+// 		onMountScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+// 		window.scrollTo(0, onMountScrollY);
+// 	});
 </script>
 
 <main>
@@ -64,7 +65,7 @@ let onMountScrollY=0
 								aria-hidden="true" /></picture>
 						<div class="flex-column w-full text-center">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
-								Elsje Stuiver - Occupational Therapy V{onMountScrollY/100}
+								Elsje Stuiver - Occupational Therapy V{homePageScrollY/100}
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
 								Practice no. 0684414
