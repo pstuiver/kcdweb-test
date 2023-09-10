@@ -18,7 +18,7 @@
 		capture: () => {
 			// Get scroll position, convert to string for sessionStorage
 			let homePageScrollY = 0 || window.scrollY;
-			console.log("x = ",homePageScrollY)
+			console.log('x = ', homePageScrollY);
 			let homePageScrollYString = homePageScrollY.toString();
 			sessionStorage.setItem('homePage:scrollY', homePageScrollYString);
 			// get snapshotIndex: string, convert to Number, add 1, convert back to string
@@ -47,7 +47,7 @@
 		let snapshotIndexString = '0' || sessionStorage.getItem('snapshotIndex');
 		// scroll to homePageScrollY:number
 		window.scrollTo(0, onMountScrollY);
-
+		// Log result
 		console.log('scrollY and snapshotIndex Mounted = ', onMountScrollY, snapshotIndexString);
 	});
 </script>
