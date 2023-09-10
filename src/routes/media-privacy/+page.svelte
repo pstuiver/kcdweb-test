@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'fifty-on-blue';
+	export let headerColor = 'n50-on-blue';
 	export let headerTitle = 'Privacy Policy';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-zero">
+	<main class="views-content blue-on-n50">
 		<p>
 			The health care profession is based on mutual trust between health care practitioners and
 			their clients.

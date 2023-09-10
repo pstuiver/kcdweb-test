@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'fifty-on-blue';
+	export let headerColor = 'n50-on-blue';
 	export let headerTitle = 'Skills Development';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-zero">
+	<main class="views-content blue-on-n50">
 		<p>
 			These individual and group treatment sessions focus on teaching children functional skills so
 			that they can become more independent in everyday activities.

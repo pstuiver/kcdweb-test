@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'blue-on-zero';
+	export let headerColor = 'blue-on-n50';
 	export let headerTitle = `<h1 class="sr-only">Augmentative Alternative Communication</h1>
 		<div class="views-head-text" aria-hidden="true">
 			A<span class="hidden xs:inline tracking-tight">ugmentative</span>
@@ -19,7 +19,7 @@
 
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
-	<main class="views-content fifty-on-blue">
+	<main class="views-content n50-on-blue">
 		<p>
 			Children who cannot communicate effectively, miss out on opportunities to play, learn and
 			socialise.

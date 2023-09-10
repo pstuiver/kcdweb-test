@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'blue-on-zero';
+	export let headerColor = 'blue-on-n50';
 	export let headerTitle = 'About Occupational Therapy';
 </script>
 
@@ -11,7 +11,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content fifty-on-blue">
+	<main class="views-content n50-on-blue">
 		<p>
 			Our Occupational Therapy practice focuses on Paediatric intervention, working with babies and
 			children up to the age of 13 years.

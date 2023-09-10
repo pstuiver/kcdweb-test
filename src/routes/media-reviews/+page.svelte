@@ -1,6 +1,6 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'fifty-on-blue';
+	export let headerColor = 'n50-on-blue';
 	export let headerTitle = 'Client Reviews';
 	export let data;
 	const { reviews } = data;
@@ -15,7 +15,7 @@
 <div class="views-container">
 	<RouteHead {headerColor} {headerTitle} />
 
-	<main class="views-content blue-on-zero">
+	<main class="views-content blue-on-n50">
 		<div class="flex items-center justify-center my-2">
 			<div class="text-base sm:text-xl md:text-2xl">Average</div>
 			<SVGFiveStar svgClass={'text-yellow-500 w-32 sm:w-48 -mt-1'} />
@@ -30,7 +30,7 @@
 				{:else if review.rating == 4}
 					<SVGFourStar />
 				{:else}
-					????
+					<SVGFiveStar />
 				{/if}
 			</div>
 			<p class="mt-0 text-left">{review.text}</p>
