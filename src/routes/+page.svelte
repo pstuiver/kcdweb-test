@@ -29,12 +29,11 @@
 			window.scrollTo(1, getScrollY);
 		}
 	};
-	let getScrollYMount = 0;
+	let getScrollYMount;
 	onMount(async () => {
 		getScrollYMount = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-		const test = document.getElementById('home');
-		test.click();
-		await tick()
+		// const test = document.getElementById('home');
+		// test.click();
 	});
 </script>
 
