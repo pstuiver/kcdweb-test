@@ -26,7 +26,7 @@
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
 			getScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-			window.scrollTo(1, getScrollY);
+			window.scrollTo({top: getScrollY, left: 1, behavior:'auto'});
 		}
 	};
 	let getScrollYMount;
@@ -71,7 +71,7 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V4
+								Test Site V5
 								{Math.round(homePageScrollY / 100)} - 
 								{Math.round(getScrollY / 100)} - 
 								{Math.round(getScrollYMount/100)}
