@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
@@ -30,10 +30,11 @@
 		}
 	};
 	let getScrollYMount = 0;
-	onMount(() => {
+	onMount(async () => {
 		getScrollYMount = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
 		const test = document.getElementById('home');
 		test.click();
+		await tick()
 	});
 </script>
 
