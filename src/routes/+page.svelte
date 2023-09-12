@@ -26,13 +26,14 @@
 		restore: (value) => {
 			// get homePageScrollY: string, converted to a number
 			getScrollY = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-			window.scrollTo({ top: getScrollY, left: 1, behavior: 'auto' });
+			window.scrollTo(1, getScrollY);
 		}
 	};
-
+	let getScrollYMount = 0;
 	onMount(() => {
-		const test = document.getElementById('home')
-		test.click()
+		getScrollYMount = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
+		const test = document.getElementById('home');
+		test.click();
 	});
 </script>
 
@@ -70,9 +71,10 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V2
-								{homePageScrollY / 100}
-								{getScrollY / 100}
+								Test Site V3
+								{Math.round(homePageScrollY / 100)} - 
+								{Math.round(getScrollY / 100)} - 
+								{Math.round(getScrollYMount/100)}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
