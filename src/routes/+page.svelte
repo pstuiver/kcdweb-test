@@ -43,7 +43,7 @@
 	<div id="home-page">
 		<div class="w-full max-w-7xl mx-auto">
 			<header
-				class="z-10 top-0 fixed flex max-w-7xl w-full text-neutral-900 bg-white items-center justify-between border-b border-neutral-50">
+				class="z-10 top-0 fixed flex max-w-7xl w-full text-neutral-900 bg-white items-center justify-between border-b border-neutral-100">
 				<div class="flex-column w-full">
 					<div class="flex flex-row w-full items-center">
 						<picture
