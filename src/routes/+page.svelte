@@ -18,12 +18,10 @@
 	let homePageScrollY = 0;
 	let getScrollY = 0;
 	export const snapshot = {
-		capture: () => {
-			return { homePageScrollY };
-		},
+		capture: () => homePageScrollY ,
 		restore: (value) => {
-			getScrollY = value.homePageScrollY;
-			window.scrollTo({ top: getScrollY, left: 1, behavior: 'auto' });
+			getScrollY = value;
+			window.scrollTo(1,getScrollY);
 		}
 	};
 	// let getScrollYMount;
@@ -68,7 +66,7 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V6
+								Test Site V7
 								{Math.round(homePageScrollY / 100)} -
 								{Math.round(getScrollY / 100)} -
 								<!-- {Math.round(getScrollYMount/100)} -->
