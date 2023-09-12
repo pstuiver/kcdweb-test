@@ -66,12 +66,12 @@
 								width="113"
 								height="45"
 								aria-hidden="true" /></picture>
-						<div class="flex-column w-full text-center">
+						<div class="flex-column w-full text-center bg-transparent">
 							<h1 class="m-0 font-bold text-md md:text-xl lg:text-2xl">
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V3
+								Test Site V4
 								{Math.round(homePageScrollY / 100)} - 
 								{Math.round(getScrollY / 100)} - 
 								{Math.round(getScrollYMount/100)}
