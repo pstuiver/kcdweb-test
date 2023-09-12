@@ -30,7 +30,10 @@
 		}
 	};
 
-	onMount(() => {});
+	onMount(() => {
+		const test = document.getElementById('home')
+		test.click()
+	});
 </script>
 
 <svelte:window bind:scrollY={homePageScrollY} />
@@ -67,7 +70,7 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V1
+								Test Site V2
 								{homePageScrollY / 100}
 								{getScrollY / 100}
 							</div>
