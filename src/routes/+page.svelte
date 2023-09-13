@@ -1,6 +1,5 @@
 <script>
-	import { onMount, tick } from 'svelte';
-	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
@@ -18,17 +17,20 @@
 	let homePageScrollY = 0;
 	let getScrollY = 0;
 	export const snapshot = {
-		capture: () => homePageScrollY ,
+		capture: () => homePageScrollY,
 		restore: (value) => {
+			// window.scrollTo(1, value);
 			getScrollY = value;
-			window.scrollTo(1,getScrollY);
 		}
 	};
-	// let getScrollYMount;
-	onMount(async () => {
-		// getScrollYMount = 0 || Number(sessionStorage.getItem('homePage:scrollY'));
-		// const test = document.getElementById('home');
-		// test.click();
+	let test3 = 0;
+	onMount(() => {
+		let test1 = sessionStorage.getItem('sveltekit:snapshot');
+		let test2 = JSON.parse(test1);
+		Object.values(test2).forEach((value) => {
+			value[1] > 0 ? (test3 = value[1]) : {};
+		});
+		window.scrollTo(0, test3);
 	});
 </script>
 
@@ -66,10 +68,10 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V7
+								Test Site V8
 								{Math.round(homePageScrollY / 100)} -
 								{Math.round(getScrollY / 100)} -
-								<!-- {Math.round(getScrollYMount/100)} -->
+								{Math.round(test3/100)}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
