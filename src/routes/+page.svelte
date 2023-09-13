@@ -16,22 +16,22 @@
 	The snapshot code in the svelte docs seems to be saving other values in localStorage in addition to the scrollY position. The code in the docs was therefore modified to deal specifically and only with the scrollY value  */
 	let homePageScrollY = 0;
 	let getScrollY = 0;
-	export const snapshot = {
-		capture: () => homePageScrollY,
-		restore: (value) => {
-			// window.scrollTo(1, value);
-			getScrollY = value;
-		}
-	};
+	// export const snapshot = {
+	// 	capture: () => homePageScrollY,
+	// 	restore: (value) => {
+	// 		// window.scrollTo(1, value);
+	// 		getScrollY = value;
+	// 	}
+	// };
 	let test3 = 0;
-	onMount(() => {
-		let test1 = sessionStorage.getItem('sveltekit:snapshot');
-		let test2 = JSON.parse(test1);
-		Object.values(test2).forEach((value) => {
-			value[1] > 0 ? (test3 = value[1]) : {};
-		});
-		window.scrollTo(0, test3);
-	});
+	// onMount(() => {
+	// 	let test1 = sessionStorage.getItem('sveltekit:snapshot');
+	// 	let test2 = JSON.parse(test1);
+	// 	Object.values(test2).forEach((value) => {
+	// 		value[1] > 0 ? (test3 = value[1]) : {};
+	// 	});
+	// 	window.scrollTo(0, test3);
+	// });
 </script>
 
 <svelte:window bind:scrollY={homePageScrollY} />
@@ -68,7 +68,7 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V10
+								Test Site V11
 								{Math.round(homePageScrollY / 100)} -
 								{Math.round(getScrollY / 100)} -
 								{Math.round(test3/100)}
@@ -518,7 +518,7 @@
 									</div>
 									<a 
 										href="{base}/{servicesCard.link}"
-										data-sveltekit-noscroll
+									
 										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
