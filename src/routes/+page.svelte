@@ -68,7 +68,7 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V9
+								Test Site V10
 								{Math.round(homePageScrollY / 100)} -
 								{Math.round(getScrollY / 100)} -
 								{Math.round(test3/100)}
@@ -516,9 +516,9 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a
+									<a 
 										href="{base}/{servicesCard.link}"
-										target="_self"
+										data-sveltekit-noscroll
 										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
