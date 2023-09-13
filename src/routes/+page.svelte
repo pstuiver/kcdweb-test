@@ -68,10 +68,10 @@
 								Elsje Stuiver - Occupational Therapy
 							</h1>
 							<div class="m-0 font-medium text-xs md:text-sm lg:text-base" aria-hidden="true">
-								Test Site V11
+								Test Site V12
 								{Math.round(homePageScrollY / 100)} -
 								{Math.round(getScrollY / 100)} -
-								{Math.round(test3/100)}
+								{Math.round(test3 / 100)}
 							</div>
 						</div>
 						<div class="hidden pl-2 py-1 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
@@ -516,10 +516,8 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a 
-										href="{base}/{servicesCard.link}"
-									
-										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
+									<a href="{base}/{servicesCard.link}" class="grid-card-btn n0-on-blue"
+										>{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
 						{/each}
@@ -562,10 +560,7 @@
 											{@html aboutCard.bodyHTML}
 										</div>
 									</div>
-									<a
-										href="{base}/{aboutCard.link}"
-										target="_self"
-										class="grid-card-btn blue-on-n50">
+									<a href="{base}/{aboutCard.link}" class="grid-card-btn blue-on-n50">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -598,7 +593,7 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a href="{base}/{mediaCard.link}" target="_self" class="grid-card-btn n0-on-blue">
+									<a href="{base}/{mediaCard.link}" class="grid-card-btn n0-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
@@ -686,7 +681,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a href="{base}/{locationLink}" target="_self"
+										<a href="{base}/{locationLink}"
 											><picture
 												><source
 													srcset="
