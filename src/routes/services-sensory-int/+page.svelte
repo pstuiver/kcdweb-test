@@ -96,9 +96,9 @@
 		</ul>
 		<p>
 			To achieve these aims the therapist may recommend a
-			<a href="{base}/{sensoryDietLink}" target="_self" class="views-link">Sensory Diet</a>
+			<a href="{base}/{sensoryDietLink}"   class="views-link">Sensory Diet</a>
 			or an
-			<a href="{base}/{alertLink}" target="_self" class="views-link">Alert Program</a>, depending on
+			<a href="{base}/{alertLink}"   class="views-link">Alert Program</a>, depending on
 			the child's needs and abilities.
 		</p>
 		<p class="text-center">- - - END - - -</p>

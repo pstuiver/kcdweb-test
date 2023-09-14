@@ -56,11 +56,11 @@
 				by participating in meaningful conversation and social interaction.
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{visualSchedulesLink}" target="_self" class="views-link"
+				<a href="{base}/{visualSchedulesLink}"   class="views-link"
 					>Implementing Visual Schedules</a>
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{socialStoriesLink}" target="_self" class="views-link"
+				<a href="{base}/{socialStoriesLink}"   class="views-link"
 					>Designing Social Stories</a>
 			</li>
 			<p class="mt-4">
