@@ -1,6 +1,13 @@
+// @ts-nocheck
 /** @type {import('./$types').PageLoad} */
 export async function load() {
 	const reviews = [
+		{ name: 'Avril Edwards', rating: 5, text: '(A 5-star rating without comment was provided)' },
+		{
+			name: 'Barbara Oelofse',
+			rating: 5,
+			text:'2 years ago, I knew that I needed help and took a chance to start OT with my daughter at 2 and a half years. Elsje is my lifeline, my village with whom I share all my concerns. I look to Elsje for a lot of answers, and she is always open to listen. OT has changed every aspect of my family’s day to day and I have gained the best relationship with my kids. Elsje is my go-to for everything regarding my kids! Thank you for being there for us.'
+		},
 		{
 			name: 'Zelda Snyders',
 			rating: 5,

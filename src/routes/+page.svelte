@@ -1,5 +1,5 @@
 <script>
-	/* Needed to remove all target="_self" from <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
+	/* Needed to remove all   from <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
@@ -330,18 +330,17 @@
 											Elsje Stuiver
 										</p>
 										<div class="text-left mt-4">
-											Following an
-											<a class="views-link" href="#about-ot" target="_self">Occupational Therapy</a>
-											degree from the University of Pretoria in 2008, Elsje obtained post-graduate qualifications
-											in Sensory Integration and DIR Floortime.
-											<div class="mt-2">
-												She is currently enrolled for an Honours degree in<a
-													class="views-link"
-													href="#about-aac"
-													target="_self"
-													>Augmentative and Alternative Communication (AAC)
-												</a>at the University of Pretoria.
-											</div>
+											Elsje obtained an
+											<a class="views-link" href="{base}/home-page-about-ot"
+												>Occupational Therapy</a>
+											degree from the University of Pretoria in 2008 followed by international, post-graduate
+											qualifications in
+											<a class="views-link" href="{base}/services-sensory-int"
+												>Sensory Integration</a>
+											and DIR & Floortime, and an Honours degree in
+											<a class="views-link" href="{base}/home-page-about-aac"
+												>Augmentative and Alternative Communication (AAC)
+											</a>at the University of Pretoria during 2023.
 											<p>
 												She has worked in paediatric private practice in South Africa and the United
 												Kingdom, delivering services to schools, nurseries, special education
@@ -362,8 +361,9 @@
 												developmental delay and sensory processing dysfunction.
 											</p>
 											<p>
-												Her specialist interest in Autism Spectrum Disorder has led her to complete
-												a variety of post-graduate courses on this topic.
+												Her specialist interest in <a class="views-link" href="{base}/about-autism"
+													>Autism Spectrum Disorder</a
+												>has led her to complete a variety of post-graduate courses on this topic.
 											</p>
 											<p>
 												Elsje believes in family involvement and education. She actively encourages
@@ -413,8 +413,9 @@
 										</p>
 										<div class="text-left mt-4">
 											Sharon joined us during 2023. She is a passionate and experienced Paediatric
-											Occupational Therapist who qualified at the University of Kwa-Zulu Natal in
-											2007.
+											<a class="views-link" href="{base}/home-page-about-ot"
+												>Occupational Therapist</a>
+											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
 												Since qualifying, she has worked in South Africa and more than fourteen
 												years in the United Kingdom as a Paediatric Occupational Therapist in
@@ -428,8 +429,9 @@
 											</p>
 											<p>
 												She has a particular interest in autism, has post-graduate training in
-												Sensory Integration and has completed other relevant training courses such
-												as Therapeutic Listening,
+												<a class="views-link" href="{base}/services-sensory-int"
+													>Sensory Integration</a>
+												and has completed other relevant training courses such as Therapeutic Listening,
 												<a
 													class="views-link"
 													href="https://scerts.com/"
@@ -438,7 +440,9 @@
 													>SCERTS<span class="sr-only">
 														, Warning, screen readers, this is an external link
 													</span></a>
-												and DIR/Floortime.
+												and
+												<a class="views-link" href="{base}/services-dir-floortime"
+													>DIR & Floortime.</a>
 											</p>
 											<p>
 												Sharon takes a holistic approach to therapy and uses a combination of

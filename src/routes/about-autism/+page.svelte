@@ -32,17 +32,16 @@
 				href="https://www.cdc.gov/ncbddd/autism/index.html"
 				target="_blank"
 				rel="noopener"
-				>CDC - ASD Homepage<span class="sr-only">
+				>CDC(USA) - ASD Homepage<span class="sr-only">
 					, Warning, screen readers, this is an external link
 				</span></a>
 		</p>
 		<p>
-			As experienced therapists we understand not only the importance of early ASD intervention but
-			also the impact that ASD can have on the entire family.
+			As experienced therapists we understand the importance of early Autism Spectrum Disorder (ASD) intervention and the impact that ASD can have on the entire family.
 		</p>
 		<p>
 			As no two children on the spectrum are the same, we take great care to develop aims and
-			targets that are specific to each individual child and family’s needs.
+			targets that are specific to each individual child and each family’s needs.
 		</p>
 		<p>
 			Our therapeutic interventions are focussed on family involvement and education, to generalise

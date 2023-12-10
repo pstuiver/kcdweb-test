@@ -19,7 +19,7 @@
 		<div class="flex items-center justify-center my-2">
 			<div class="text-base sm:text-xl md:text-2xl">Average</div>
 			<SVGFiveStar svgClass={'text-yellow-500 w-32 sm:w-48 -mt-1'} />
-			<div class="text-sm sm:text-lg md:text-xl">from 13 reviews</div>
+			<div class="text-sm sm:text-lg md:text-xl">from 15 reviews</div>
 		</div>
 
 		{#each reviews as review}
