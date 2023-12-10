@@ -1,7 +1,7 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
 	export let headerColor = 'blue-on-n50';
-	export let headerTitle = 'About Occupational Therapy';
+	export let headerTitle = 'Occupational Therapy';
 </script>
 
 <svelte:head>
