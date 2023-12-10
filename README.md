@@ -10,5 +10,5 @@ This worked perfectly in previous versions of the website when built with html/c
 
 Did not work with first SvelteKit iteration. Methods tried to fix included Svelte's built-in "snapshot" functionality to reset scrollY positions ... but this worked intermittently on mobile Safari devices (iPhones).
 
-Eventually, after many tries and tests, the problem was identified as the target="_self" attribute in the <a> tags.
-When the target="_self" was removed (and replaced with nothing) all the <a> tags started behaving as expected and would return to their previous scroll position when a back-button with history.go(-1) or history.back().
+Eventually, after many tries and tests, the problem was identified as the target="\_self" attribute in the <a> tags.
+When the target="\_self" was removed (and replaced with nothing) all the <a> tags started behaving as expected and would return to their previous scroll position when a back-button with history.go(-1) or history.back().

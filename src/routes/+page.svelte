@@ -683,8 +683,9 @@
 													src="./images/kcd-map/kcdmap_320x290.jpg"
 													alt="Google Map"
 													width="450"
-													height="407" /></picture
-											></a>
+													height="407" />
+											</picture>
+										</a>
 									</div>
 								</div>
 							</div>
