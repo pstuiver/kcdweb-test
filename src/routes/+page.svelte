@@ -596,11 +596,11 @@
 										<!-- Start of special 2023/2024 closed message (includes position:relative above)-->
 										<div class="absolute text-left mt-2 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
 											<p class="px-2 py-1 m-0">
-												Our practice will be closed for the summer school holidays from 15 Dec 2023
+												Our practice will close for the summer school holidays from 15 Dec 2023
 												to 20 Jan 2024.
 											</p>
 											<p class="px-2 py-1 m-0">
-												During this time we will monitor our email messages from time-to-time
+												During this time we will check our email messages from time-to-time
 												but not our phone
 											</p>
 										</div>
