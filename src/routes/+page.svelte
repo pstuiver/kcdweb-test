@@ -594,7 +594,7 @@
 									</div>
 									<div class="relative grid-card-text">
 										<!-- Start of special 2023/2024 closed message (includes position:relative above)-->
-										<div class="absolute text-left mt-2 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
+										<!-- <div class="absolute text-left mt-2 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
 											<p class="px-2 py-1 m-0">
 												Our practice will close for the summer school holidays from 15 Dec 2023
 												to 20 Jan 2024.
@@ -603,7 +603,7 @@
 												During this time we will check our email messages from time-to-time
 												but not our phone
 											</p>
-										</div>
+										</div> -->
 										<!-- End of special 2023/2024 closed message -->
 										<div>Mon to Fri 08h00 to 16h30</div>
 										<div>We work on a pay per appointment basis</div>

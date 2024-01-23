@@ -23,7 +23,7 @@
 		</p>
 		<p>
 			In addition, we support and strive to comply with The Protection of Personal Information Act
-			(POPIA) a South Africa privacy law that came into effect on 1 July 2021.
+			(POPIA) a South African privacy law that came into effect on 1 July 2021.
 		</p>
 		<p class="font-bold">How do we comply with information and privacy laws?</p>
 		<p class="mt-0">
