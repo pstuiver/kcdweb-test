@@ -100,7 +100,7 @@
                                     ./images/kidzLT/kidzLT_380x507.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg mx-auto"
+								class="rounded-lg mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/kidzLT/kidzLT_160x213.jpg"
 								alt="kids in therapy"
@@ -124,7 +124,7 @@
                                     ./images/kidzLM/kidzLM_380x507.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg mx-auto"
+							class="rounded-lg mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/kidzLM/kidzLM_160x213.jpg"
 								alt="kids in therapy"
@@ -148,7 +148,7 @@
                                     ./images/toyLB/toyLB_380x285.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg mx-auto"
+							class="rounded-lg mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/toyLB/toyLB_160x120.jpg"
 								alt="kids toys"
@@ -230,7 +230,7 @@
                                     ./images/kidzRT/kidzRT_380x507.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg m-4 mx-auto"
+								class="rounded-lg m-4 mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/kidzRT/kidzRT_160x213.jpg"
 								alt="kids in therapy"
@@ -254,7 +254,7 @@
                                     ./images/kidzRM/kidzRM_380x507.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg m-4 mx-auto"
+							class="rounded-lg m-4 mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/kidzRM/kidzRM_160x213.jpg"
 								alt="kids in therapy"
@@ -278,7 +278,7 @@
                                     ./images/toyRB/toyRB_380x285.avif 380w"
 								type="image/avif" />
 							<img
-								class="rounded-lg m-4 mx-auto"
+							class="rounded-lg m-4 mx-auto shadow-xl"
 								style="max-width: 190px"
 								src="./images/toyRB/toyRB_160x120.jpg"
 								alt="kids toys"
@@ -320,7 +320,7 @@
                                                     ./images/therapist-elsje/elsje600x760.avif 600w"
 												type="image/avif" />
 											<img
-												class="w-4/5 mx-auto rounded-md"
+												class="w-4/5 mx-auto rounded-md shadow-xl"
 												style="max-width: 300px"
 												src="./images/therapist-elsje/elsje300x380.jpg"
 												alt="Elsje Stuiver"
@@ -402,7 +402,7 @@
                                                     ./images/therapist-sharon/sharon600x760.avif 600w"
 												type="image/avif" />
 											<img
-												class="w-4/5 mx-auto rounded-md"
+												class="w-4/5 mx-auto rounded-md shadow-xl"
 												style="max-width: 300px"
 												src="./images/therapist-sharon/sharon300x380.jpg"
 												alt="Sharon Lewis"
