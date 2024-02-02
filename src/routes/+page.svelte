@@ -412,7 +412,7 @@
 											Sharon Lewis
 										</p>
 										<div class="text-left mt-4">
-											Sharon joined us during 2023. She is a passionate and experienced Paediatric
+											Sharon joined our practice as an independent contractor during 2023. She is a passionate and experienced Paediatric
 											<a class="views-link" href="{base}/home-page-about-ot"
 												>Occupational Therapist</a>
 											who qualified at the University of Kwa-Zulu Natal in 2007.
