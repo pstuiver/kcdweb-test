@@ -1,5 +1,5 @@
 <script>
-	/* Needed to remove all   from <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
+	/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
 	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
