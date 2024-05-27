@@ -187,7 +187,7 @@ const locationLink = `contact-location`;
             </div>
             <div class="text-center">
               <div class="mt-1">
-                We are a private Occupational Therapy practice located in Pinetown, Durban, South
+                We are an Occupational Therapy practice located in Pinetown, Durban, South
                 Africa.
               </div>
               <p>
