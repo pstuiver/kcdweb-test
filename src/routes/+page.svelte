@@ -517,7 +517,7 @@ const locationLink = `contact-location`;
               <div class="grid-2cols @container">
                 <!-- eslint-disable svelte/no-at-html-tags -->
                 <div class="grid-card n50-on-blue">
-                  <div class="section-id" id={aboutCard.id} />
+                  <div class="section-id" id={aboutCard.id}></div>
                   <div class="grid-card-top-outer">
                     <div class="grid-card-top-inner">
                       <div>
@@ -646,7 +646,7 @@ const locationLink = `contact-location`;
                           rows="5"
                           placeholder="Provide a telephone number for a telephonic response"
                           name="message"
-                          required="" />
+                          required=""></textarea>
                       </label>
                       <input type="text" name="_gotcha" style="display: none" aria-hidden="true" />
                       <button
@@ -673,7 +673,7 @@ const locationLink = `contact-location`;
                     <div class="mb-2">
                       <span class="font-bold">5 Gordon Road, Pinetown</span>
                     </div>
-                    <a href="{base}/{locationLink}"
+                    <a href="{base}/{locationLink}" aria-label="map"
                       ><picture
                         ><source
                           srcset="
