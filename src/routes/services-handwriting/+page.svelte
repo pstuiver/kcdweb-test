@@ -1,7 +1,7 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'n50-on-blue';
-	export let headerTitle = 'Handwriting';
+	const headerColor = 'n50-on-blue';
+	const headerTitle = 'Handwriting';
 </script>
 
 <svelte:head>

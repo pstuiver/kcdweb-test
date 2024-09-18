@@ -1,7 +1,7 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'n50-on-blue';
-	export let headerTitle = 'Client Reviews';
+	const headerColor = 'n50-on-blue';
+	const headerTitle = 'Client Reviews';
 	export let data;
 	const { reviews } = data;
 	import SVGFiveStar from '$lib/SVGFiveStar.svelte';

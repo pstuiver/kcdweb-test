@@ -1,7 +1,7 @@
 <script>
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'n50-on-blue';
-	export let headerTitle = 'Alert Program';
+	const headerColor = 'n50-on-blue';
+	const headerTitle = 'Alert Program';
 </script>
 
 <svelte:head>

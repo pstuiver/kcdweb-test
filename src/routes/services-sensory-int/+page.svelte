@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'n50-on-blue';
-	export let headerTitle = 'Sensory Integration';
+	const headerColor = 'n50-on-blue';
+	const headerTitle = 'Sensory Integration';
 	// Need this to make this link work in GH Pages build workflows
 	const alertLink = `services-alert-program`;
 	const sensoryDietLink = `services-sensory-diet`;

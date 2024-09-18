@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
-	export let headerColor = 'blue-on-n50';
-	export let headerTitle = 'Attention and Concentration';
+	const headerColor = 'blue-on-n50';
+	const headerTitle = 'Attention and Concentration';
 	// Need this to make this link work in GH Pages build workflows
 	const assessmentLink = `services-ot-assessment`;
 	const sensoryDietLink = `services-sensory-diet`;
