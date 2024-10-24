@@ -1,6 +1,6 @@
 <script>
-	export let headerColor = 'blue-on-n50';
-	export let headerTitle = 'Handwriting';
+	const headerColor ='blue-on-n50';
+	const headerTitle ='Handwriting';
 </script>
 
 <header class="views-head {headerColor} border-b border-neutral-50">
