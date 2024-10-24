@@ -3,6 +3,26 @@
 export async function load() {
   const reviews = [
     {
+      name: "Denise Harvey",
+      rating: 5,
+      text: "My daughter started with Elsje and has improved in leaps and bounds in the months we have been attending sessions. In also attending and participating, I am also able to help my daughter at home. We are so happy we chose Elsje and KidzCan.",
+    },
+    {
+      name: "Ayanda Mpanza",
+      rating: 5,
+      text: "(A 5-star rating without comment was provided)",
+    },
+    {
+      name: "Danashree Mc Allister",
+      rating: 5,
+      text: "Elsje is the best!!",
+    },
+    {
+      name: "Minenhle Ndlovu",
+      rating: 5,
+      text: "What an amazing experience for my daughter and I. Absolutely enjoyed our sessions with OT Sharon. She is just amazing and very good with the kids. Thank you so much for the amazing work you have done for our daughter and the family!!!❤️",
+    },
+    {
       name: "Avril Edwards",
       rating: 5,
       text: "(A 5-star rating without comment was provided)",
