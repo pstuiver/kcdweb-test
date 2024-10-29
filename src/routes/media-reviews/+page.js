@@ -3,6 +3,11 @@
 export async function load() {
   const reviews = [
     {
+      name: "Tazz",
+      rating: 5,
+      text: "Elsje has been fantastic with my son, she is patient and understanding and has helped him improve with a lot of things he was having issues with. She provides detailed feedback of all sessions and guidance for us to continue assisting him at home. I would definitely recommend Elsje to anyone who has a little one who needs extra help, love, care and guidance to overcome stepping stones while growing.",
+    },
+    {
       name: "Denise Harvey",
       rating: 5,
       text: "My daughter started with Elsje and has improved in leaps and bounds in the months we have been attending sessions. In also attending and participating, I am also able to help my daughter at home. We are so happy we chose Elsje and KidzCan.",

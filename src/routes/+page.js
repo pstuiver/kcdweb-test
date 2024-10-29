@@ -253,7 +253,7 @@ export async function load() {
       title: "Client Reviews",
       iconHTML: mediaReviewsSVG,
       bodyHTML: `<span class="font-bold">Rating average: 5 stars</span> 
-		 			<br /><span>from 19 reviews</span>`,
+		 			<br /><span>from 20 reviews</span>`,
       link: `media-reviews`,
       buttonHTML: `<span class="sr-only">Read our client</span>Reviews ...`,
     },
