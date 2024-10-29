@@ -1,13 +1,19 @@
 <script>
-	export let headerColor = 'blue-on-n50';
-	export let headerTitle = 'Handwriting';
+	/**
+	 * @typedef {Object} Props
+	 * @property {string} [headerColor]
+	 * @property {string} [headerTitle]
+	 */
+
+	/** @type {Props} */
+	let { headerColor = 'blue-on-n50', headerTitle = 'Handwriting' } = $props();
 </script>
 
 <header class="views-head {headerColor} border-b border-neutral-50">
 	<nav class="w-full">
 		<div class="w-full flex items-center justify-between">
 			<div class="flex items-center">
-				<!-- svelte-ignore a11y-invalid-attribute -->
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="javascript:history.back()">
 					<svg viewBox="0 0 48 48" class="views-head-icon">
 						<title>Back arrow icon</title>

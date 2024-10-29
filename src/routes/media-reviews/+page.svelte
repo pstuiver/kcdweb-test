@@ -2,10 +2,10 @@
 	import RouteHead from '$lib/RouteHead.svelte';
 	const headerColor = 'n50-on-blue';
 	const headerTitle = 'Client Reviews';
-	export let data;
 	const { reviews } = data;
 	import SVGFiveStar from '$lib/SVGFiveStar.svelte';
 	import SVGFourStar from '$lib/SVGFourStar.svelte';
+	let { data } = $props();
 </script>
 
 <svelte:head>

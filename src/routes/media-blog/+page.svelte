@@ -2,7 +2,7 @@
 	import RouteHead from '$lib/RouteHead.svelte';
 	const headerColor = 'n50-on-blue';
 	const headerTitle = 'Blog Posts';
-	export let data;
+	let { data } = $props();
 	const { blogSRC } = data;
 </script>
 
@@ -17,7 +17,7 @@
 		<div
 			class="absolute origin-top width-full h-screen scale-[0.43] xs:scale-[0.66]
 			md:scale-[1.0] -mt-16 xs:-mt-32 md:-mt-48">
-			<iframe title="kidzcandurban blog" width="780px" height="250%" class="" src={blogSRC} />
+			<iframe title="kidzcandurban blog" width="780px" height="250%" class="" src={blogSRC}></iframe>
 		</div>
 	</div>
 </div>

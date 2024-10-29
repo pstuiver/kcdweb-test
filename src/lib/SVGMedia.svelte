@@ -1,6 +1,12 @@
 <script>
-	export let svgClass = 'index-nav-svg';
-	export let ariaHidden = true;
+	/**
+	 * @typedef {Object} Props
+	 * @property {string} [svgClass]
+	 * @property {boolean} [ariaHidden]
+	 */
+
+	/** @type {Props} */
+	let { svgClass = 'index-nav-svg', ariaHidden = true } = $props();
 </script>
 
 <!-- Need wrapper div for Safari to render svg properly -->
