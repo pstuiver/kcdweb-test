@@ -1,17 +1,17 @@
 <script>
-/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
-import { base } from "$app/paths";
-import SVGHome from "$lib/SVGHome.svelte";
-import SVGTherapist from "$lib/SVGTherapist.svelte";
-import SVGServices from "$lib/SVGServices.svelte";
-import SVGAbout from "$lib/SVGAbout.svelte";
-import SVGMedia from "$lib/SVGMedia.svelte";
-import SVGContact from "$lib/SVGContact.svelte";
-import SVGTelephone from "$lib/SVGTelephone.svelte";
+  /* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
+  import { base } from "$app/paths";
+  import SVGHome from "$lib/SVGHome.svelte";
+  import SVGTherapist from "$lib/SVGTherapist.svelte";
+  import SVGServices from "$lib/SVGServices.svelte";
+  import SVGAbout from "$lib/SVGAbout.svelte";
+  import SVGMedia from "$lib/SVGMedia.svelte";
+  import SVGContact from "$lib/SVGContact.svelte";
+  import SVGTelephone from "$lib/SVGTelephone.svelte";
   let { data } = $props();
-const { servicesCards, aboutCards, mediaCards } = data;
-// Need this to make this link work in GH Pages build workflows
-const locationLink = `contact-location`;
+  const { servicesCards, aboutCards, mediaCards } = data;
+  // Need this to make this link work in GH Pages build workflows
+  const locationLink = `contact-location`;
 </script>
 
 <main>
@@ -187,8 +187,7 @@ const locationLink = `contact-location`;
             </div>
             <div class="text-center">
               <div class="mt-1">
-                We are an Occupational Therapy practice located in Pinetown, Durban, South
-                Africa.
+                We are an Occupational Therapy practice located in Pinetown, Durban, South Africa.
               </div>
               <p>
                 We specialise in assessing and treating problems that can affect children at home,
@@ -595,16 +594,17 @@ const locationLink = `contact-location`;
                   </div>
                   <div class="relative grid-card-text">
                     <!-- Start of special 2023/2024 closed message (includes position:relative above)-->
-                    <!-- <div class="absolute text-left mt-2 mr-1 bg-red-500 text-white rounded-lg 	-rotate-[5deg]">
-						<p class="px-2 py-1 m-0">
-							Our practice will close for the summer school holidays from 15 Dec 2023
-							to 20 Jan 2024.
-						</p>
-						<p class="px-2 py-1 m-0">
-							During this time we will check our email messages from time-to-time
-							but not our phone
-						</p>
-					</div> -->
+                    <div
+                      class="absolute text-left mt-16 mr-1 bg-red-500 text-white rounded-lg -rotate-[5deg]">
+                      <p class="px-2 py-1 m-0">
+                        We are sorry to inform that after eight wonderful years, Elsje Stuiver will
+                        be relocating at the end of 2024.
+                      </p>
+                      <p class="px-2 py-1 m-0">
+                        As a result, this Occupational Therapy practice will be closing at the end
+                        of the 2024 school year.
+                      </p>
+                    </div>
                     <!-- End of special 2023/2024 closed message -->
                     <div>Mon to Fri 08h00 to 16h30</div>
                     <div>We work on a pay per appointment basis</div>
