@@ -602,7 +602,10 @@
                       </p>
                       <p class="px-2 py-1 m-0">
                         As a result, this Occupational Therapy practice will be closing at the end
-                        of the 2024 school year.
+                        of November 2024.
+                      </p>
+                      <p class="px-2 py-1 m-0">
+                       We apologise for any inconvenience caused.
                       </p>
                     </div>
                     <!-- End of special 2023/2024 closed message -->
