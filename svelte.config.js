@@ -13,8 +13,8 @@ const config = {
       base: process.env.NODE_ENV === "production" ? "/kcdweb-test" : "",
     },
     output: {
-      bundleStrategy: "single"
-    }
+      bundleStrategy: "single",
+    },
   },
 };
 
