@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	const headerColor = 'blue-on-n50';
-	const headerTitle = `<h1 class="sr-only">Augmentative Alternative Communication</h1>
+	const headerTitle = `<h1 class="sr-only text-md">Augmentative Alternative Communication</h1>
 		<div class="views-head-text" aria-hidden="true">
 			A<span class="hidden xs:inline tracking-tight">ugmentative</span>
 			A<span class="hidden xs:inline tracking-tight">lternative</span>
