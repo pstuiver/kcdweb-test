@@ -23,9 +23,9 @@
 		</p>
 		<p>
 			Hence our focus on conducting comprehensive
-			<a class="views-link" href={resolve(`/${assessmentLink}`)}>Occupational Therapy assessments</a
-			>to assist our therapists in identifying aspects that may be affecting a child’s ability to
-			focus and attend.
+			<a class="views-link" href={resolve(`/${assessmentLink}`)} >Occupational Therapy assessments</a>to
+			assist our therapists in identifying aspects that may be affecting a child’s ability to focus
+			and attend.
 		</p>
 		<p>
 			Our therapists are qualified and experienced to treat attention and concentration difficulties

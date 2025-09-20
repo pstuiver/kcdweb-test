@@ -98,8 +98,8 @@
 			To achieve these aims the therapist may recommend a
 			<a href={resolve(`/${sensoryDietLink}`)} class="views-link">Sensory Diet</a>
 			or an
-			<a href={resolve(`/${alertLink}`)} class="views-link">Alert Program</a>, depending on the
-			child's needs and abilities.
+			<a href={resolve(`/${alertLink}`)} class="views-link">Alert Program</a>, depending on the child's
+			needs and abilities.
 		</p>
 		<p class="text-center">- - - END - - -</p>
 	</main>
