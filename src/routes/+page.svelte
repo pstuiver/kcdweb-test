@@ -29,12 +29,12 @@
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.avif 113w,/images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.avif 184w,/images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
+									"./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.avif 113w,./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.avif 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
 								)}
 								type="image/avif" />
 							<img
 								class="ml-2 hidden py-1 xs:flex xs:w-24 md:w-28 lg:w-32"
-								src={resolve("/images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.png")}
+								src={resolve("./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.png")}
 								alt="Kidzcan logo"
 								width="113"
 								height="45"
@@ -83,54 +83,54 @@
 						<picture
 							><source
 								srcset={resolve(
-									"/images/kidzLT/kidzLT_110x147.webp 110w,/images/kidzLT/kidzLT_160x213.webp 160w,/images/kidzLT/kidzLT_190x253.webp 190w,/images/kidzLT/kidzLT_320x427.webp 320w,/images/kidzLT/kidzLT_380x507.webp 380w"
+									"./images/kidzLT/kidzLT_110x147.webp 110w,./images/kidzLT/kidzLT_160x213.webp 160w,./images/kidzLT/kidzLT_190x253.webp 190w,./images/kidzLT/kidzLT_320x427.webp 320w,./images/kidzLT/kidzLT_380x507.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/kidzLT/kidzLT_110x147.avif 110w,/images/kidzLT/kidzLT_160x213.avif 160w,/images/kidzLT/kidzLT_190x253.avif 190w,/images/kidzLT/kidzLT_320x427.avif 320w,/images/kidzLT/kidzLT_380x507.avif 380w"
+									"./images/kidzLT/kidzLT_110x147.avif 110w,./images/kidzLT/kidzLT_160x213.avif 160w,./images/kidzLT/kidzLT_190x253.avif 190w,./images/kidzLT/kidzLT_320x427.avif 320w,./images/kidzLT/kidzLT_380x507.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/kidzLT/kidzLT_160x213.jpg")}
+								src={resolve("./images/kidzLT/kidzLT_160x213.jpg")}
 								alt="kids in therapy"
 								width="160"
 								height="213" /></picture>
 						<picture
 							><source
 								srcset={resolve(
-									"/images/kidzLM/kidzLM_110x147.webp 110w,/images/kidzLM/kidzLM_160x213.webp 160w,/images/kidzLM/kidzLM_190x253.webp 190w,/images/kidzLM/kidzLM_320x427.webp 320w,/images/kidzLM/kidzLM_380x507.webp 380w"
+									"./images/kidzLM/kidzLM_110x147.webp 110w,./images/kidzLM/kidzLM_160x213.webp 160w,./images/kidzLM/kidzLM_190x253.webp 190w,./images/kidzLM/kidzLM_320x427.webp 320w,./images/kidzLM/kidzLM_380x507.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/kidzLM/kidzLM_110x147.avif 110w,/images/kidzLM/kidzLM_160x213.avif 160w,/images/kidzLM/kidzLM_190x253.avif 190w,/images/kidzLM/kidzLM_320x427.avif 320w,/images/kidzLM/kidzLM_380x507.avif 380w"
+									"./images/kidzLM/kidzLM_110x147.avif 110w,./images/kidzLM/kidzLM_160x213.avif 160w,./images/kidzLM/kidzLM_190x253.avif 190w,./images/kidzLM/kidzLM_320x427.avif 320w,./images/kidzLM/kidzLM_380x507.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/kidzLM/kidzLM_160x213.jpg")}
+								src={resolve("./images/kidzLM/kidzLM_160x213.jpg")}
 								alt="kids in therapy"
 								width="160"
 								height="213" /></picture>
 						<picture
 							><source
 								srcset={resolve(
-									"/images/toyLB/toyLB_110x83.webp 110w,/images/toyLB/toyLB_160x120.webp 160w,/images/toyLB/toyLB_190x143.webp 190w,/images/toyLB/toyLB_320x240.webp 320w,/images/toyLB/toyLB_380x285.webp 380w"
+									"./images/toyLB/toyLB_110x83.webp 110w,./images/toyLB/toyLB_160x120.webp 160w,./images/toyLB/toyLB_190x143.webp 190w,./images/toyLB/toyLB_320x240.webp 320w,./images/toyLB/toyLB_380x285.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/toyLB/toyLB_110x83.avif 110w,/images/toyLB/toyLB_160x120.avif 160w,/images/toyLB/toyLB_190x143.avif 190w,/images/toyLB/toyLB_320x240.avif 320w,/images/toyLB/toyLB_380x285.avif 380w"
+									"./images/toyLB/toyLB_110x83.avif 110w,./images/toyLB/toyLB_160x120.avif 160w,./images/toyLB/toyLB_190x143.avif 190w,./images/toyLB/toyLB_320x240.avif 320w,./images/toyLB/toyLB_380x285.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/toyLB/toyLB_160x120.jpg")}
+								src={resolve("./images/toyLB/toyLB_160x120.jpg")}
 								alt="kids toys"
 								width="160"
 								height="120" /></picture>
@@ -143,19 +143,19 @@
 								<picture
 									><source
 										srcset={resolve(
-											"/images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.webp 200w,/images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.webp 300w,/images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w"
+											"./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.webp 200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.webp 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w"
 										)}
 										type="image/webp" />
 									<source
 										srcset={resolve(
-											"/images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif 200w,/images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,/images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
+											"./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif 200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
 										)}
 										type="image/avif" />
 									<img
 										class="rounded pt-2"
 										style="max-width: 300px"
 										src={resolve(
-											"/images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.png"
+											"./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.png"
 										)}
 										alt="Kidzcan logo"
 										width="300"
@@ -194,54 +194,54 @@
 						<picture
 							><source
 								srcset={resolve(
-									"/images/kidzRT/kidzRT_110x147.webp 110w,/images/kidzRT/kidzRT_160x213.webp 160w,/images/kidzRT/kidzRT_190x253.webp 190w,/images/kidzRT/kidzRT_320x427.webp 320w,/images/kidzRT/kidzRT_380x507.webp 380w"
+									"./images/kidzRT/kidzRT_110x147.webp 110w,./images/kidzRT/kidzRT_160x213.webp 160w,./images/kidzRT/kidzRT_190x253.webp 190w,./images/kidzRT/kidzRT_320x427.webp 320w,./images/kidzRT/kidzRT_380x507.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/kidzRT/kidzRT_110x147.avif 110w,/images/kidzRT/kidzRT_160x213.avif 160w,/images/kidzRT/kidzRT_190x253.avif 190w,/images/kidzRT/kidzRT_320x427.avif 320w,/images/kidzRT/kidzRT_380x507.avif 380w"
+									"./images/kidzRT/kidzRT_110x147.avif 110w,./images/kidzRT/kidzRT_160x213.avif 160w,./images/kidzRT/kidzRT_190x253.avif 190w,./images/kidzRT/kidzRT_320x427.avif 320w,./images/kidzRT/kidzRT_380x507.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/kidzRT/kidzRT_160x213.jpg")}
+								src={resolve("./images/kidzRT/kidzRT_160x213.jpg")}
 								alt="kids in therapy"
 								width="160"
 								height="213" /></picture>
 						<picture
 							><source
 								srcset={resolve(
-									"/images/kidzRM/kidzRM_110x147.webp 110w,/images/kidzRM/kidzRM_160x213.webp 160w,/images/kidzRM/kidzRM_190x253.webp 190w,/images/kidzRM/kidzRM_320x427.webp 320w,/images/kidzRM/kidzRM_380x507.webp 380w"
+									"./images/kidzRM/kidzRM_110x147.webp 110w,./images/kidzRM/kidzRM_160x213.webp 160w,./images/kidzRM/kidzRM_190x253.webp 190w,./images/kidzRM/kidzRM_320x427.webp 320w,./images/kidzRM/kidzRM_380x507.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/kidzRM/kidzRM_110x147.avif 110w,/images/kidzRM/kidzRM_160x213.avif 160w,/images/kidzRM/kidzRM_190x253.avif 190w,/images/kidzRM/kidzRM_320x427.avif 320w,/images/kidzRM/kidzRM_380x507.avif 380w"
+									"./images/kidzRM/kidzRM_110x147.avif 110w,./images/kidzRM/kidzRM_160x213.avif 160w,./images/kidzRM/kidzRM_190x253.avif 190w,./images/kidzRM/kidzRM_320x427.avif 320w,./images/kidzRM/kidzRM_380x507.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/kidzRM/kidzRM_160x213.jpg")}
+								src={resolve("./images/kidzRM/kidzRM_160x213.jpg")}
 								alt="kids in therapy"
 								width="160"
 								height="213" /></picture>
 						<picture
 							><source
 								srcset={resolve(
-									"/images/toyRB/toyRB_110x83.webp 110w,/images/toyRB/toyRB_160x120.webp 160w,/images/toyRB/toyRB_190x143.webp 190w,/images/toyRB/toyRB_320x240.webp 320w,/images/toyRB/toyRB_380x285.webp 380w"
+									"./images/toyRB/toyRB_110x83.webp 110w,./images/toyRB/toyRB_160x120.webp 160w,./images/toyRB/toyRB_190x143.webp 190w,./images/toyRB/toyRB_320x240.webp 320w,./images/toyRB/toyRB_380x285.webp 380w"
 								)}
 								type="image/webp" />
 							<source
 								srcset={resolve(
-									"/images/toyRB/toyRB_110x83.avif 110w,/images/toyRB/toyRB_160x120.avif 160w,/images/toyRB/toyRB_190x143.avif 190w,/images/toyRB/toyRB_320x240.avif 320w,/images/toyRB/toyRB_380x285.avif 380w"
+									"./images/toyRB/toyRB_110x83.avif 110w,./images/toyRB/toyRB_160x120.avif 160w,./images/toyRB/toyRB_190x143.avif 190w,./images/toyRB/toyRB_320x240.avif 320w,./images/toyRB/toyRB_380x285.avif 380w"
 								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
 								style="max-width: 190px"
-								src={resolve("/images/toyRB/toyRB_160x120.jpg")}
+								src={resolve("./images/toyRB/toyRB_160x120.jpg")}
 								alt="kids toys"
 								width="160"
 								height="120" /></picture>
@@ -268,18 +268,18 @@
 										<picture
 											><source
 												srcset={resolve(
-													"/images/therapist-elsje/elsje200x253.webp 200w,/images/therapist-elsje/elsje300x380.webp 300w,/images/therapist-elsje/elsje400x506.webp 400w,/images/therapist-elsje/elsje600x760.webp 600w"
+													"./images/therapist-elsje/elsje200x253.webp 200w,./images/therapist-elsje/elsje300x380.webp 300w,./images/therapist-elsje/elsje400x506.webp 400w,./images/therapist-elsje/elsje600x760.webp 600w"
 												)}
 												type="image/webp" />
 											<source
 												srcset={resolve(
-													"/images/therapist-elsje/elsje200x253.avif 200w,/images/therapist-elsje/elsje300x380.avif 300w,/images/therapist-elsje/elsje400x506.avif 400w,/images/therapist-elsje/elsje600x760.avif 600w"
+													"./images/therapist-elsje/elsje200x253.avif 200w,./images/therapist-elsje/elsje300x380.avif 300w,./images/therapist-elsje/elsje400x506.avif 400w,./images/therapist-elsje/elsje600x760.avif 600w"
 												)}
 												type="image/avif" />
 											<img
 												class="mx-auto w-4/5 rounded-md shadow-xl"
 												style="max-width: 300px"
-												src={resolve("/images/therapist-elsje/elsje300x380.jpg")}
+												src={resolve("./images/therapist-elsje/elsje300x380.jpg")}
 												alt="Elsje Stuiver"
 												width="300"
 												height="380" /></picture>
@@ -347,18 +347,18 @@
 										<picture
 											><source
 												srcset={resolve(
-													"/images/therapist-sharon/sharon200x253.webp 200w,/images/therapist-sharon/sharon300x380.webp 300w,/images/therapist-sharon/sharon400x506.webp 400w,/images/therapist-sharon/sharon600x760.webp 600w"
+													"./images/therapist-sharon/sharon200x253.webp 200w,./images/therapist-sharon/sharon300x380.webp 300w,./images/therapist-sharon/sharon400x506.webp 400w,./images/therapist-sharon/sharon600x760.webp 600w"
 												)}
 												type="image/webp" />
 											<source
 												srcset={resolve(
-													"/images/therapist-sharon/sharon200x253.avif 200w,/images/therapist-sharon/sharon300x380.avif 300w,/images/therapist-sharon/sharon400x506.avif 400w,/images/therapist-sharon/sharon600x760.avif 600w"
+													"./images/therapist-sharon/sharon200x253.avif 200w,./images/therapist-sharon/sharon300x380.avif 300w,./images/therapist-sharon/sharon400x506.avif 400w,./images/therapist-sharon/sharon600x760.avif 600w"
 												)}
 												type="image/avif" />
 											<img
 												class="mx-auto w-4/5 rounded-md shadow-xl"
 												style="max-width: 300px"
-												src={resolve("/images/therapist-sharon/sharon300x380.jpg")}
+												src={resolve("./images/therapist-sharon/sharon300x380.jpg")}
 												alt="Sharon Lewis"
 												width="300"
 												height="380" /></picture>
@@ -635,17 +635,17 @@
 											><picture
 												><source
 													srcset={resolve(
-														"/images/kcd-map/kcdmap_260x235.webp 260w,/images/kcd-map/kcdmap_320x290.webp 320w,/images/kcd-map/kcdmap_450x407.webp 450w,/images/kcd-map/kcdmap_640x579.webp 640w,/images/kcd-map/kcdmap_900x814.webp 900w"
+														"./images/kcd-map/kcdmap_260x235.webp 260w,./images/kcd-map/kcdmap_320x290.webp 320w,./images/kcd-map/kcdmap_450x407.webp 450w,./images/kcd-map/kcdmap_640x579.webp 640w,./images/kcd-map/kcdmap_900x814.webp 900w"
 													)}
 													type="image/webp" />
 												<source
 													srcset={resolve(
-														"/images/kcd-map/kcdmap_260x235.avif 260w,/images/kcd-map/kcdmap_320x290.avif 320w,/images/kcd-map/kcdmap_450x407.avif 450w,/images/kcd-map/kcdmap_640x579.avif 640w,/images/kcd-map/kcdmap_900x814.avif 900w"
+														"./images/kcd-map/kcdmap_260x235.avif 260w,./images/kcd-map/kcdmap_320x290.avif 320w,./images/kcd-map/kcdmap_450x407.avif 450w,./images/kcd-map/kcdmap_640x579.avif 640w,./images/kcd-map/kcdmap_900x814.avif 900w"
 													)}
 													type="image/avif" />
 												<img
 													class="mx-auto mt-4 w-full rounded-md"
-													src={resolve("/images/kcd-map/kcdmap_320x290.jpg")}
+													src={resolve("./images/kcd-map/kcdmap_320x290.jpg")}
 													alt="Google Map"
 													width="450"
 													height="407" />
