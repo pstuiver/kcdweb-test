@@ -1,34 +1,35 @@
-import eslintPluginSvelte from "eslint-plugin-svelte";
+import js from '@eslint/js';
+import svelte from 'eslint-plugin-svelte';
+import prettier from 'eslint-config-prettier';
+import globals from 'globals';
 
+/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
-	...eslintPluginSvelte.configs["flat/prettier"],
-
-	{
-		files: ["**/*.js", "**/*.svelte", "*.svelte"],
-		ignores: [
-			"**/*.test.js",
-			"**/pnpm-lock.yaml",
-			"**/package-lock.json",
-			"**/yarn.lock",
-			"**/.DS_Store",
-			"node_modules",
-			"/build",
-			"/.svelte-kit",
-			"/.vscode",
-			"/package.*",
-			"**/.*",
-			"**/!.*"
-		]
-	},
+	js.configs.recommended,
+	...svelte.configs['flat/recommended'],
+	prettier,
+	...svelte.configs['flat/prettier'],
 	{
 		languageOptions: {
 			globals: {
-				document: true,
-				process: true
+				...globals.browser,
+				...globals.node
 			}
 		},
 		rules: {
-			"svelte/no-at-html-tags": "off"
+			'svelte/no-at-html-tags': 'off',
+			'svelte/no-navigation-without-resolve': 'off'
 		}
+	},
+	{
+		ignores: [
+			'build/',
+			'.svelte-kit/',
+			'.vercel/',
+			'.vscode/',
+			'dist/',
+			'TEMPDIR/',
+			'sx-templateCSV-Svelte4/'
+		]
 	}
 ];
