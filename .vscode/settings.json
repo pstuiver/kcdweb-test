@@ -1,37 +1,11 @@
 {
-	"cSpell.words": [
-		"downloadlink",
-		"hbyte",
-		"kcdmap",
-		"Khuma",
-		"kidz",
-		"Kidzcan",
-		"lternative",
-		"MONGOID",
-		"POPIA",
-		"SCERTS",
-		"ugmentative",
-		"vars"
-	],
-	"cSpell.ignorePaths": [
-		"package-lock.json",
-		"node_modules",
-		"vscode-extension",
-		".git/{info,lfs,logs,refs,objects}/**",
-		".git/{index,*refs,*HEAD}",
-		".vscode",
-		".vscode-insiders",
-		".github",
-		".svelte-kit",
-		".vercel",
-		"sx-templateCSV-Svelte4",
-		"studentGroup_backups_gitignore"
-	],
-	"cSpell.spellCheckOnlyWorkspaceFiles": true,
-	"mcp.servers": {
-		"svelte-llm": {
-			"url": "https://svelte-llm.khromov.se/mcp/mcp",
-			"type": "http"
-		}
-	}
+  "cSpell.words": [
+    "kcdmap",
+    "kidz",
+    "Kidzcan",
+    "lternative",
+    "POPIA",
+    "SCERTS",
+    "ugmentative"
+  ]
 }

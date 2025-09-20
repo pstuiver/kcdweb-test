@@ -6,12 +6,12 @@
 	 */
 
 	/** @type {Props} */
-	let { headerColor = "blue-on-n50", headerTitle = "Handwriting" } = $props();
+	let { headerColor = 'blue-on-n50', headerTitle = 'Handwriting' } = $props();
 </script>
 
 <header class="views-head {headerColor} border-b border-neutral-50">
 	<nav class="w-full">
-		<div class="flex w-full items-center justify-between">
+		<div class="w-full flex items-center justify-between">
 			<div class="flex items-center">
 				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="javascript:history.back()">

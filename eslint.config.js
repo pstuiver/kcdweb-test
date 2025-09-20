@@ -1,34 +1,34 @@
-import js from "@eslint/js";
-import svelte from "eslint-plugin-svelte";
-import prettier from "eslint-config-prettier";
-import globals from "globals";
+import eslintPluginSvelte from "eslint-plugin-svelte";
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
-	js.configs.recommended,
-	...svelte.configs["flat/recommended"],
-	prettier,
-	...svelte.configs["flat/prettier"],
-	{
-		languageOptions: {
-			globals: {
-				...globals.browser,
-				...globals.node
-			}
-		},
-		rules: {
-			"svelte/no-at-html-tags": "off"
-		}
-	},
-	{
-		ignores: [
-			"build/",
-			".svelte-kit/",
-			".vercel/",
-			".vscode/",
-			"dist/",
-			"node_modules",
-			"OLD Setup Files/"
-		]
-	}
+  ...eslintPluginSvelte.configs["flat/prettier"],
+
+  {
+    files: ["**/*.js", "**/*.svelte", "*.svelte"],
+    ignores: [
+      "**/*.test.js",
+      "**/pnpm-lock.yaml",
+      "**/package-lock.json",
+      "**/yarn.lock",
+      "**/.DS_Store",
+      "node_modules",
+      "/build",
+      "/.svelte-kit",
+      "/.vscode",
+      "/package.*",
+      "**/.*",
+      "**/!.*",
+    ],
+  },
+  {
+    languageOptions: {
+      globals: {
+        document: true,
+        process: true,
+      },
+    },
+    rules: {
+      "svelte/no-at-html-tags": "off",
+    },
+  },
 ];

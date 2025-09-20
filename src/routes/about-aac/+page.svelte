@@ -1,7 +1,7 @@
 <script>
-	import { base } from "$app/paths";
-	import RouteHead from "$lib/RouteHead.svelte";
-	const headerColor = "blue-on-n50";
+	import { base } from '$app/paths';
+	import RouteHead from '$lib/RouteHead.svelte';
+	const headerColor = 'blue-on-n50';
 	const headerTitle = `<h1 class="sr-only text-md">Augmentative Alternative Communication</h1>
 		<div class="views-head-text" aria-hidden="true">
 			A<span class="hidden xs:inline tracking-tight">ugmentative</span>
@@ -33,13 +33,13 @@
 		<p>Our AAC services may include</p>
 		<ul class="views-list-item">
 			<li class="mt-2">
-				<span class="block font-semibold italic">Training and use of Makaton</span>
+				<span class="font-semibold italic block">Training and use of Makaton</span>
 				Makaton is a system of communication that uses signs, symbols, and gestures to help people who
 				struggle with speaking or understanding spoken language. It uses hand movements, facial expressions
 				and pictures to convey meaning and to improve understanding.
 			</li>
 			<li class="mt-2">
-				<span class="block font-semibold italic">Graphic Symbol use</span>
+				<span class="font-semibold italic block">Graphic Symbol use</span>
 				Symbols can be pictures, drawings or icons that represent specific words or concepts. For parents,
 				the use of graphic symbols can be incredibly beneficial to engage in meaningful interactions
 				with their child. It provides an alternative way for both parents and children to express their
@@ -48,7 +48,7 @@
 			</li>
 
 			<li class="mt-2">
-				<span class="block font-semibold italic">Advice on Speech Generating Devices</span>
+				<span class="font-semibold italic block">Advice on Speech Generating Devices</span>
 				Speech generating devices (SGDs) are electronic devices that produce spoken output. Using an
 				SGD, a child can select symbols by touch or by alternative methods such as eye gaze or switches,
 				to generate synthesized speech. SGDs can be customised to meet each child's specific needs, store
@@ -56,10 +56,12 @@
 				by participating in meaningful conversation and social interaction.
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{visualSchedulesLink}" class="views-link">Implementing Visual Schedules</a>
+				<a href="{base}/{visualSchedulesLink}"   class="views-link"
+					>Implementing Visual Schedules</a>
 			</li>
 			<li class="mt-3">
-				<a href="{base}/{socialStoriesLink}" class="views-link">Designing Social Stories</a>
+				<a href="{base}/{socialStoriesLink}"   class="views-link"
+					>Designing Social Stories</a>
 			</li>
 			<p class="mt-4">
 				If your child has difficulty making their thoughts, needs and feelings known, they may

@@ -1,8 +1,8 @@
 <script>
-	import { base } from "$app/paths";
-	import RouteHead from "$lib/RouteHead.svelte";
-	const headerColor = "n50-on-blue";
-	const headerTitle = "Sensory Integration";
+	import { base } from '$app/paths';
+	import RouteHead from '$lib/RouteHead.svelte';
+	const headerColor = 'n50-on-blue';
+	const headerTitle = 'Sensory Integration';
 	// Need this to make this link work in GH Pages build workflows
 	const alertLink = `services-alert-program`;
 	const sensoryDietLink = `services-sensory-diet`;
@@ -96,10 +96,10 @@
 		</ul>
 		<p>
 			To achieve these aims the therapist may recommend a
-			<a href="{base}/{sensoryDietLink}" class="views-link">Sensory Diet</a>
+			<a href="{base}/{sensoryDietLink}"   class="views-link">Sensory Diet</a>
 			or an
-			<a href="{base}/{alertLink}" class="views-link">Alert Program</a>, depending on the child's
-			needs and abilities.
+			<a href="{base}/{alertLink}"   class="views-link">Alert Program</a>, depending on
+			the child's needs and abilities.
 		</p>
 		<p class="text-center">- - - END - - -</p>
 	</main>
