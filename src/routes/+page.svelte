@@ -290,7 +290,7 @@
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGTherapist svgClass="section-head-svg" />
-					<h1 class="section-head-text">THERAPISTS</h1>
+					<div class="section-head-text">THERAPISTS</div>
 					<SVGTherapist svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
@@ -475,7 +475,7 @@
 				<div id="services" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGServices svgClass="section-head-svg" />
-					<h1 class="section-head-text">SERVICES</h1>
+					<div class="section-head-text">SERVICES</div>
 					<SVGServices svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
@@ -507,7 +507,7 @@
 				<div id="about" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGAbout svgClass="section-head-svg" />
-					<h1 class="section-head-text">ABOUT</h1>
+					<div class="section-head-text">ABOUT</div>
 					<SVGAbout svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
@@ -552,7 +552,7 @@
 				<div id="media" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGMedia svgClass="section-head-svg" />
-					<h1 class="section-head-text">MEDIA</h1>
+					<div class="section-head-text">MEDIA</div>
 					<SVGMedia svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
@@ -583,7 +583,7 @@
 			</section>
 			<section class="section-wrapper blue-on-n0">
 				<div id="contact" class="section-id">&nbsp;</div>
-				<div class="section-head"><h1 class="section-head-text">CONTACT US</h1></div>
+				<div class="section-head"><div class="section-head-text">CONTACT US</div></div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
 						<div class="grid-2cols">

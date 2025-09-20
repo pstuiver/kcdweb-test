@@ -23,7 +23,7 @@
 				<span class="views-head-back" aria-hidden="true">back</span>
 			</div>
 			<!-- eslint-disable svelte/no-at-html-tags -->
-			<h1 class="views-head-text">{@html headerTitle}</h1>
+			<div class="views-head-text">{@html headerTitle}</div>
 			<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
 		</div>
 	</nav>

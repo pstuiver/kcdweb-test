@@ -17,7 +17,7 @@
 					<span class="views-head-back" aria-hidden="true">back</span>
 				</div>
 
-				<h1 class="views-head-text">Our Location</h1>
+				<div class="views-head-text">Our Location</div>
 				<div class="views-head-dummy" aria-hidden="true">&nbsp;</div>
 			</div>
 		</nav>
