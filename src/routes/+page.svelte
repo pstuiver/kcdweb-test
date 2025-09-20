@@ -23,10 +23,14 @@
 					<div class="flex w-full flex-row items-center">
 						<picture
 							><source
-								srcset="./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.webp 113w,./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.webp 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w"
+								srcset={resolve(
+									"./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.webp 113w,./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.webp 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.avif 113w, ./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.avif 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
+								srcset={resolve(
+									"./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.avif 113w, ./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.avif 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
+								)}
 								type="image/avif" />
 							<img
 								class="ml-2 hidden py-1 xs:flex xs:w-24 md:w-28 lg:w-32"
@@ -78,10 +82,14 @@
 						aria-hidden="true">
 						<picture
 							><source
-								srcset="./images/kidzLT/kidzLT_110x147.webp 110w,./images/kidzLT/kidzLT_160x213.webp 160w,./images/kidzLT/kidzLT_190x253.webp 190w,./images/kidzLT/kidzLT_320x427.webp 320w,./images/kidzLT/kidzLT_380x507.webp 380w"
+								srcset={resolve(
+									"./images/kidzLT/kidzLT_110x147.webp 110w,./images/kidzLT/kidzLT_160x213.webp 160w,./images/kidzLT/kidzLT_190x253.webp 190w,./images/kidzLT/kidzLT_320x427.webp 320w,./images/kidzLT/kidzLT_380x507.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/kidzLT/kidzLT_110x147.avif 110w,./images/kidzLT/kidzLT_160x213.avif 160w,./images/kidzLT/kidzLT_190x253.avif 190w,./images/kidzLT/kidzLT_320x427.avif 320w,./images/kidzLT/kidzLT_380x507.avif 380w"
+								srcset={resolve(
+									"./images/kidzLT/kidzLT_110x147.avif 110w,./images/kidzLT/kidzLT_160x213.avif 160w,./images/kidzLT/kidzLT_190x253.avif 190w,./images/kidzLT/kidzLT_320x427.avif 320w,./images/kidzLT/kidzLT_380x507.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
@@ -92,10 +100,14 @@
 								height="213" /></picture>
 						<picture
 							><source
-								srcset="./images/kidzLM/kidzLM_110x147.webp 110w,./images/kidzLM/kidzLM_160x213.webp 160w,./images/kidzLM/kidzLM_190x253.webp 190w,./images/kidzLM/kidzLM_320x427.webp 320w,./images/kidzLM/kidzLM_380x507.webp 380w"
+								srcset={resolve(
+									"./images/kidzLM/kidzLM_110x147.webp 110w,./images/kidzLM/kidzLM_160x213.webp 160w,./images/kidzLM/kidzLM_190x253.webp 190w,./images/kidzLM/kidzLM_320x427.webp 320w,./images/kidzLM/kidzLM_380x507.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/kidzLM/kidzLM_110x147.avif 110w,./images/kidzLM/kidzLM_160x213.avif 160w,./images/kidzLM/kidzLM_190x253.avif 190w,./images/kidzLM/kidzLM_320x427.avif 320w,./images/kidzLM/kidzLM_380x507.avif 380w"
+								srcset={resolve(
+									"./images/kidzLM/kidzLM_110x147.avif 110w,./images/kidzLM/kidzLM_160x213.avif 160w,./images/kidzLM/kidzLM_190x253.avif 190w,./images/kidzLM/kidzLM_320x427.avif 320w,./images/kidzLM/kidzLM_380x507.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
@@ -106,10 +118,14 @@
 								height="213" /></picture>
 						<picture
 							><source
-								srcset="./images/toyLB/toyLB_110x83.webp110w,./images/toyLB/toyLB_160x120.webp 160w,./images/toyLB/toyLB_190x143.webp 190w,./images/toyLB/toyLB_320x240.webp 320w,./images/toyLB/toyLB_380x285.webp 380w"
+								srcset={resolve(
+									"./images/toyLB/toyLB_110x83.webp 110w,./images/toyLB/toyLB_160x120.webp 160w,./images/toyLB/toyLB_190x143.webp 190w,./images/toyLB/toyLB_320x240.webp 320w,./images/toyLB/toyLB_380x285.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/toyLB/toyLB_110x83.avif110w,./images/toyLB/toyLB_160x120.avif 160w,./images/toyLB/toyLB_190x143.avif 190w,./images/toyLB/toyLB_320x240.avif 320w,./images/toyLB/toyLB_380x285.avif 380w"
+								srcset={resolve(
+									"./images/toyLB/toyLB_110x83.avif 110w,./images/toyLB/toyLB_160x120.avif 160w,./images/toyLB/toyLB_190x143.avif 190w,./images/toyLB/toyLB_320x240.avif 320w,./images/toyLB/toyLB_380x285.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="mx-auto rounded-lg shadow-xl"
@@ -126,10 +142,14 @@
 							<div>
 								<picture
 									><source
-										srcset="./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.webp200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.webp 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w"
+										srcset={resolve(
+											"./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.webp 200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.webp 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.webp 600w"
+										)}
 										type="image/webp" />
 									<source
-										srcset="./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
+										srcset={resolve(
+											"./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif 200w,./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
+										)}
 										type="image/avif" />
 									<img
 										class="rounded pt-2"
@@ -171,10 +191,14 @@
 					<div class="hidden pl-3 pr-6 md:flex md:flex-grow md:flex-col" aria-hidden="true">
 						<picture
 							><source
-								srcset="./images/kidzRT/kidzRT_110x147.webp 110w,./images/kidzRT/kidzRT_160x213.webp 160w,./images/kidzRT/kidzRT_190x253.webp 190w,./images/kidzRT/kidzRT_320x427.webp 320w,./images/kidzRT/kidzRT_380x507.webp 380w"
+								srcset={resolve(
+									"./images/kidzRT/kidzRT_110x147.webp 110w,./images/kidzRT/kidzRT_160x213.webp 160w,./images/kidzRT/kidzRT_190x253.webp 190w,./images/kidzRT/kidzRT_320x427.webp 320w,./images/kidzRT/kidzRT_380x507.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/kidzRT/kidzRT_110x147.avif 110w,./images/kidzRT/kidzRT_160x213.avif 160w,./images/kidzRT/kidzRT_190x253.avif 190w,./images/kidzRT/kidzRT_320x427.avif 320w,./images/kidzRT/kidzRT_380x507.avif 380w"
+								srcset={resolve(
+									"./images/kidzRT/kidzRT_110x147.avif 110w,./images/kidzRT/kidzRT_160x213.avif 160w,./images/kidzRT/kidzRT_190x253.avif 190w,./images/kidzRT/kidzRT_320x427.avif 320w,./images/kidzRT/kidzRT_380x507.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
@@ -185,10 +209,14 @@
 								height="213" /></picture>
 						<picture
 							><source
-								srcset="./images/kidzRM/kidzRM_110x147.webp 110w,./images/kidzRM/kidzRM_160x213.webp 160w,./images/kidzRM/kidzRM_190x253.webp 190w,./images/kidzRM/kidzRM_320x427.webp 320w,./images/kidzRM/kidzRM_380x507.webp 380w"
+								srcset={resolve(
+									"./images/kidzRM/kidzRM_110x147.webp 110w,./images/kidzRM/kidzRM_160x213.webp 160w,./images/kidzRM/kidzRM_190x253.webp 190w,./images/kidzRM/kidzRM_320x427.webp 320w,./images/kidzRM/kidzRM_380x507.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/kidzRM/kidzRM_110x147.avif 110w,./images/kidzRM/kidzRM_160x213.avif 160w,./images/kidzRM/kidzRM_190x253.avif 190w,./images/kidzRM/kidzRM_320x427.avif 320w,./images/kidzRM/kidzRM_380x507.avif 380w"
+								srcset={resolve(
+									"./images/kidzRM/kidzRM_110x147.avif 110w,./images/kidzRM/kidzRM_160x213.avif 160w,./images/kidzRM/kidzRM_190x253.avif 190w,./images/kidzRM/kidzRM_320x427.avif 320w,./images/kidzRM/kidzRM_380x507.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
@@ -199,10 +227,14 @@
 								height="213" /></picture>
 						<picture
 							><source
-								srcset="./images/toyRB/toyRB_110x83.webp110w,./images/toyRB/toyRB_160x120.webp 160w,./images/toyRB/toyRB_190x143.webp 190w,./images/toyRB/toyRB_320x240.webp 320w,./images/toyRB/toyRB_380x285.webp 380w"
+								srcset={resolve(
+									"./images/toyRB/toyRB_110x83.webp 110w,./images/toyRB/toyRB_160x120.webp 160w,./images/toyRB/toyRB_190x143.webp 190w,./images/toyRB/toyRB_320x240.webp 320w,./images/toyRB/toyRB_380x285.webp 380w"
+								)}
 								type="image/webp" />
 							<source
-								srcset="./images/toyRB/toyRB_110x83.avif110w,./images/toyRB/toyRB_160x120.avif 160w,./images/toyRB/toyRB_190x143.avif 190w,./images/toyRB/toyRB_320x240.avif 320w,./images/toyRB/toyRB_380x285.avif 380w"
+								srcset={resolve(
+									"./images/toyRB/toyRB_110x83.avif 110w,./images/toyRB/toyRB_160x120.avif 160w,./images/toyRB/toyRB_190x143.avif 190w,./images/toyRB/toyRB_320x240.avif 320w,./images/toyRB/toyRB_380x285.avif 380w"
+								)}
 								type="image/avif" />
 							<img
 								class="m-4 mx-auto rounded-lg shadow-xl"
@@ -233,10 +265,14 @@
 									<div class="grid-card-text mb-2">
 										<picture
 											><source
-												srcset="./images/therapist-elsje/elsje200x253.webp 200w,./images/therapist-elsje/elsje300x380.webp 300w,./images/therapist-elsje/elsje400x506.webp 400w,./images/therapist-elsje/elsje600x760.webp 600w"
+												srcset={resolve(
+													"./images/therapist-elsje/elsje200x253.webp 200w,./images/therapist-elsje/elsje300x380.webp 300w,./images/therapist-elsje/elsje400x506.webp 400w,./images/therapist-elsje/elsje600x760.webp 600w"
+												)}
 												type="image/webp" />
 											<source
-												srcset="./images/therapist-elsje/elsje200x253.avif 200w,./images/therapist-elsje/elsje300x380.avif 300w,./images/therapist-elsje/elsje400x506.avif 400w,./images/therapist-elsje/elsje600x760.avif 600w"
+												srcset={resolve(
+													"./images/therapist-elsje/elsje200x253.avif 200w,./images/therapist-elsje/elsje300x380.avif 300w,./images/therapist-elsje/elsje400x506.avif 400w,./images/therapist-elsje/elsje600x760.avif 600w"
+												)}
 												type="image/avif" />
 											<img
 												class="mx-auto w-4/5 rounded-md shadow-xl"
@@ -308,10 +344,14 @@
 									<div class="grid-card-text mb-2">
 										<picture
 											><source
-												srcset="./images/therapist-sharon/sharon200x253.webp 200w,./images/therapist-sharon/sharon300x380.webp 300w,./images/therapist-sharon/sharon400x506.webp 400w,./images/therapist-sharon/sharon600x760.webp 600w"
+												srcset={resolve(
+													"./images/therapist-sharon/sharon200x253.webp 200w,./images/therapist-sharon/sharon300x380.webp 300w,./images/therapist-sharon/sharon400x506.webp 400w,./images/therapist-sharon/sharon600x760.webp 600w"
+												)}
 												type="image/webp" />
 											<source
-												srcset="./images/therapist-sharon/sharon200x253.avif 200w,./images/therapist-sharon/sharon300x380.avif 300w,./images/therapist-sharon/sharon400x506.avif 400w,./images/therapist-sharon/sharon600x760.avif 600w"
+												srcset={resolve(
+													"./images/therapist-sharon/sharon200x253.avif 200w,./images/therapist-sharon/sharon300x380.avif 300w,./images/therapist-sharon/sharon400x506.avif 400w,./images/therapist-sharon/sharon600x760.avif 600w"
+												)}
 												type="image/avif" />
 											<img
 												class="mx-auto w-4/5 rounded-md shadow-xl"
@@ -592,10 +632,14 @@
 										<a href={resolve(`/${locationLink}`)} aria-label="map"
 											><picture
 												><source
-													srcset="./images/kcd-map/kcdmap_260x235.webp 260w,./images/kcd-map/kcdmap_320x290.webp 320w,./images/kcd-map/kcdmap_450x407.webp 450w,./images/kcd-map/kcdmap_640x579.webp 640w,./images/kcd-map/kcdmap_900x814.webp 900w"
+													srcset={resolve(
+														"./images/kcd-map/kcdmap_260x235.webp 260w,./images/kcd-map/kcdmap_320x290.webp 320w,./images/kcd-map/kcdmap_450x407.webp 450w,./images/kcd-map/kcdmap_640x579.webp 640w,./images/kcd-map/kcdmap_900x814.webp 900w"
+													)}
 													type="image/webp" />
 												<source
-													srcset="./images/kcd-map/kcdmap_260x235.avif 260w,./images/kcd-map/kcdmap_320x290.avif 320w,./images/kcd-map/kcdmap_450x407.avif 450w,./images/kcd-map/kcdmap_640x579.avif 640w,./images/kcd-map/kcdmap_900x814.avif 900w"
+													srcset={resolve(
+														"./images/kcd-map/kcdmap_260x235.avif 260w,./images/kcd-map/kcdmap_320x290.avif 320w,./images/kcd-map/kcdmap_450x407.avif 450w,./images/kcd-map/kcdmap_640x579.avif 640w,./images/kcd-map/kcdmap_900x814.avif 900w"
+													)}
 													type="image/avif" />
 												<img
 													class="mx-auto mt-4 w-full rounded-md"
