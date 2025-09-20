@@ -25,6 +25,7 @@ import mediaPrivacySVG from "$lib/mediaPrivacySVG";
 export async function load() {
 	const servicesCards = [
 		{
+			id: `services-ot-assessment`,
 			title: "OT Assessment",
 			iconHTML: servicesAssessmentSVG,
 			bodyHTML: `An assessment will typically be the first step in your child's and family's Occupational Therapy journey`,
@@ -39,6 +40,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Sensory Integration</span>...`
 		},
 		{
+			id: `services-sensory-diet`,
 			title: "Sensory Diet",
 			iconHTML: servicesSensoryDietSVG,
 			bodyHTML: `A personalised activity plan that regulates the sensory input that a child needs to stay focused and organised`,
@@ -46,6 +48,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Sensory Diets</span>...`
 		},
 		{
+			id: `services-dir-floortime`,
 			title: "DIR & Floortime",
 			iconHTML: servicesDIRSVG,
 			bodyHTML: `Individual sessions to develop essential skills for communication, relationships and academic performance`,
@@ -53,6 +56,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about D I R and Floor time</span>...`
 		},
 		{
+			id: `services-visual-schedules`,
 			title: "Visual Schedules",
 			iconHTML: servicesVisualSchedulesSVG,
 			bodyHTML: `Visual schedules can help children understand and follow daily routines or sequential activities`,
@@ -67,6 +71,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Social Stories</span>...`
 		},
 		{
+			id: `services-picky-eaters`,
 			title: "Picky Eaters",
 			iconHTML: servicesPickyEatersSVG,
 			bodyHTML: `Start a path to happier meal times by understanding picky eaters and how to expand their food choices`,
@@ -74,6 +79,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Picky Eaters</span>...`
 		},
 		{
+			id: `services-alert-program`,
 			title: "Alert Program",
 			iconHTML: servicesAlertSVG,
 			bodyHTML: `Developed by Occupational Therapists to teach children self regulation and to support learning and positive behaviour`,
@@ -95,6 +101,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Skills Development</span>...`
 		},
 		{
+			id: `services-school-visits`,
 			title: "School Visits",
 			iconHTML: servicesSchoolVisitsSVG,
 			bodyHTML: `Observe children in their classroom setting. Establish communication with the child's teachers and educational support staff`,
@@ -102,6 +109,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about School Visits</span>...`
 		},
 		{
+			id: `services-parent-support`,
 			title: "Parent Support",
 			iconHTML: servicesParentSupportSVG,
 			bodyHTML: `Providing the family with equipment and strategies to best support their child achieve their full potential`,
@@ -242,6 +250,7 @@ export async function load() {
 
 	const mediaCards = [
 		{
+			id: `media-blog`,
 			title: "KidzCanDurban Blog",
 			iconHTML: mediaBlogSVG,
 			bodyHTML: `Read our blog`,
@@ -250,6 +259,7 @@ export async function load() {
 			</span>`
 		},
 		{
+			id: `media-reviews`,
 			title: "Client Reviews",
 			iconHTML: mediaReviewsSVG,
 			bodyHTML: `<span class="font-bold">Rating average: 5 stars</span> 
@@ -258,6 +268,7 @@ export async function load() {
 			buttonHTML: `<span class="sr-only">Read our client</span>Reviews ...`
 		},
 		{
+			id: `media-privacy`,
 			title: "Privacy Policy",
 			iconHTML: mediaPrivacySVG,
 			bodyHTML: `<span class="font-bold">South African POPI Act</span>
