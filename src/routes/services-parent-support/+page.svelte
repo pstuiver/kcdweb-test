@@ -1,8 +1,8 @@
 <script>
-	import { base } from '$app/paths';
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'n50-on-blue';
-	const headerTitle = 'Parent Support';
+	import { base } from "$app/paths";
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "n50-on-blue";
+	const headerTitle = "Parent Support";
 	// Need this to make this link work in GH Pages build workflows
 	const assessmentLink = `services-ot-assessment`;
 </script>
@@ -29,8 +29,7 @@
 		</p>
 		<p>
 			After the
-			<a class="views-link" href="{base}/{assessmentLink}"  
-				>Occupational Therapy Assessment</a>
+			<a class="views-link" href="{base}/{assessmentLink}">Occupational Therapy Assessment</a>
 			and before commencing the therapy process, the parents and child will be provided with opportunity
 			to collaborate on setting the goals for therapy.
 		</p>

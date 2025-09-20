@@ -1,8 +1,8 @@
 <script>
-	import { base } from '$app/paths';
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'blue-on-n50';
-	const headerTitle = 'Autism Spectrum Disorder';
+	import { base } from "$app/paths";
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "blue-on-n50";
+	const headerTitle = "Autism Spectrum Disorder";
 	// Need this to make this link work in GH Pages build workflows
 	const skillsDevLink = `services-skills-dev`;
 	const dirFloortimeLink = `services-dir-floortime`;
@@ -37,7 +37,8 @@
 				</span></a>
 		</p>
 		<p>
-			As experienced therapists we understand the importance of early Autism Spectrum Disorder (ASD) intervention and the impact that ASD can have on the entire family.
+			As experienced therapists we understand the importance of early Autism Spectrum Disorder (ASD)
+			intervention and the impact that ASD can have on the entire family.
 		</p>
 		<p>
 			As no two children on the spectrum are the same, we take great care to develop aims and
@@ -66,26 +67,25 @@
 			<li class="mt-2">
 				<span class="font-semibold italic">Social interaction:</span>
 				Sensory Integration, DIR,
-				<a class="views-link" href="{base}/{skillsDevLink}"  >Skills development</a>
+				<a class="views-link" href="{base}/{skillsDevLink}">Skills development</a>
 				and other behavioural techniques are used to promote awareness of the child to themselves and
 				to others, appropriate social responses, behaviours in public spaces and tolerance to change.
 			</li>
 			<li class="mt-2">
-				<span class="font-semibold italic mt-1">Imagination and Creative play: </span>Sensory
+				<span class="mt-1 font-semibold italic">Imagination and Creative play: </span>Sensory
 				Integration and
-				<a class="views-link" href="{base}/{dirFloortimeLink}"  
-					>DIR &amp; Floortime</a>
+				<a class="views-link" href="{base}/{dirFloortimeLink}">DIR &amp; Floortime</a>
 				techniques are used to assist the child in feeling calm and alert, sharing attention, engaging
 				and relating to others, interacting, shared problem so and creative or abstract thinking.
 			</li>
 			<li class="mt-2">
 				<span class="font-semibold italic">Sensory Integration difficulties:</span>
-				<a class="views-link" href="{base}/{sensoryIntLink}"  >Sensory Integration</a>
+				<a class="views-link" href="{base}/{sensoryIntLink}">Sensory Integration</a>
 				techniques are used to address the child’s behaviour, emotional responses, focus and attention.
 				This may include the implementation of a
-				<a class="views-link" href="{base}/{sensoryDietLink}"  >Sensory Diet</a>
+				<a class="views-link" href="{base}/{sensoryDietLink}">Sensory Diet</a>
 				and/or an
-				<a class="views-link" href="{base}/{alertLink}"  >Alert Program</a>
+				<a class="views-link" href="{base}/{alertLink}">Alert Program</a>
 				or alternatively addressing the child’s motor planning and sensory processing skills.
 			</li>
 		</ul>

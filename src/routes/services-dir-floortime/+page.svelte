@@ -1,7 +1,7 @@
 <script>
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'n50-on-blue';
-	const headerTitle = 'DIR & Floortime';
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "n50-on-blue";
+	const headerTitle = "DIR & Floortime";
 </script>
 
 <svelte:head>
