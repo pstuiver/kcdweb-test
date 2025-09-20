@@ -6,7 +6,7 @@
 	 */
 
 	/** @type {Props} */
-	let { svgClass = 'index-nav-svg', ariaHidden = true } = $props();
+	let { svgClass = "index-nav-svg", ariaHidden = true } = $props();
 </script>
 
 <!-- Need wrapper div for Safari to render svg properly -->

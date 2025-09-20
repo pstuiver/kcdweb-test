@@ -2,121 +2,121 @@
 @tailwind components;
 
 @layer base {
-  body {
-    @apply relative w-full h-full p-0 bg-neutral-300;
-  }
-  a {
-    @apply appearance-none;
-  }
-  svg {
-    @apply fill-current stroke-current;
-  }
+	body {
+		@apply relative h-full w-full bg-neutral-300 p-0;
+	}
+	a {
+		@apply appearance-none;
+	}
+	svg {
+		@apply fill-current stroke-current;
+	}
 }
 
 p {
-  @apply mt-3;
+	@apply mt-3;
 }
 li {
-  @apply mt-1;
+	@apply mt-1;
 }
 .blue-on-n0 {
-  @apply text-blue-800 bg-white;
+	@apply bg-white text-blue-800;
 }
 .blue-on-n50 {
-  @apply text-blue-800 bg-neutral-50;
+	@apply bg-neutral-50 text-blue-800;
 }
 .blue-on-n200 {
-  @apply text-blue-800 bg-neutral-200;
+	@apply bg-neutral-200 text-blue-800;
 }
 .n0-on-blue {
-  @apply text-white bg-blue-800;
+	@apply bg-blue-800 text-white;
 }
 .n50-on-blue {
-  @apply text-neutral-50 bg-blue-800;
+	@apply bg-blue-800 text-neutral-50;
 }
 .grid-container {
-  @apply max-w-screen-xl mx-auto px-4;
+	@apply mx-auto max-w-screen-xl px-4;
 }
 .grid-cols-wrapper {
-  @apply -mx-4 flex flex-wrap;
+	@apply -mx-4 flex flex-wrap;
 }
 .grid-2cols {
-  @apply w-full flex flex-col p-4 sm:w-1/2;
+	@apply flex w-full flex-col p-4 sm:w-1/2;
 }
 .grid-4cols {
-  @apply w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4;
+	@apply flex w-full flex-col p-4 sm:w-1/2 lg:w-1/3 xl:w-1/4;
 }
 .grid-card {
-  @apply w-full flex flex-col flex-1 px-2 mx-auto border-2 border-current rounded-xl;
+	@apply mx-auto flex w-full flex-1 flex-col rounded-xl border-2 border-current px-2;
 }
 .grid-card-top-outer {
-  @apply w-full flex-1 divide-current divide-y-2;
+	@apply w-full flex-1 divide-y-2 divide-current;
 }
 .grid-card-top-inner {
-  @apply flex justify-center sm:block m-1 pt-2 items-center;
+	@apply m-1 flex items-center justify-center pt-2 sm:block;
 }
 .grid-card-svg {
-  @apply w-8 sm:w-12 inline sm:block mr-2 sm:mx-auto fill-current stroke-current;
+	@apply mr-2 inline w-8 fill-current stroke-current sm:mx-auto sm:block sm:w-12;
 }
 .grid-card-title {
-  @apply inline align-middle sm:block sm:text-center text-xl font-bold leading-snug;
+	@apply inline align-middle text-xl font-bold leading-snug sm:block sm:text-center;
 }
 .grid-card-text {
-  @apply px-1 py-2 text-center text-sm xs:text-base;
+	@apply px-1 py-2 text-center text-sm xs:text-base;
 }
 .grid-card-btn {
-  @apply w-32 mx-auto p-1 mb-3 text-center text-sm font-semibold rounded-md;
+	@apply mx-auto mb-3 w-32 rounded-md p-1 text-center text-sm font-semibold;
 }
 .index-nav-a {
-  @apply inline-flex text-xs md:text-base;
+	@apply inline-flex text-xs md:text-base;
 }
 .index-nav-svg {
-  @apply hidden xs:inline-flex xs:w-4 md:w-6 mr-1 -mt-1;
+	@apply -mt-1 mr-1 hidden xs:inline-flex xs:w-4 md:w-6;
 }
 .section-wrapper {
-  @apply relative w-full py-8 border-b border-blue-800;
+	@apply relative w-full border-b border-blue-800 py-8;
 }
 .section-id {
-  @apply absolute -mt-20 md:-mt-24 lg:-mt-28;
+	@apply absolute -mt-20 md:-mt-24 lg:-mt-28;
 }
 .section-head {
-  @apply flex w-full items-center justify-center mb-4;
+	@apply mb-4 flex w-full items-center justify-center;
 }
 .section-head-svg {
-  @apply inline w-12 lg:w-16 mx-2;
+	@apply mx-2 inline w-12 lg:w-16;
 }
 .section-head-text {
-  @apply inline font-bold text-2xl lg:text-3xl;
+	@apply inline text-2xl font-bold lg:text-3xl;
 }
 .views-container {
-  @apply flex justify-center max-w-4xl mx-auto;
+	@apply mx-auto flex max-w-4xl justify-center;
 }
 .views-head {
-  @apply z-10 top-0 fixed flex max-w-7xl w-full h-10 items-center justify-between shadow;
+	@apply fixed top-0 z-10 flex h-10 w-full max-w-7xl items-center justify-between shadow;
 }
 .views-head-icon {
-  @apply w-8 xs:w-10 stroke-current fill-current;
+	@apply w-8 fill-current stroke-current xs:w-10;
 }
 .views-head-back {
-  @apply hidden text-xs xs:-ml-1 xs:w-8 xs:inline-flex;
+	@apply hidden text-xs xs:-ml-1 xs:inline-flex xs:w-8;
 }
 .views-head-dummy {
-  @apply w-8 xs:w-16;
+	@apply w-8 xs:w-16;
 }
 .views-head-text {
-  @apply font-bold text-sm sm:text-lg md:text-xl;
+	@apply text-sm font-bold sm:text-lg md:text-xl;
 }
 .views-content {
-  @apply z-0 mt-8 p-2 md:p-4 overflow-y-scroll font-medium text-sm sm:text-base md:text-lg rounded-b-3xl;
+	@apply z-0 mt-8 overflow-y-scroll rounded-b-3xl p-2 text-sm font-medium sm:text-base md:p-4 md:text-lg;
 }
 .views-list-title {
-  @apply mt-3 font-bold;
+	@apply mt-3 font-bold;
 }
 .views-list-item {
-  @apply list-disc list-outside ml-6;
+	@apply ml-6 list-outside list-disc;
 }
 .views-link {
-  @apply font-semibold mx-1 border-b border-current;
+	@apply mx-1 border-b border-current font-semibold;
 }
 
 @tailwind utilities;

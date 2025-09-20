@@ -5,7 +5,7 @@
 	 */
 
 	/** @type {Props} */
-	let { svgClass = 'text-yellow-500 ml-2 w-[4.8rem] sm:w-[6.4rem] sm:-mt-1' } = $props();
+	let { svgClass = "text-yellow-500 ml-2 w-[4.8rem] sm:w-[6.4rem] sm:-mt-1" } = $props();
 </script>
 
 <!-- Need wrapper div for Safari to render svg properly -->
