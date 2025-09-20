@@ -25,7 +25,6 @@ import mediaPrivacySVG from "$lib/mediaPrivacySVG";
 export async function load() {
 	const servicesCards = [
 		{
-			id: "services-0",
 			title: "OT Assessment",
 			iconHTML: servicesAssessmentSVG,
 			bodyHTML: `An assessment will typically be the first step in your child's and family's Occupational Therapy journey`,
@@ -33,7 +32,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about OT Assessments</span>...`
 		},
 		{
-			id: "services-1",
 			title: "Sensory Integration",
 			iconHTML: servicesSensoryIntSVG,
 			bodyHTML: `Sensory Integration is a post-graduate field of study that is specific to Occupational Therapy`,
@@ -41,7 +39,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Sensory Integration</span>...`
 		},
 		{
-			id: "services-2",
 			title: "Sensory Diet",
 			iconHTML: servicesSensoryDietSVG,
 			bodyHTML: `A personalised activity plan that regulates the sensory input that a child needs to stay focused and organised`,
@@ -49,7 +46,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Sensory Diets</span>...`
 		},
 		{
-			id: "services-3",
 			title: "DIR & Floortime",
 			iconHTML: servicesDIRSVG,
 			bodyHTML: `Individual sessions to develop essential skills for communication, relationships and academic performance`,
@@ -57,7 +53,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about D I R and Floor time</span>...`
 		},
 		{
-			id: "services-4",
 			title: "Visual Schedules",
 			iconHTML: servicesVisualSchedulesSVG,
 			bodyHTML: `Visual schedules can help children understand and follow daily routines or sequential activities`,
@@ -65,7 +60,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Visual Schedules</span>...`
 		},
 		{
-			id: "services-5",
 			title: "Social Stories",
 			iconHTML: servicesSocialStoriesSVG,
 			bodyHTML: `Social stories are personalised tools to help children understand social situations and events`,
@@ -73,7 +67,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Social Stories</span>...`
 		},
 		{
-			id: "services-6",
 			title: "Picky Eaters",
 			iconHTML: servicesPickyEatersSVG,
 			bodyHTML: `Start a path to happier meal times by understanding picky eaters and how to expand their food choices`,
@@ -81,7 +74,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Picky Eaters</span>...`
 		},
 		{
-			id: "services-7",
 			title: "Alert Program",
 			iconHTML: servicesAlertSVG,
 			bodyHTML: `Developed by Occupational Therapists to teach children self regulation and to support learning and positive behaviour`,
@@ -89,7 +81,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about our Alert Program</span>...`
 		},
 		{
-			id: "services-8",
 			title: "Handwriting",
 			iconHTML: servicesHandwritingSVG,
 			bodyHTML: `Foundational skills to develop legible, fluent and fast handwriting styles for success in handwriting`,
@@ -97,7 +88,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Handwriting</span>...`
 		},
 		{
-			id: "services-9",
 			title: "Skills Development",
 			iconHTML: servicesSkillsDevSVG,
 			bodyHTML: `Teaching children functional skills to become more independent in everyday activities`,
@@ -105,7 +95,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Skills Development</span>...`
 		},
 		{
-			id: "services-10",
 			title: "School Visits",
 			iconHTML: servicesSchoolVisitsSVG,
 			bodyHTML: `Observe children in their classroom setting. Establish communication with the child's teachers and educational support staff`,
@@ -113,7 +102,6 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about School Visits</span>...`
 		},
 		{
-			id: "services-11",
 			title: "Parent Support",
 			iconHTML: servicesParentSupportSVG,
 			bodyHTML: `Providing the family with equipment and strategies to best support their child achieve their full potential`,
@@ -254,7 +242,6 @@ export async function load() {
 
 	const mediaCards = [
 		{
-			id: "media-0",
 			title: "KidzCanDurban Blog",
 			iconHTML: mediaBlogSVG,
 			bodyHTML: `Read our blog`,
@@ -263,7 +250,6 @@ export async function load() {
 			</span>`
 		},
 		{
-			id: "media-1",
 			title: "Client Reviews",
 			iconHTML: mediaReviewsSVG,
 			bodyHTML: `<span class="font-bold">Rating average: 5 stars</span> 
@@ -272,7 +258,6 @@ export async function load() {
 			buttonHTML: `<span class="sr-only">Read our client</span>Reviews ...`
 		},
 		{
-			id: "media-2",
 			title: "Privacy Policy",
 			iconHTML: mediaPrivacySVG,
 			bodyHTML: `<span class="font-bold">South African POPI Act</span>

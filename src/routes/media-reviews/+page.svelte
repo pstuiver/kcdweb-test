@@ -18,7 +18,7 @@
 	<main class="views-content blue-on-n50">
 		<div class="my-2 flex items-center justify-center">
 			<div class="text-base sm:text-xl md:text-2xl">Average</div>
-			<SVGFiveStar svgClass="text-yellow-500 w-32 sm:w-48 -mt-1" />
+			<SVGFiveStar svgClass={"text-yellow-500 w-32 sm:w-48 -mt-1"} />
 			<div class="text-sm sm:text-lg md:text-xl">from 20 reviews</div>
 		</div>
 
