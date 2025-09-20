@@ -24,7 +24,7 @@
 						<picture
 							><source
 								srcset={resolve(
-									"/images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.webp 113w,/images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.webp 184w,/images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w"
+									"./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.webp 113w,./images/kcd-logo/small/kcd_logo_with_text_184x74_transparent.webp 184w,./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.webp 228w"
 								)}
 								type="image/webp" />
 							<source
