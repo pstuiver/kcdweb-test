@@ -217,9 +217,9 @@
 			<section class="section-wrapper blue-on-n50">
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<SVGTherapist svgClass={"section-head-svg"} />
+					<SVGTherapist svgClass="section-head-svg" />
 					<h1 class="section-head-text">THERAPISTS</h1>
-					<SVGTherapist svgClass={"section-head-svg"} />
+					<SVGTherapist svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
@@ -227,7 +227,7 @@
 							<div class="grid-card n50-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
-										<SVGTherapist svgClass={"grid-card-svg"} />
+										<SVGTherapist svgClass="grid-card-svg" />
 										<h2 class="grid-card-title">Occupational Therapist</h2>
 									</div>
 									<div class="grid-card-text mb-2">
@@ -302,7 +302,7 @@
 							<div class="grid-card n50-on-blue">
 								<div class="grid-card-top-outer">
 									<div class="grid-card-top-inner">
-										<SVGTherapist svgClass={"grid-card-svg"} />
+										<SVGTherapist svgClass="grid-card-svg" />
 										<h2 class="grid-card-title">Occupational Therapist</h2>
 									</div>
 									<div class="grid-card-text mb-2">
@@ -387,13 +387,13 @@
 			<section class="section-wrapper blue-on-n200">
 				<div id="services" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<SVGServices svgClass={"section-head-svg"} />
+					<SVGServices svgClass="section-head-svg" />
 					<h1 class="section-head-text">SERVICES</h1>
-					<SVGServices svgClass={"section-head-svg"} />
+					<SVGServices svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
-						{#each servicesCards as servicesCard}
+						{#each servicesCards as servicesCard (servicesCard.id)}
 							<div class="grid-4cols">
 								<!-- eslint-disable svelte/no-at-html-tags -->
 								<div class="grid-card blue-on-n50">
@@ -419,13 +419,13 @@
 			<section class="section-wrapper blue-on-n50">
 				<div id="about" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<SVGAbout svgClass={"section-head-svg"} />
+					<SVGAbout svgClass="section-head-svg" />
 					<h1 class="section-head-text">ABOUT</h1>
-					<SVGAbout svgClass={"section-head-svg"} />
+					<SVGAbout svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
-						{#each aboutCards as aboutCard}
+						{#each aboutCards as aboutCard (aboutCard.id)}
 							<div class="grid-2cols @container">
 								<!-- eslint-disable svelte/no-at-html-tags -->
 								<div class="grid-card n50-on-blue">
@@ -464,13 +464,13 @@
 			<section class="section-wrapper blue-on-n200">
 				<div id="media" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<SVGMedia svgClass={"section-head-svg"} />
+					<SVGMedia svgClass="section-head-svg" />
 					<h1 class="section-head-text">MEDIA</h1>
-					<SVGMedia svgClass={"section-head-svg"} />
+					<SVGMedia svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
-						{#each mediaCards as mediaCard}
+						{#each mediaCards as mediaCard (mediaCard.id)}
 							<div class="grid-4cols lg:w-1/3">
 								<!-- eslint-disable svelte/no-at-html-tags -->
 								<div class="grid-card blue-on-n50">
@@ -527,11 +527,11 @@
 										<div>Credit and Debit card facilities available</div>
 										<div>Clients submit their own claims to their medical aid</div>
 										<div class="mt-2 flex w-full items-center justify-center">
-											<SVGTelephone svgClass={"w-8 mr-2"} />
+											<SVGTelephone svgClass="w-8 mr-2" />
 											Phone: (064) 899 4748
 										</div>
 										<div class="flex w-full items-center justify-center">
-											<SVGContact svgClass={"w-8 mr-2"} />
+											<SVGContact svgClass="w-8 mr-2" />
 											Email : info@kidzcandurban.com
 										</div>
 										<p class="mt-6 text-lg font-bold">Send us a message by email</p>
