@@ -1,12 +1,12 @@
 <script>
-	import "../tailwind.postcss";
+	import '../tailwind.postcss';
 
 	// Start of Recently Added
 	// import { setupViewTransition } from "sveltekit-view-transition";
 	// setupViewTransition();
 	// End of Recently Added
 
-	import { onMount } from "svelte";
+	import { onMount } from 'svelte';
 	let { children } = $props();
 
 	let dialog;

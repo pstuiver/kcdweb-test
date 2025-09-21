@@ -8,7 +8,7 @@
 }
 :before,
 :after {
-	--tw-content: "";
+	--tw-content: '';
 }
 html {
 	line-height: 1.5;
@@ -27,10 +27,10 @@ html {
 		Arial,
 		Noto Sans,
 		sans-serif,
-		"Apple Color Emoji",
-		"Segoe UI Emoji",
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
 		Segoe UI Symbol,
-		"Noto Color Emoji";
+		'Noto Color Emoji';
 	font-feature-settings: normal;
 	font-variation-settings: normal;
 }
@@ -120,9 +120,9 @@ select {
 	text-transform: none;
 }
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
 	-webkit-appearance: button;
 	background-color: transparent;
 	background-image: none;
@@ -140,7 +140,7 @@ progress {
 ::-webkit-outer-spin-button {
 	height: auto;
 }
-[type="search"] {
+[type='search'] {
 	-webkit-appearance: textfield;
 	outline-offset: -2px;
 }
@@ -200,7 +200,7 @@ textarea::placeholder {
 	color: #9ca3af;
 }
 button,
-[role="button"] {
+[role='button'] {
 	cursor: pointer;
 }
 :disabled {

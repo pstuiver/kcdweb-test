@@ -169,9 +169,9 @@
 										type="image/webp" />
 									<source
 										srcset="
-                                            ./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif  200w,
-                                            ./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,
-                                            ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
+                    ./images/kcd-logo/large/kcd_logo_with_text_200x81_transparent.avif  200w,
+                    ./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.avif 300w,
+                    ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
 										type="image/avif" />
 									<img
 										class="rounded pt-2"
@@ -289,8 +289,8 @@
 			<section class="section-wrapper blue-on-n50">
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
-					<SVGTherapist svgClass="section-head-svg" />
-					<div class="section-head-text">THERAPISTS</div>
+					<SVGTherapist svgClass="text-red-400 bg-blue-400" />
+					<h1 class="section-head-text">THERAPISTS</h1>
 					<SVGTherapist svgClass="section-head-svg" />
 				</div>
 				<div class="grid-container">
@@ -583,7 +583,7 @@
 			</section>
 			<section class="section-wrapper blue-on-n0">
 				<div id="contact" class="section-id">&nbsp;</div>
-				<div class="section-head"><h1 class="section-head-text">CONTACT US</h1></div>
+				<div class="section-head"><div class="section-head-text">CONTACT US</div></div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
 						<div class="grid-2cols">
