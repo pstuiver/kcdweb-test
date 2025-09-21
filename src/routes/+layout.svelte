@@ -1,11 +1,5 @@
 <script>
 	import '../tailwind.postcss';
-
-	// Start of Recently Added
-	// import { setupViewTransition } from "sveltekit-view-transition";
-	// setupViewTransition();
-	// End of Recently Added
-
 	import { onMount } from 'svelte';
 	let { children } = $props();
 
