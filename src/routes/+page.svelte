@@ -286,7 +286,7 @@
 					</div>
 				</main>
 			</section>
-			<section class="section-wrapper blue-on-n50">
+			<section style="content-visibility: auto;" class="section-wrapper blue-on-n50">
 				<div id="therapist" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGTherapist svgClass="section-head-svg" />
@@ -472,7 +472,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-n200">
+			<section style="content-visibility: auto;" class="section-wrapper blue-on-n200">
 				<div id="services" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGServices svgClass="section-head-svg" />
@@ -504,7 +504,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-n50">
+			<section style="content-visibility: auto;" class="section-wrapper blue-on-n50">
 				<div id="about" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGAbout svgClass="section-head-svg" />
@@ -549,7 +549,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-n200">
+			<section style="content-visibility: auto;" class="section-wrapper blue-on-n200">
 				<div id="media" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<SVGMedia svgClass="section-head-svg" />
@@ -582,7 +582,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-wrapper blue-on-n0">
+			<section style="content-visibility: auto;" class="section-wrapper blue-on-n0">
 				<div id="contact" class="section-id">&nbsp;</div>
 				<div class="section-head">
 					<div class="section-head-text">CONTACT US</div>
@@ -710,7 +710,7 @@
 					</div>
 				</div>
 			</section>
-			<footer id="footer-area" aria-label="footer area">
+			<footer id="footer-area" aria-label="footer area" style="content-visibility: auto;">
 				<div class="n50-on-blue relative w-full border-b border-blue-700 py-2">
 					<div class="flex items-center justify-around text-xs xs:text-sm">
 						<div class="text-center">
