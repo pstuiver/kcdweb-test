@@ -583,7 +583,9 @@
 			</section>
 			<section class="section-wrapper blue-on-n0">
 				<div id="contact" class="section-id">&nbsp;</div>
-				<div class="section-head"><h1 class="section-head-text">CONTACT US</h1></div>
+				<div class="section-head">
+					<div class="section-head-text">CONTACT US</div>
+				</div>
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
 						<div class="grid-2cols">
