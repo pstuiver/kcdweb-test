@@ -1,6 +1,6 @@
 <script>
 	/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
-	import { resolve } from '$app/paths';
+	import { base } from '$app/paths';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
 	import SVGServices from '$lib/SVGServices.svelte';
@@ -330,14 +330,12 @@
 										</p>
 										<div class="mt-4 text-left">
 											Elsje obtained an
-											<a class="views-link" href={resolve('/home-page-about-ot')}
-												>Occupational Therapy</a>
+											<a class="views-link" href="{base}home-page-about-ot">Occupational Therapy</a>
 											degree from the University of Pretoria in 2008 followed by international, post-graduate
 											qualifications in
-											<a class="views-link" href={resolve('/services-sensory-int')}
-												>Sensory Integration</a>
+											<a class="views-link" href="{base}services-sensory-int">Sensory Integration</a>
 											and DIR & Floortime, and an Honours degree in
-											<a class="views-link" href={resolve('/home-page-about-aac')}
+											<a class="views-link" href="{base}home-page-about-aac"
 												>Augmentative and Alternative Communication (AAC)
 											</a>at the University of Pretoria during 2023.
 											<p>
@@ -360,9 +358,8 @@
 												developmental delay and sensory processing dysfunction.
 											</p>
 											<p>
-												Her specialist interest in <a
-													class="views-link"
-													href={resolve('/about-autism')}>Autism Spectrum Disorder</a
+												Her specialist interest in <a class="views-link" href="{base}about-autism"
+													>Autism Spectrum Disorder</a
 												>has led her to complete a variety of post-graduate courses on this topic.
 											</p>
 											<p>
@@ -414,8 +411,7 @@
 										<div class="mt-4 text-left">
 											Sharon joined our practice during 2023. She is a passionate and experienced
 											Paediatric
-											<a class="views-link" href={resolve('/home-page-about-ot')}
-												>Occupational Therapist</a>
+											<a class="views-link" href="{base}home-page-about-ot">Occupational Therapist</a>
 											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
 												Since qualifying, she has worked in South Africa and more than fourteen
@@ -430,8 +426,7 @@
 											</p>
 											<p>
 												She has a particular interest in autism, has post-graduate training in
-												<a class="views-link" href={resolve('/services-sensory-int')}
-													>Sensory Integration</a>
+												<a class="views-link" href="{base}services-sensory-int">Sensory Integration</a>
 												and has completed other relevant training courses such as Therapeutic Listening,
 												<a
 													class="views-link"
@@ -442,8 +437,7 @@
 														, Warning, screen readers, this is an external link
 													</span></a>
 												and
-												<a class="views-link" href={resolve('/services-dir-floortime')}
-													>DIR & Floortime.</a>
+												<a class="views-link" href="{base}services-dir-floortime">DIR & Floortime.</a>
 											</p>
 											<p>
 												Sharon takes a holistic approach to therapy and uses a combination of
@@ -496,7 +490,7 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${servicesCard.link}`)} class="grid-card-btn n0-on-blue"
+									<a href="{base}/{servicesCard.link}" class="grid-card-btn n0-on-blue"
 										>{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
@@ -540,7 +534,7 @@
 											{@html aboutCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${aboutCard.link}`)} class="grid-card-btn blue-on-n50">
+									<a href="{base}/{aboutCard.link}" class="grid-card-btn blue-on-n50">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -573,7 +567,7 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${mediaCard.link}`)} class="grid-card-btn n0-on-blue">
+									<a href="{base}/{mediaCard.link}" class="grid-card-btn n0-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
@@ -679,7 +673,7 @@
 										<div class="mb-2">
 											<span class="font-bold">5 Gordon Road, Pinetown</span>
 										</div>
-										<a href={resolve(`/${locationLink}`)} aria-label="map"
+										<a href="{base}/{locationLink}" aria-label="map"
 											><picture
 												><source
 													srcset="
