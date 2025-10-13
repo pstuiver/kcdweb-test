@@ -1,5 +1,5 @@
 <script>
-	import { resolve } from '$app/paths';
+	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	const headerColor = 'blue-on-n50';
 	const headerTitle = `<div class="sr-only text-md">Augmentative Alternative Communication</div>
@@ -56,11 +56,11 @@
 				by participating in meaningful conversation and social interaction.
 			</li>
 			<li class="mt-3">
-				<a href={resolve(`/${visualSchedulesLink}`)} class="views-link"
+				<a href={`${base}/${visualSchedulesLink}`} class="views-link"
 					>Implementing Visual Schedules</a>
 			</li>
 			<li class="mt-3">
-				<a href={resolve(`/${socialStoriesLink}`)} class="views-link">Designing Social Stories</a>
+				<a href={`${base}/${socialStoriesLink}`} class="views-link">Designing Social Stories</a>
 			</li>
 			<p class="mt-4">
 				If your child has difficulty making their thoughts, needs and feelings known, they may

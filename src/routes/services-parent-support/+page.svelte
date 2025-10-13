@@ -1,5 +1,5 @@
 <script>
-	import { resolve } from '$app/paths';
+	import { base } from '$app/paths';
 	import RouteHead from '$lib/RouteHead.svelte';
 	const headerColor = 'n50-on-blue';
 	const headerTitle = 'Parent Support';
@@ -29,7 +29,7 @@
 		</p>
 		<p>
 			After the
-			<a class="views-link" href={resolve(`/${assessmentLink}`)}>Occupational Therapy Assessment</a>
+			<a class="views-link" href={`${base}/${assessmentLink}`}>Occupational Therapy Assessment</a>
 			and before commencing the therapy process, the parents and child will be provided with opportunity
 			to collaborate on setting the goals for therapy.
 		</p>

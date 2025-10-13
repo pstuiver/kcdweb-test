@@ -330,13 +330,14 @@
 										</p>
 										<div class="mt-4 text-left">
 											Elsje obtained an
-											<a class="views-link" href="{base}home-page-about-ot">Occupational Therapy</a>
+											<a class="views-link" href={`${base}/home-page-about-ot`}
+												>Occupational Therapy</a>
 											degree from the University of Pretoria in 2008 followed by international, post-graduate
 											qualifications in
-											<a class="views-link" href="{base}services-sensory-int"
+											<a class="views-link" href={`${base}/services-sensory-int`}
 												>Sensory Integration</a>
 											and DIR & Floortime, and an Honours degree in
-											<a class="views-link" href="{base}home-page-about-aac"
+											<a class="views-link" href={`${base}/home-page-about-aac`}
 												>Augmentative and Alternative Communication (AAC)
 											</a>at the University of Pretoria during 2023.
 											<p>
@@ -359,8 +360,9 @@
 												developmental delay and sensory processing dysfunction.
 											</p>
 											<p>
-												Her specialist interest in <a class="views-link" href="{base}about-autism"
-													>Autism Spectrum Disorder</a
+												Her specialist interest in <a
+													class="views-link"
+													href={`${base}/about-autism`}>Autism Spectrum Disorder</a
 												>has led her to complete a variety of post-graduate courses on this topic.
 											</p>
 											<p>
@@ -412,7 +414,7 @@
 										<div class="mt-4 text-left">
 											Sharon joined our practice during 2023. She is a passionate and experienced
 											Paediatric
-											<a class="views-link" href="{base}home-page-about-ot"
+											<a class="views-link" href={`${base}/home-page-about-ot`}
 												>Occupational Therapist</a>
 											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
@@ -428,7 +430,7 @@
 											</p>
 											<p>
 												She has a particular interest in autism, has post-graduate training in
-												<a class="views-link" href="{base}services-sensory-int"
+												<a class="views-link" href={`${base}/services-sensory-int`}
 													>Sensory Integration</a>
 												and has completed other relevant training courses such as Therapeutic Listening,
 												<a
@@ -440,7 +442,7 @@
 														, Warning, screen readers, this is an external link
 													</span></a>
 												and
-												<a class="views-link" href="{base}services-dir-floortime"
+												<a class="views-link" href={`${base}/services-dir-floortime`}
 													>DIR & Floortime.</a>
 											</p>
 											<p>
