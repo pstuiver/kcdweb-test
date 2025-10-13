@@ -35,7 +35,7 @@
                                     ./images/kcd-logo/small/kcd_logo_with_text_228x92_transparent.avif 228w"
 								type="image/avif" />
 							<img
-								class="ml-2 hidden py-1 xs:flex xs:w-24 md:w-28 lg:w-32"
+								class="xs:flex xs:w-24 ml-2 hidden py-1 md:w-28 lg:w-32"
 								src="./images/kcd-logo/small/kcd_logo_with_text_113x45_transparent.png"
 								alt="Kidzcan logo"
 								width="113"
@@ -49,7 +49,7 @@
 								Practice no. 0684414
 							</div>
 						</div>
-						<div class="hidden py-1 pl-2 xs:flex xs:w-24 md:w-28 lg:w-32" aria-hidden="true">
+						<div class="xs:flex xs:w-24 hidden py-1 pl-2 md:w-28 lg:w-32" aria-hidden="true">
 							&nbsp;
 						</div>
 					</div>
@@ -76,11 +76,11 @@
 				</div>
 			</header>
 			<div class="top-0 h-16 w-full md:h-20 lg:h-24">&nbsp;</div>
-			<section class="section-wrapper blue-on-n200 pb-8 pt-2">
+			<section class="section-wrapper blue-on-n200 pt-2 pb-8">
 				<div id="home" class="section-id">&nbsp;</div>
 				<main class="-mx-4 flex">
 					<div
-						class="hidden pl-6 pr-3 md:flex md:flex-grow md:flex-col md:justify-around"
+						class="hidden pr-3 pl-6 md:flex md:flex-grow md:flex-col md:justify-around"
 						aria-hidden="true">
 						<picture
 							><source
@@ -156,7 +156,7 @@
 								height="120" /></picture>
 					</div>
 					<div
-						class="blue-on-n0 mx-auto rounded-lg px-4 pb-4 text-sm font-semibold shadow-xl xs:mt-1 sm:text-base"
+						class="blue-on-n0 xs:mt-1 mx-auto rounded-lg px-4 pb-4 text-sm font-semibold shadow-xl sm:text-base"
 						style="width: 96%; max-width: 460px">
 						<div class="flex justify-center">
 							<div>
@@ -174,7 +174,7 @@
                                             ./images/kcd-logo/large/kcd_logo_with_text_600x242_transparent.avif 600w"
 										type="image/avif" />
 									<img
-										class="rounded pt-2"
+										class="rounded-sm pt-2"
 										style="max-width: 300px"
 										src="./images/kcd-logo/large/kcd_logo_with_text_300x121_transparent.png"
 										alt="Kidzcan logo"
@@ -207,10 +207,10 @@
 							</div>
 						</div>
 						<a
-							class="n50-on-blue mx-auto mt-4 block w-32 rounded-md p-2 text-center text-sm font-semibold shadow-sm sm:text-base"
+							class="n50-on-blue mx-auto mt-4 block w-32 rounded-md p-2 text-center text-sm font-semibold shadow-xs sm:text-base"
 							href="#contact">Contact us</a>
 					</div>
-					<div class="hidden pl-3 pr-6 md:flex md:flex-grow md:flex-col" aria-hidden="true">
+					<div class="hidden pr-6 pl-3 md:flex md:flex-grow md:flex-col" aria-hidden="true">
 						<picture
 							><source
 								srcset="
@@ -527,9 +527,9 @@
 												{#if aboutCard.title == 'AAC'}
 													<div class="sr-only">Augmentative Alternative Communication</div>
 													<div aria-hidden="true">
-														A<span class="@[440px]:inline hidden tracking-tight">ugmentative</span>
-														A<span class="@[440px]:inline hidden tracking-tight">lternative</span>
-														C<span class="@[440px]:inline hidden tracking-tight">ommunication</span>
+														A<span class="hidden tracking-tight @[440px]:inline">ugmentative</span>
+														A<span class="hidden tracking-tight @[440px]:inline">lternative</span>
+														C<span class="hidden tracking-tight @[440px]:inline">ommunication</span>
 													</div>
 												{:else}
 													{aboutCard.title}
@@ -598,7 +598,7 @@
 									<div class="grid-card-text relative">
 										<!-- Start of special 2023/2024 closed message (includes position:relative above)-->
 										<div
-											class="absolute mr-1 mt-16 -rotate-[5deg] rounded-lg bg-red-500 text-left text-white">
+											class="absolute mt-16 mr-1 -rotate-[5deg] rounded-lg bg-red-500 text-left text-white">
 											<p class="m-0 px-2 py-1">
 												We are sorry to inform that after eight wonderful years, Elsje Stuiver will
 												be relocating at the end of 2024.
@@ -628,8 +628,9 @@
 												>Type your name:
 												<input
 													id="name-input"
-													class="w-full rounded border border-blue-800 px-2 py-1 text-neutral-900"
+													class="w-full rounded-sm border border-blue-800 px-2 py-1 text-neutral-900"
 													placeholder="Your name"
+													autocomplete="name"
 													name="name"
 													type="text"
 													required="" /></label>
@@ -637,8 +638,9 @@
 												>Type your email address:
 												<input
 													id="email-input"
-													class="w-full rounded border border-blue-700 px-2 py-1 text-neutral-700"
+													class="w-full rounded-sm border border-blue-700 px-2 py-1 text-neutral-700"
 													placeholder="Your email address"
+													autocomplete="email"
 													name="_replyto"
 													type="email"
 													required="" /></label>
@@ -646,7 +648,7 @@
 												>Type your message:
 												<textarea
 													id="message-input"
-													class="w-full rounded border border-blue-700 px-2 py-1 text-left text-neutral-700"
+													class="w-full rounded-sm border border-blue-700 px-2 py-1 text-left text-neutral-700"
 													rows="5"
 													placeholder="Provide a telephone number for a telephonic response"
 													name="message"
@@ -712,7 +714,7 @@
 			</section>
 			<footer id="footer-area" aria-label="footer area" style="content-visibility: auto;">
 				<div class="n50-on-blue relative w-full border-b border-blue-700 py-2">
-					<div class="flex items-center justify-around text-xs xs:text-sm">
+					<div class="xs:text-sm flex items-center justify-around text-xs">
 						<div class="text-center">
 							<div><span class="font-bold">Website design:</span></div>
 							<div>paul@kidzcandurban.com</div>
