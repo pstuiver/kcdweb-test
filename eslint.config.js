@@ -17,8 +17,9 @@ export default [
 			}
 		},
 		rules: {
-			'svelte/no-at-html-tags': 'off'
-			// 'svelte/no-navigation-without-resolve': 'off'
+			'svelte/no-at-html-tags': 'off',
+			// temporary until scroll position is fixed in sveltekit
+			'svelte/no-navigation-without-resolve': 'off'
 		}
 	},
 	{
