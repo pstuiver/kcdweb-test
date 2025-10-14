@@ -16,7 +16,6 @@
 	svg {
 		@apply fill-current stroke-current;
 	}
-
 	p {
 		@apply mt-3;
 	}
