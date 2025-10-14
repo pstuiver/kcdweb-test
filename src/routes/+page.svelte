@@ -1,8 +1,6 @@
 <script>
 	/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
-	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { goto } from '$app/navigation';
 	import SVGHome from '$lib/SVGHome.svelte';
 	import SVGTherapist from '$lib/SVGTherapist.svelte';
 	import SVGServices from '$lib/SVGServices.svelte';
@@ -14,15 +12,6 @@
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
-	onMount(() => {
-		let yScrollPos = 2000;
-		window.scrollTo({
-			top: yScrollPos,
-			left: 10,
-			behavior: 'smooth'
-		});
-		console.log(`yScrollPos onMount: ${yScrollPos}`);
-	});
 </script>
 
 <main>
