@@ -379,14 +379,21 @@
 										</p>
 										<div class="mt-4 text-left">
 											Elsje obtained an
-											<a class="views-link" href={resolve('/home-page-about-ot')} onclick={(e) => handleLinkClick(e)}
-												>Occupational Therapy</a>
+											<a
+												class="views-link"
+												href={resolve('/home-page-about-ot')}
+												onclick={(e) => handleLinkClick(e)}>Occupational Therapy</a>
 											degree from the University of Pretoria in 2008 followed by international, post-graduate
 											qualifications in
-											<a class="views-link" href={resolve('/services-sensory-int')} onclick={(e) => handleLinkClick(e)}
-												>Sensory Integration</a>
+											<a
+												class="views-link"
+												href={resolve('/services-sensory-int')}
+												onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
 											and DIR & Floortime, and an Honours degree in
-											<a class="views-link" href={resolve('/home-page-about-aac')} onclick={(e) => handleLinkClick(e)}
+											<a
+												class="views-link"
+												href={resolve('/home-page-about-aac')}
+												onclick={(e) => handleLinkClick(e)}
 												>Augmentative and Alternative Communication (AAC)
 											</a>at the University of Pretoria during 2023.
 											<p>
@@ -411,7 +418,8 @@
 											<p>
 												Her specialist interest in <a
 													class="views-link"
-													href={resolve('/about-autism')} onclick={(e) => handleLinkClick(e)}>Autism Spectrum Disorder</a
+													href={resolve('/about-autism')}
+													onclick={(e) => handleLinkClick(e)}>Autism Spectrum Disorder</a
 												>has led her to complete a variety of post-graduate courses on this topic.
 											</p>
 											<p>
@@ -463,8 +471,10 @@
 										<div class="mt-4 text-left">
 											Sharon joined our practice during 2023. She is a passionate and experienced
 											Paediatric
-											<a class="views-link" href={resolve('/home-page-about-ot')} onclick={(e) => handleLinkClick(e)}
-												>Occupational Therapist</a>
+											<a
+												class="views-link"
+												href={resolve('/home-page-about-ot')}
+												onclick={(e) => handleLinkClick(e)}>Occupational Therapist</a>
 											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
 												Since qualifying, she has worked in South Africa and more than fourteen
@@ -479,8 +489,10 @@
 											</p>
 											<p>
 												She has a particular interest in autism, has post-graduate training in
-												<a class="views-link" href={resolve('/services-sensory-int')} onclick={(e) => handleLinkClick(e)}
-													>Sensory Integration</a>
+												<a
+													class="views-link"
+													href={resolve('/services-sensory-int')}
+													onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
 												and has completed other relevant training courses such as Therapeutic Listening,
 												<a
 													class="views-link"
@@ -491,8 +503,10 @@
 														, Warning, screen readers, this is an external link
 													</span></a>
 												and
-												<a class="views-link" href={resolve('/services-dir-floortime')} onclick={(e) => handleLinkClick(e)}
-													>DIR & Floortime.</a>
+												<a
+													class="views-link"
+													href={resolve('/services-dir-floortime')}
+													onclick={(e) => handleLinkClick(e)}>DIR & Floortime.</a>
 											</p>
 											<p>
 												Sharon takes a holistic approach to therapy and uses a combination of
@@ -545,10 +559,10 @@
 											{@html servicesCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${servicesCard.link}`)}
-									onclick={(e) => handleLinkClick(e)}
-									class="grid-card-btn n0-on-blue"
-										>{@html servicesCard.buttonHTML}</a>
+									<a
+										href={resolve(`/${servicesCard.link}`)}
+										onclick={(e) => handleLinkClick(e)}
+										class="grid-card-btn n0-on-blue">{@html servicesCard.buttonHTML}</a>
 								</div>
 							</div>
 						{/each}
@@ -591,9 +605,10 @@
 											{@html aboutCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${aboutCard.link}`)} 
-									onclick={(e) => handleLinkClick(e)}
-									class="grid-card-btn blue-on-n50">
+									<a
+										href={resolve(`/${aboutCard.link}`)}
+										onclick={(e) => handleLinkClick(e)}
+										class="grid-card-btn blue-on-n50">
 										{@html aboutCard.buttonHTML}
 									</a>
 								</div>
@@ -626,9 +641,10 @@
 											{@html mediaCard.bodyHTML}
 										</div>
 									</div>
-									<a href={resolve(`/${mediaCard.link}`)} 
-									onclick={(e) => handleLinkClick(e)}
-									class="grid-card-btn n0-on-blue">
+									<a
+										href={resolve(`/${mediaCard.link}`)}
+										onclick={(e) => handleLinkClick(e)}
+										class="grid-card-btn n0-on-blue">
 										{@html mediaCard.buttonHTML}
 									</a>
 								</div>
