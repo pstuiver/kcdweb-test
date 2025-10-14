@@ -13,7 +13,7 @@
 
 <dialog
 	bind:this={dialog}
-	class="max-h-[60vh] w-10/12 max-w-md overflow-auto rounded-lg border border-red-300 px-4 py-2 text-sm text-white shadow-white backdrop:bg-white/10 open:bg-red-600 sm:text-base m-auto">
+	class="m-auto max-h-[60vh] w-10/12 max-w-md overflow-auto rounded-lg border border-red-300 px-4 py-2 text-sm text-white shadow-white backdrop:bg-white/10 open:bg-red-600 sm:text-base">
 	<p>
 		We are sorry to inform that after eight wonderful years, Elsje Stuiver will be relocating at the
 		end of 2024.
