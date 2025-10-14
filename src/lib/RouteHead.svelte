@@ -6,7 +6,7 @@
 	 */
 
 	/** @type {Props} */
-	let { headerColor = 'blue-on-n50', headerTitle = 'Handwriting' } = $props();
+	let { headerColor = "blue-on-n50", headerTitle = "Handwriting" } = $props();
 </script>
 
 <header class="views-head {headerColor} border-b border-neutral-50">

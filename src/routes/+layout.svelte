@@ -1,6 +1,6 @@
 <script>
-	import '../app.css';
-	import { onMount } from 'svelte';
+	import "../app.css";
+	import { onMount } from "svelte";
 	let { children } = $props();
 	let dialog;
 	let closeBtn;

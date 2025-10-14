@@ -1,32 +1,32 @@
 // @ts-nocheck
-import servicesAssessmentSVG from '$lib/servicesAssessmentSVG';
-import servicesSensoryIntSVG from '$lib/servicesSensoryIntSVG';
-import servicesSensoryDietSVG from '$lib/servicesSensoryDietSVG';
-import servicesDIRSVG from '$lib/servicesDIRSVG';
-import servicesVisualSchedulesSVG from '$lib/servicesVisualSchedulesSVG';
-import servicesSocialStoriesSVG from '$lib/servicesSocialStoriesSVG';
-import servicesPickyEatersSVG from '$lib/servicesPickyEatersSVG';
-import servicesAlertSVG from '$lib/servicesAlertSVG';
-import servicesHandwritingSVG from '$lib/servicesHandwritingSVG';
-import servicesSkillsDevSVG from '$lib/servicesSkillsDevSVG';
-import servicesSchoolVisitsSVG from '$lib/servicesSchoolVisitsSVG';
-import servicesParentSupportSVG from '$lib/servicesParentSupportSVG';
+import servicesAssessmentSVG from "$lib/servicesAssessmentSVG";
+import servicesSensoryIntSVG from "$lib/servicesSensoryIntSVG";
+import servicesSensoryDietSVG from "$lib/servicesSensoryDietSVG";
+import servicesDIRSVG from "$lib/servicesDIRSVG";
+import servicesVisualSchedulesSVG from "$lib/servicesVisualSchedulesSVG";
+import servicesSocialStoriesSVG from "$lib/servicesSocialStoriesSVG";
+import servicesPickyEatersSVG from "$lib/servicesPickyEatersSVG";
+import servicesAlertSVG from "$lib/servicesAlertSVG";
+import servicesHandwritingSVG from "$lib/servicesHandwritingSVG";
+import servicesSkillsDevSVG from "$lib/servicesSkillsDevSVG";
+import servicesSchoolVisitsSVG from "$lib/servicesSchoolVisitsSVG";
+import servicesParentSupportSVG from "$lib/servicesParentSupportSVG";
 
-import aboutOTSVG from '$lib/aboutOTSVG';
-import aboutAutismSVG from '$lib/aboutAutismSVG';
-import aboutAACSVG from '$lib/aboutAACSVG';
-import aboutAttentionSVG from '$lib/aboutAttentionSVG';
+import aboutOTSVG from "$lib/aboutOTSVG";
+import aboutAutismSVG from "$lib/aboutAutismSVG";
+import aboutAACSVG from "$lib/aboutAACSVG";
+import aboutAttentionSVG from "$lib/aboutAttentionSVG";
 
-import mediaBlogSVG from '$lib/mediaBlogSVG';
-import mediaReviewsSVG from '$lib/mediaReviewsSVG';
-import mediaPrivacySVG from '$lib/mediaPrivacySVG';
+import mediaBlogSVG from "$lib/mediaBlogSVG";
+import mediaReviewsSVG from "$lib/mediaReviewsSVG";
+import mediaPrivacySVG from "$lib/mediaPrivacySVG";
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {
 	const servicesCards = [
 		{
 			id: `services-ot-assessment`,
-			title: 'OT Assessment',
+			title: "OT Assessment",
 			iconHTML: servicesAssessmentSVG,
 			bodyHTML: `An assessment will typically be the first step in your child's and family's Occupational Therapy journey`,
 			link: `services-ot-assessment`,
@@ -34,7 +34,7 @@ export async function load() {
 		},
 		{
 			id: `services-sensory-int`,
-			title: 'Sensory Integration',
+			title: "Sensory Integration",
 			iconHTML: servicesSensoryIntSVG,
 			bodyHTML: `Sensory Integration is a post-graduate field of study that is specific to Occupational Therapy`,
 			link: `services-sensory-int`,
@@ -42,7 +42,7 @@ export async function load() {
 		},
 		{
 			id: `services-sensory-diet`,
-			title: 'Sensory Diet',
+			title: "Sensory Diet",
 			iconHTML: servicesSensoryDietSVG,
 			bodyHTML: `A personalised activity plan that regulates the sensory input that a child needs to stay focused and organised`,
 			link: `services-sensory-diet`,
@@ -50,7 +50,7 @@ export async function load() {
 		},
 		{
 			id: `services-dir-floortime`,
-			title: 'DIR & Floortime',
+			title: "DIR & Floortime",
 			iconHTML: servicesDIRSVG,
 			bodyHTML: `Individual sessions to develop essential skills for communication, relationships and academic performance`,
 			link: `services-dir-floortime`,
@@ -58,7 +58,7 @@ export async function load() {
 		},
 		{
 			id: `services-visual-schedules`,
-			title: 'Visual Schedules',
+			title: "Visual Schedules",
 			iconHTML: servicesVisualSchedulesSVG,
 			bodyHTML: `Visual schedules can help children understand and follow daily routines or sequential activities`,
 			link: `services-visual-schedules`,
@@ -66,7 +66,7 @@ export async function load() {
 		},
 		{
 			id: `services-social-stories`,
-			title: 'Social Stories',
+			title: "Social Stories",
 			iconHTML: servicesSocialStoriesSVG,
 			bodyHTML: `Social stories are personalised tools to help children understand social situations and events`,
 			link: `services-social-stories`,
@@ -74,7 +74,7 @@ export async function load() {
 		},
 		{
 			id: `services-picky-eaters`,
-			title: 'Picky Eaters',
+			title: "Picky Eaters",
 			iconHTML: servicesPickyEatersSVG,
 			bodyHTML: `Start a path to happier meal times by understanding picky eaters and how to expand their food choices`,
 			link: `services-picky-eaters`,
@@ -82,7 +82,7 @@ export async function load() {
 		},
 		{
 			id: `services-alert-program`,
-			title: 'Alert Program',
+			title: "Alert Program",
 			iconHTML: servicesAlertSVG,
 			bodyHTML: `Developed by Occupational Therapists to teach children self regulation and to support learning and positive behaviour`,
 			link: `services-alert-program`,
@@ -90,7 +90,7 @@ export async function load() {
 		},
 		{
 			id: `services-handwriting`,
-			title: 'Handwriting',
+			title: "Handwriting",
 			iconHTML: servicesHandwritingSVG,
 			bodyHTML: `Foundational skills to develop legible, fluent and fast handwriting styles for success in handwriting`,
 			link: `services-handwriting`,
@@ -98,7 +98,7 @@ export async function load() {
 		},
 		{
 			id: `services-skills-dev`,
-			title: 'Skills Development',
+			title: "Skills Development",
 			iconHTML: servicesSkillsDevSVG,
 			bodyHTML: `Teaching children functional skills to become more independent in everyday activities`,
 			link: `services-skills-dev`,
@@ -106,7 +106,7 @@ export async function load() {
 		},
 		{
 			id: `services-school-visits`,
-			title: 'School Visits',
+			title: "School Visits",
 			iconHTML: servicesSchoolVisitsSVG,
 			bodyHTML: `Observe children in their classroom setting. Establish communication with the child's teachers and educational support staff`,
 			link: `services-school-visits`,
@@ -114,7 +114,7 @@ export async function load() {
 		},
 		{
 			id: `services-parent-support`,
-			title: 'Parent Support',
+			title: "Parent Support",
 			iconHTML: servicesParentSupportSVG,
 			bodyHTML: `Providing the family with equipment and strategies to best support their child achieve their full potential`,
 			link: `services-parent-support`,
@@ -124,7 +124,7 @@ export async function load() {
 
 	const aboutCards = [
 		{
-			title: 'About Occupational Therapy',
+			title: "About Occupational Therapy",
 			id: `about-ot`,
 			iconHTML: aboutOTSVG,
 			bodyHTML: `<div class="mb-2">
@@ -156,7 +156,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Occupational Therapy</span>...`
 		},
 		{
-			title: 'Autism Spectrum Disorder',
+			title: "Autism Spectrum Disorder",
 			id: `about-autism`,
 			iconHTML: aboutAutismSVG,
 			bodyHTML: `<p><span class="font-bold">From Autism South Africa:</span></p>
@@ -185,7 +185,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Autism Spectrum Disorder</span>...`
 		},
 		{
-			title: 'AAC',
+			title: "AAC",
 			id: `about-aac`,
 			iconHTML: aboutAACSVG,
 			bodyHTML: `<p>
@@ -212,7 +212,7 @@ export async function load() {
 			buttonHTML: `Read more <span class="sr-only">about Augmentative Alternative Communication</span>...`
 		},
 		{
-			title: 'Attention and Concentration',
+			title: "Attention and Concentration",
 			id: `about-attention`,
 			iconHTML: aboutAttentionSVG,
 			bodyHTML: `<div class="mb-2">
@@ -255,7 +255,7 @@ export async function load() {
 	const mediaCards = [
 		{
 			id: `media-blog`,
-			title: 'KidzCanDurban Blog',
+			title: "KidzCanDurban Blog",
 			iconHTML: mediaBlogSVG,
 			bodyHTML: `Read our blog`,
 			link: `media-blog`,
@@ -264,7 +264,7 @@ export async function load() {
 		},
 		{
 			id: `media-reviews`,
-			title: 'Client Reviews',
+			title: "Client Reviews",
 			iconHTML: mediaReviewsSVG,
 			bodyHTML: `<span class="font-bold">Rating average: 5 stars</span> 
 		 			<br /><span>from 20 reviews</span>`,
@@ -273,7 +273,7 @@ export async function load() {
 		},
 		{
 			id: `media-privacy`,
-			title: 'Privacy Policy',
+			title: "Privacy Policy",
 			iconHTML: mediaPrivacySVG,
 			bodyHTML: `<span class="font-bold">South African POPI Act</span>
 					<br /><span>July 2021</span>`,

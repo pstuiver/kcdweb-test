@@ -1,7 +1,7 @@
 <script>
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'n50-on-blue';
-	const headerTitle = 'Picky Eaters';
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "n50-on-blue";
+	const headerTitle = "Picky Eaters";
 </script>
 
 <svelte:head>

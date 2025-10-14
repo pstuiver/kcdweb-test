@@ -1,8 +1,8 @@
 <script>
-	import { resolve } from '$app/paths';
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'n50-on-blue';
-	const headerTitle = 'Parent Support';
+	import { resolve } from "$app/paths";
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "n50-on-blue";
+	const headerTitle = "Parent Support";
 	// Need this to make this link work in GH Pages build workflows
 	const assessmentLink = `services-ot-assessment`;
 </script>

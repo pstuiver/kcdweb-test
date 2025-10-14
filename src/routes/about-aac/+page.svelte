@@ -1,7 +1,7 @@
 <script>
-	import { resolve } from '$app/paths';
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'blue-on-n50';
+	import { resolve } from "$app/paths";
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "blue-on-n50";
 	const headerTitle = `<div class="sr-only text-md">Augmentative Alternative Communication</div>
 		<div class="views-head-text" aria-hidden="true">
 			A<span class="hidden xs:inline tracking-tight">ugmentative</span>

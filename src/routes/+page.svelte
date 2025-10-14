@@ -1,65 +1,41 @@
 <script>
 	/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
-	import { resolve } from '$app/paths';
-	import { onMount } from 'svelte';
-	import { browser } from '$app/environment';
-	import { goto } from '$app/navigation';
-	import SVGHome from '$lib/SVGHome.svelte';
-	import SVGTherapist from '$lib/SVGTherapist.svelte';
-	import SVGServices from '$lib/SVGServices.svelte';
-	import SVGAbout from '$lib/SVGAbout.svelte';
-	import SVGMedia from '$lib/SVGMedia.svelte';
-	import SVGContact from '$lib/SVGContact.svelte';
-	import SVGTelephone from '$lib/SVGTelephone.svelte';
+	import { resolve } from "$app/paths";
+	import { onMount } from "svelte";
+	import { browser } from "$app/environment";
+	import { goto } from "$app/navigation";
+	import SVGHome from "$lib/SVGHome.svelte";
+	import SVGTherapist from "$lib/SVGTherapist.svelte";
+	import SVGServices from "$lib/SVGServices.svelte";
+	import SVGAbout from "$lib/SVGAbout.svelte";
+	import SVGMedia from "$lib/SVGMedia.svelte";
+	import SVGContact from "$lib/SVGContact.svelte";
+	import SVGTelephone from "$lib/SVGTelephone.svelte";
 
 	let { data } = $props();
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;
 
-	// Scroll restoration for homepage - works with static/prerendered sites
 	onMount(() => {
 		if (browser) {
-			// // Save scroll position when leaving the page
-			// const saveScrollPosition = () => {
-			// 	sessionStorage.setItem('homepage-scroll', Math.round(window.scrollY).toString());
-			// };
-			// // Save on various navigation events
-			// window.addEventListener('beforeunload', saveScrollPosition);
-			// // Intercept link clicks to save position
-			// const links = document.querySelectorAll(
-			// 	'a[href^="/"], a[href*="' + window.location.origin + '"]'
-			// );
-			// links.forEach((link) => {
-			// 	if (!link.getAttribute('href').startsWith('#')) {
-			// 		// Skip hash links
-			// 		link.addEventListener('click', saveScrollPosition);
-			// 	}
-			// });
 			// Restore scroll position when returning to homepage
-			const savedScrollY = parseInt(sessionStorage.getItem('homepage-scroll')) || 0;
+			const savedScrollY = parseInt(sessionStorage.getItem("homepage-scroll")) || 0;
 			if (savedScrollY) {
 				// Wait for page to be fully rendered
 				setTimeout(() => {
 					window.scrollTo({
 						top: savedScrollY,
-						behavior: 'instant'
+						behavior: "instant"
 					});
-				}, 15);
+				}, 20);
 			}
-			// Cleanup
-			// return () => {
-			// 	window.removeEventListener('beforeunload', saveScrollPosition);
-			// 	links.forEach((link) => {
-			// 		link.removeEventListener('click', saveScrollPosition);
-			// 	});
-			// };
 		}
 	});
 	function handleLinkClick(event) {
 		event.preventDefault();
-		sessionStorage.setItem('homepage-scroll', Math.round(window.scrollY).toString());
-		goto(event.currentTarget.getAttribute('href'));
+		sessionStorage.setItem("homepage-scroll", Math.round(window.scrollY).toString());
+		goto(event.currentTarget.getAttribute("href"));
 	}
 </script>
 
@@ -381,18 +357,18 @@
 											Elsje obtained an
 											<a
 												class="views-link"
-												href={resolve('/home-page-about-ot')}
+												href={resolve("/home-page-about-ot")}
 												onclick={(e) => handleLinkClick(e)}>Occupational Therapy</a>
 											degree from the University of Pretoria in 2008 followed by international, post-graduate
 											qualifications in
 											<a
 												class="views-link"
-												href={resolve('/services-sensory-int')}
+												href={resolve("/services-sensory-int")}
 												onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
 											and DIR & Floortime, and an Honours degree in
 											<a
 												class="views-link"
-												href={resolve('/home-page-about-aac')}
+												href={resolve("/home-page-about-aac")}
 												onclick={(e) => handleLinkClick(e)}
 												>Augmentative and Alternative Communication (AAC)
 											</a>at the University of Pretoria during 2023.
@@ -418,7 +394,7 @@
 											<p>
 												Her specialist interest in <a
 													class="views-link"
-													href={resolve('/about-autism')}
+													href={resolve("/about-autism")}
 													onclick={(e) => handleLinkClick(e)}>Autism Spectrum Disorder</a
 												>has led her to complete a variety of post-graduate courses on this topic.
 											</p>
@@ -473,7 +449,7 @@
 											Paediatric
 											<a
 												class="views-link"
-												href={resolve('/home-page-about-ot')}
+												href={resolve("/home-page-about-ot")}
 												onclick={(e) => handleLinkClick(e)}>Occupational Therapist</a>
 											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
@@ -491,7 +467,7 @@
 												She has a particular interest in autism, has post-graduate training in
 												<a
 													class="views-link"
-													href={resolve('/services-sensory-int')}
+													href={resolve("/services-sensory-int")}
 													onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
 												and has completed other relevant training courses such as Therapeutic Listening,
 												<a
@@ -505,7 +481,7 @@
 												and
 												<a
 													class="views-link"
-													href={resolve('/services-dir-floortime')}
+													href={resolve("/services-dir-floortime")}
 													onclick={(e) => handleLinkClick(e)}>DIR & Floortime.</a>
 											</p>
 											<p>
@@ -589,7 +565,7 @@
 												{@html aboutCard.iconHTML}
 											</div>
 											<h2 class="grid-card-title">
-												{#if aboutCard.title == 'AAC'}
+												{#if aboutCard.title == "AAC"}
 													<div class="sr-only">Augmentative Alternative Communication</div>
 													<div aria-hidden="true">
 														A<span class="hidden tracking-tight @[440px]:inline">ugmentative</span>

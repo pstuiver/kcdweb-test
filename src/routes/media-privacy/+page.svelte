@@ -1,7 +1,7 @@
 <script>
-	import RouteHead from '$lib/RouteHead.svelte';
-	const headerColor = 'n50-on-blue';
-	const headerTitle = 'Privacy Policy';
+	import RouteHead from "$lib/RouteHead.svelte";
+	const headerColor = "n50-on-blue";
+	const headerTitle = "Privacy Policy";
 </script>
 
 <svelte:head>
