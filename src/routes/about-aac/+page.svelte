@@ -41,17 +41,17 @@
 			<li class="mt-2">
 				<span class="block font-semibold italic">Graphic Symbol use</span>
 				Symbols can be pictures, drawings or icons that represent specific words or concepts. For parents,
-				the use of graphic symbols can be incredibly beneficial to engage in meaningful interactions
-				with their child. It provides an alternative way for both parents and children to express their
-				needs and thoughts, thereby reducing frustration, enhancing comprehension and promoting independence
+				the use of graphic symbols can be incredibly beneficial to engage in meaningful interactions with
+				their child. It provides an alternative way for both parents and children to express their needs
+				and thoughts, thereby reducing frustration, enhancing comprehension and promoting independence
 				in communication.
 			</li>
 
 			<li class="mt-2">
 				<span class="block font-semibold italic">Advice on Speech Generating Devices</span>
-				Speech generating devices (SGDs) are electronic devices that produce spoken output. Using an
-				SGD, a child can select symbols by touch or by alternative methods such as eye gaze or switches,
-				to generate synthesized speech. SGDs can be customised to meet each child's specific needs, store
+				Speech generating devices (SGDs) are electronic devices that produce spoken output. Using an SGD,
+				a child can select symbols by touch or by alternative methods such as eye gaze or switches, to
+				generate synthesized speech. SGDs can be customised to meet each child's specific needs, store
 				common phrases and to offer personalised messages. They empower their users to connect with others
 				by participating in meaningful conversation and social interaction.
 			</li>

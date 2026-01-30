@@ -50,8 +50,8 @@
 			<li>
 				<p>
 					<span class="font-bold">Behavioural modification</span> - Desired behaviours such as attending,
-					listening and engaging is encouraged through positive verbal and non-verbal praise as well
-					as pre-determined rewards or activities.
+					listening and engaging is encouraged through positive verbal and non-verbal praise as well as
+					pre-determined rewards or activities.
 				</p>
 				<p class="mt-1">
 					Additional visual support such as timers, tokens and visual schedule cards are often used
@@ -60,8 +60,8 @@
 			</li>
 			<li>
 				<p>
-					<span class="font-bold">Teaching and coaching</span> - The child is provided with multiple
-					opportunities to practice new skills.
+					<span class="font-bold">Teaching and coaching</span> - The child is provided with multiple opportunities
+					to practice new skills.
 				</p>
 				<p class="mt-1">
 					Significant adults are encouraged to demonstrate or model tasks and to break activities

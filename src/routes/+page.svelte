@@ -13,6 +13,10 @@
 	import SVGTelephone from "$lib/SVGTelephone.svelte";
 
 	let { data } = $props();
+
+	/* svelte warning about data being referenced locally can be ignored as this
+	 is static not dynamic data */
+	// svelte-ignore state_referenced_locally
 	const { servicesCards, aboutCards, mediaCards } = data;
 	// Need this to make this link work in GH Pages build workflows
 	const locationLink = `contact-location`;

@@ -85,8 +85,8 @@
 				Our website at www.kidzcandurban.com includes a “Contact Us” facility where visitors can
 				voluntarily provide their contact details so that we can respond to them. Other than the
 				“Contact Us” facility we do
-				<span class="font-semibold italic">not</span> use browser “cookies” or similar technology to
-				track, identify or to gather any information about the visitors to our website.
+				<span class="font-semibold italic">not</span> use browser “cookies” or similar technology to track,
+				identify or to gather any information about the visitors to our website.
 			</li>
 		</ul>
 

@@ -34,9 +34,9 @@
 			<li>Facilitate logical thinking.</li>
 		</ul>
 		<p>
-			<strong>Floortime</strong> is a technique at the heart of DIR therapy where we get down on the
-			floor and play with the child. These skills are also taught to caregivers during the therapy process
-			and are often recommended as a home program.
+			<strong>Floortime</strong> is a technique at the heart of DIR therapy where we get down on the floor
+			and play with the child. These skills are also taught to caregivers during the therapy process and
+			are often recommended as a home program.
 		</p>
 		<p>Children who have difficulties or delays in the following areas may benefit from DIR:</p>
 		<ul class="views-list-item">

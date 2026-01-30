@@ -53,8 +53,8 @@
 			</li>
 			<li>
 				<span class="font-bold">Proprioceptive feedback</span> - The sensory system that unconsciously
-				tells us where our body parts are in space even if we are not visually monitoring them. This
-				is necessary to attain the correct pencil grip as well as to use adequate pressure when writing.
+				tells us where our body parts are in space even if we are not visually monitoring them. This is
+				necessary to attain the correct pencil grip as well as to use adequate pressure when writing.
 			</li>
 			<li>
 				<span class="font-bold">Motor planning</span> - Forming a plan in our brain and sending accurate
