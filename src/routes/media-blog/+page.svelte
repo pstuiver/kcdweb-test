@@ -3,7 +3,7 @@
 	const headerColor = "n50-on-blue";
 	const headerTitle = "Blog Posts";
 	let { data } = $props();
-	const { blogSRC } = data;
+	const { blogSRC } = $derived(data);
 </script>
 
 <svelte:head>

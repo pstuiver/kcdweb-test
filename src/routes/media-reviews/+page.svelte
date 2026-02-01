@@ -3,7 +3,7 @@
 	const headerColor = "n50-on-blue";
 	const headerTitle = "Client Reviews";
 	let { data } = $props();
-	const { reviews } = data;
+	const { reviews } = $derived(data);
 	import SVGFiveStar from "$lib/SVGFiveStar.svelte";
 	import SVGFourStar from "$lib/SVGFourStar.svelte";
 </script>
