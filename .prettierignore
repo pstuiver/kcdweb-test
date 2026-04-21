@@ -11,3 +11,9 @@ node_modules
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+bun.lock
+bun.lockb
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

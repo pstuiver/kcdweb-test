@@ -1,7 +1,10 @@
-+kcdweb test site to test new features/designs when deployed on GH Pages with different browsers, devices, etc.
-This test site is hosted on https://pstuiver.github.io/kcdweb-test/
+## Project Overview
 
-The actual, production site where new features will eventually be implemented, is hosted on GH Pages in a custom domain - www.kidzcandurban.com
+KCDWEB-TEST is a test environment for a commercial website on url www.kidzcandurban.com. The url for the test environment is https://pstuiver.github.io/kcdweb-test/.The test environment is intended to test code changes, dependency updates, etc. before these are implemented on the production website at www.kidzcandurban.com. 
+
+The production website at www.kidzcandueban.com is the website of a privately owned Occupational Therapy (OT) practice located in Durban, South Africa. The aim of the production website is to provide the OT practice's clients and prospective clients with information about the contact details, location, services, staff, procedures, etc. at the OT practice. 
+
+The aim of the production website is to provide fast and easy acces to a wide range of clients with various cultural, educational and economic backgrounds. Many clients and propective clients are expected to be persons for whom English is not their first language, who will access the website on an old, low-power cellular phone with limited (e.g. 3G) internet data and connectivity.
 
 ### Note to developer
 

@@ -1,35 +1,30 @@
+import prettier from "eslint-config-prettier";
+import path from "node:path";
+import { includeIgnoreFile } from "@eslint/compat";
 import js from "@eslint/js";
 import svelte from "eslint-plugin-svelte";
-import prettier from "eslint-config-prettier";
+import { defineConfig } from "eslint/config";
 import globals from "globals";
+import svelteConfig from "./svelte.config.js";
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
-export default [
+const gitignorePath = path.resolve(import.meta.dirname, ".gitignore");
+
+/** @type {import('eslint').Linter.Config[]} */
+export default defineConfig([
+	includeIgnoreFile(gitignorePath),
 	js.configs.recommended,
-	...svelte.configs["flat/recommended"],
+	svelte.configs.recommended,
 	prettier,
-	...svelte.configs["flat/prettier"],
+	svelte.configs.prettier,
 	{
-		languageOptions: {
-			globals: {
-				...globals.browser,
-				...globals.node
-			}
-		},
-		rules: {
-			"svelte/no-at-html-tags": "off",
-			"svelte/no-navigation-without-resolve": "off"
-		}
+		languageOptions: { globals: { ...globals.browser, ...globals.node } }
 	},
 	{
-		ignores: [
-			"build/",
-			".svelte-kit/",
-			".vercel/",
-			".vscode/",
-			"dist/",
-			"TEMPDIR/",
-			"sx-templateCSV-Svelte4/"
-		]
+		files: ["**/*.svelte", "**/*.svelte.js"],
+		languageOptions: { parserOptions: { svelteConfig } },
+		rules: { "svelte/no-at-html-tags": "off" }
+	},
+	{
+		ignores: ["build/", ".svelte-kit/", ".vercel/", ".vscode/", "dist/"]
 	}
-];
+]);
