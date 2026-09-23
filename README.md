@@ -1,6 +1,6 @@
 ## Project Overview
 
-KCDWEB-TEST is a test environment for a commercial website on url www.kidzcandurban.com. The url for the test environment is https://pstuiver.github.io/kcdweb-test/.The test environment is intended to test code changes, dependency updates, etc. before these are implemented on the production website at www.kidzcandurban.com.
+KCDWEB-TEST is a test environment for a commercial website on url www.kidzcandurban.com. The url for the test environment is https://pstuiver.github.io/kcdweb-test/. The test environment is intended to test code changes, dependency updates, etc. before these are implemented on the production website at www.kidzcandurban.com.
 
 The production website at www.kidzcandueban.com is the website of a privately owned Occupational Therapy (OT) practice located in Durban, South Africa. The aim of the production website is to provide the OT practice's clients and prospective clients with information about the contact details, location, services, staff, procedures, etc. at the OT practice.
 
