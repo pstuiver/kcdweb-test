@@ -31,7 +31,7 @@
 				the forearm, wrist and hand when holding a pencil.
 			</li>
 			<li>
-				<span class="font-bold">Fine motor skills</span> - Accurately moving and controling the muscles
+				<span class="font-bold">Fine motor skills</span> - Accurately moving and controlling the muscles
 				of the hands and fingers.
 			</li>
 			<li>

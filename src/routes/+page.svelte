@@ -106,7 +106,7 @@
 				<div id="home" class="section-id">&nbsp;</div>
 				<main class="-mx-4 flex">
 					<div
-						class="hidden pr-3 pl-6 md:flex md:flex-grow md:flex-col md:justify-around"
+						class="hidden pr-3 pl-6 md:flex md:grow md:flex-col md:justify-around"
 						aria-hidden="true">
 						<picture
 							><source
@@ -236,7 +236,7 @@
 							class="n50-on-blue mx-auto mt-4 block w-32 rounded-md p-2 text-center text-sm font-semibold shadow-xs sm:text-base"
 							href="#contact">Contact us</a>
 					</div>
-					<div class="hidden pr-6 pl-3 md:flex md:flex-grow md:flex-col" aria-hidden="true">
+					<div class="hidden pr-6 pl-3 md:flex md:grow md:flex-col" aria-hidden="true">
 						<picture
 							><source
 								srcset="
@@ -646,7 +646,7 @@
 									<div class="grid-card-text relative">
 										<!-- Start of special 2023/2024 closed message (includes position:relative above)-->
 										<div
-											class="absolute mt-16 mr-1 -rotate-[5deg] rounded-lg bg-red-500 text-left text-white">
+											class="absolute mt-16 mr-1 rotate-[-5deg] rounded-lg bg-red-500 text-left text-white">
 											<p class="m-0 px-2 py-1">
 												We are sorry to inform that after eight wonderful years, Elsje Stuiver will
 												be relocating at the end of 2024.
