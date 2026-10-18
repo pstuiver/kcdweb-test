@@ -1,6 +1,6 @@
 <script>
 	import { resolve } from "$app/paths";
-	import RouteHead from "$lib/RouteHead.svelte";
+	import RouteHead from "#lib/RouteHead.svelte";
 	const headerColor = "blue-on-n50";
 	const headerTitle = "Autism Spectrum Disorder";
 	// Need this to make this link work in GH Pages build workflows

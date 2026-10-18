@@ -2,15 +2,15 @@
 	/* Needed to remove target="_self" from all <a> tags to ensure that user will return to same scroll position after navigation away from the homepage.*/
 	import { resolve } from "$app/paths";
 	import { onMount } from "svelte";
-	import { browser } from "$app/environment";
+	import { browser } from "$app/env";
 	import { goto } from "$app/navigation";
-	import SVGHome from "$lib/SVGHome.svelte";
-	import SVGTherapist from "$lib/SVGTherapist.svelte";
-	import SVGServices from "$lib/SVGServices.svelte";
-	import SVGAbout from "$lib/SVGAbout.svelte";
-	import SVGMedia from "$lib/SVGMedia.svelte";
-	import SVGContact from "$lib/SVGContact.svelte";
-	import SVGTelephone from "$lib/SVGTelephone.svelte";
+	import SVGHome from "#lib/SVGHome.svelte";
+	import SVGTherapist from "#lib/SVGTherapist.svelte";
+	import SVGServices from "#lib/SVGServices.svelte";
+	import SVGAbout from "#lib/SVGAbout.svelte";
+	import SVGMedia from "#lib/SVGMedia.svelte";
+	import SVGContact from "#lib/SVGContact.svelte";
+	import SVGTelephone from "#lib/SVGTelephone.svelte";
 
 	let { data } = $props();
 	const { servicesCards, aboutCards, mediaCards } = $derived(data);
@@ -75,9 +75,8 @@
 								Practice no. 0684414
 							</div>
 						</div>
-						<div class="xs:flex xs:w-24 hidden py-1 pl-2 md:w-28 lg:w-32" aria-hidden="true">
-							&nbsp;
-						</div>
+
+						<div class="xs:flex xs:w-24 hidden py-1 pl-2 md:w-28 lg:w-32" aria-hidden="true"></div>
 					</div>
 					<nav class="n0-on-blue flex w-full flex-row items-center justify-around py-1 lg:py-2">
 						<a class="index-nav-a" href="#home">
@@ -101,9 +100,9 @@
 					</nav>
 				</div>
 			</header>
-			<div class="top-0 h-16 w-full md:h-20 lg:h-24">&nbsp;</div>
+			<div class="top-0 h-16 w-full md:h-20 lg:h-24"></div>
 			<section class="section-wrapper blue-on-n200 pt-2 pb-8">
-				<div id="home" class="section-id">&nbsp;</div>
+				<div id="home" class="section-id"></div>
 				<main class="-mx-4 flex">
 					<div
 						class="hidden pr-3 pl-6 md:flex md:grow md:flex-col md:justify-around"
@@ -312,8 +311,10 @@
 					</div>
 				</main>
 			</section>
+
 			<section style="content-visibility: auto;" class="section-wrapper blue-on-n50">
-				<div id="therapist" class="section-id">&nbsp;</div>
+				<div id="therapist" class="section-id"></div>
+
 				<div class="section-head">
 					<SVGTherapist svgClass="section-head-svg" />
 					<div class="section-head-text">THERAPISTS</div>
@@ -358,18 +359,19 @@
 											Elsje obtained an
 											<a
 												class="views-link"
-												href={resolve("/home-page-about-ot")}
+												href={resolve("home-page-about-ot")}
 												onclick={(e) => handleLinkClick(e)}>Occupational Therapy</a>
 											degree from the University of Pretoria in 2008 followed by international, post-graduate
 											qualifications in
 											<a
 												class="views-link"
-												href={resolve("/services-sensory-int")}
+												href={resolve("services-sensory-int")}
 												onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
+
 											and DIR & Floortime, and an Honours degree in
 											<a
 												class="views-link"
-												href={resolve("/home-page-about-aac")}
+												href={resolve("home-page-about-aac")}
 												onclick={(e) => handleLinkClick(e)}
 												>Augmentative and Alternative Communication (AAC)
 											</a>at the University of Pretoria during 2023.
@@ -395,9 +397,10 @@
 											<p>
 												Her specialist interest in <a
 													class="views-link"
-													href={resolve("/about-autism")}
-													onclick={(e) => handleLinkClick(e)}>Autism Spectrum Disorder</a
-												>has led her to complete a variety of post-graduate courses on this topic.
+													href={resolve("about-autism")}
+													onclick={(e) => handleLinkClick(e)}>Autism Spectrum Disorder</a>
+
+												has led her to complete a variety of post-graduate courses on this topic.
 											</p>
 											<p>
 												Elsje believes in family involvement and education. She actively encourages
@@ -450,8 +453,9 @@
 											Paediatric
 											<a
 												class="views-link"
-												href={resolve("/home-page-about-ot")}
+												href={resolve("home-page-about-ot")}
 												onclick={(e) => handleLinkClick(e)}>Occupational Therapist</a>
+
 											who qualified at the University of Kwa-Zulu Natal in 2007.
 											<p>
 												Since qualifying, she has worked in South Africa and more than fourteen
@@ -468,9 +472,11 @@
 												She has a particular interest in autism, has post-graduate training in
 												<a
 													class="views-link"
-													href={resolve("/services-sensory-int")}
+													href={resolve("services-sensory-int")}
 													onclick={(e) => handleLinkClick(e)}>Sensory Integration</a>
-												and has completed other relevant training courses such as Therapeutic Listening,
+
+												and has completed other relevant training courses such as Therapeutic
+												Listening,
 												<a
 													class="views-link"
 													href="https://scerts.com/"
@@ -482,7 +488,7 @@
 												and
 												<a
 													class="views-link"
-													href={resolve("/services-dir-floortime")}
+													href={resolve("services-dir-floortime")}
 													onclick={(e) => handleLinkClick(e)}>DIR & Floortime.</a>
 											</p>
 											<p>
@@ -512,8 +518,10 @@
 					</div>
 				</div>
 			</section>
+
 			<section style="content-visibility: auto;" class="section-wrapper blue-on-n200">
-				<div id="services" class="section-id">&nbsp;</div>
+				<div id="services" class="section-id"></div>
+
 				<div class="section-head">
 					<SVGServices svgClass="section-head-svg" />
 					<div class="section-head-text">SERVICES</div>
@@ -546,8 +554,10 @@
 					</div>
 				</div>
 			</section>
+
 			<section style="content-visibility: auto;" class="section-wrapper blue-on-n50">
-				<div id="about" class="section-id">&nbsp;</div>
+				<div id="about" class="section-id"></div>
+
 				<div class="section-head">
 					<SVGAbout svgClass="section-head-svg" />
 					<div class="section-head-text">ABOUT</div>
@@ -594,8 +604,10 @@
 					</div>
 				</div>
 			</section>
+
 			<section style="content-visibility: auto;" class="section-wrapper blue-on-n200">
-				<div id="media" class="section-id">&nbsp;</div>
+				<div id="media" class="section-id"></div>
+
 				<div class="section-head">
 					<SVGMedia svgClass="section-head-svg" />
 					<div class="section-head-text">MEDIA</div>
@@ -630,11 +642,11 @@
 					</div>
 				</div>
 			</section>
+
 			<section style="content-visibility: auto;" class="section-wrapper blue-on-n0">
-				<div id="contact" class="section-id">&nbsp;</div>
-				<div class="section-head">
-					<div class="section-head-text">CONTACT US</div>
-				</div>
+				<div id="contact" class="section-id"></div>
+				<div class="section-head"><div class="section-head-text">CONTACT US</div></div>
+
 				<div class="grid-container">
 					<div class="grid-cols-wrapper">
 						<div class="grid-2cols">

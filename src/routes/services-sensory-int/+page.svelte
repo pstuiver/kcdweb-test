@@ -1,6 +1,6 @@
 <script>
 	import { resolve } from "$app/paths";
-	import RouteHead from "$lib/RouteHead.svelte";
+	import RouteHead from "#lib/RouteHead.svelte";
 	const headerColor = "n50-on-blue";
 	const headerTitle = "Sensory Integration";
 	// Need this to make this link work in GH Pages build workflows

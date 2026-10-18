@@ -1,25 +1,25 @@
 // @ts-nocheck
-import servicesAssessmentSVG from "$lib/servicesAssessmentSVG";
-import servicesSensoryIntSVG from "$lib/servicesSensoryIntSVG";
-import servicesSensoryDietSVG from "$lib/servicesSensoryDietSVG";
-import servicesDIRSVG from "$lib/servicesDIRSVG";
-import servicesVisualSchedulesSVG from "$lib/servicesVisualSchedulesSVG";
-import servicesSocialStoriesSVG from "$lib/servicesSocialStoriesSVG";
-import servicesPickyEatersSVG from "$lib/servicesPickyEatersSVG";
-import servicesAlertSVG from "$lib/servicesAlertSVG";
-import servicesHandwritingSVG from "$lib/servicesHandwritingSVG";
-import servicesSkillsDevSVG from "$lib/servicesSkillsDevSVG";
-import servicesSchoolVisitsSVG from "$lib/servicesSchoolVisitsSVG";
-import servicesParentSupportSVG from "$lib/servicesParentSupportSVG";
+import servicesAssessmentSVG from "#lib/servicesAssessmentSVG.js";
+import servicesSensoryIntSVG from "#lib/servicesSensoryIntSVG.js";
+import servicesSensoryDietSVG from "#lib/servicesSensoryDietSVG.js";
+import servicesDIRSVG from "#lib/servicesDIRSVG.js";
+import servicesVisualSchedulesSVG from "#lib/servicesVisualSchedulesSVG.js";
+import servicesSocialStoriesSVG from "#lib/servicesSocialStoriesSVG.js";
+import servicesPickyEatersSVG from "#lib/servicesPickyEatersSVG.js";
+import servicesAlertSVG from "#lib/servicesAlertSVG.js";
+import servicesHandwritingSVG from "#lib/servicesHandwritingSVG.js";
+import servicesSkillsDevSVG from "#lib/servicesSkillsDevSVG.js";
+import servicesSchoolVisitsSVG from "#lib/servicesSchoolVisitsSVG.js";
+import servicesParentSupportSVG from "#lib/servicesParentSupportSVG.js";
 
-import aboutOTSVG from "$lib/aboutOTSVG";
-import aboutAutismSVG from "$lib/aboutAutismSVG";
-import aboutAACSVG from "$lib/aboutAACSVG";
-import aboutAttentionSVG from "$lib/aboutAttentionSVG";
+import aboutOTSVG from "#lib/aboutOTSVG.js";
+import aboutAutismSVG from "#lib/aboutAutismSVG.js";
+import aboutAACSVG from "#lib/aboutAACSVG.js";
+import aboutAttentionSVG from "#lib/aboutAttentionSVG.js";
 
-import mediaBlogSVG from "$lib/mediaBlogSVG";
-import mediaReviewsSVG from "$lib/mediaReviewsSVG";
-import mediaPrivacySVG from "$lib/mediaPrivacySVG";
+import mediaBlogSVG from "#lib/mediaBlogSVG.js";
+import mediaReviewsSVG from "#lib/mediaReviewsSVG.js";
+import mediaPrivacySVG from "#lib/mediaPrivacySVG.js";
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {

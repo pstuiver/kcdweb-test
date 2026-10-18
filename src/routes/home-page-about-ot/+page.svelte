@@ -1,5 +1,5 @@
 <script>
-	import RouteHead from "$lib/RouteHead.svelte";
+	import RouteHead from "#lib/RouteHead.svelte";
 	const headerColor = "blue-on-n50";
 	const headerTitle = "Occupational Therapy";
 </script>
